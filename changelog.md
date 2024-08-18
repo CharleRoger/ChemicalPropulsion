@@ -1,0 +1,95 @@
+# 0.1.0
+- Pre-release
+- Add B9 tank types for new propellant combinations with mixture ratios designed to fit nicely in tanks while keeping in line with reality:
+  - Bipropellants:
+    - 2 Hydrazine / 3 NTO
+    - 3 Kerosene / 5 LqdOxygen
+    - 3 LqdHydrogen / 1 LqdOxygen
+    - 7 LqdMethane / 9 LqdOxygen
+    - 3 Pentaborane / 7 LqdFluorine
+    - 3 LqdHydrogen / 1 LqdFluorine
+  - Tripropellants:
+    - 1 Kerosene / 4 LqdHydrogen / 3 LqdOxygen (equivalent to 1/3 kerolox + 2/3 hydrolox)
+- Changed LiquidFuel-only fuel tanks to Kerosene.
+- Changed MonoPropellant fuel tanks to Hydrazine.
+- Changed engines to use new fuel types:
+  - All jet LiquidFuel/IntakeAir → Kerosene/IntakeAir
+  - All nuclear LiquidFuel → LqdHydrogen
+  - All MonoPropellant → Hydrazine
+  - All LqdHydrogen/Oxidizer → LqdHydrogen/LqdOxygen
+  - All LqdMethane/Oxidizer → LqdMethane/LqdOxygen
+  - LiquidFuel/Oxidizer depends on the engine and mostly follows the real-life inspirations where applicable, some of which have corresponding changes to Isp for realism and balance:
+    - Stock:
+      - Hydrazine/NTO
+        - LV-1R "Spider" Liquid Fuel Engine
+        - 24-77 "Twitch" Liquid Fuel Engine
+        - Mk-55 "Thud" Liquid Fuel Engine
+        - LV-1 "Ant" Liquid Fuel Engine
+        - 48-7S "Spark" Liquid Fuel Engine
+        - LV-T30 "Reliant" Liquid Fuel Engine
+        - LV-T45 "Swivel" Liquid Fuel Engine
+      - Kerosene/LqdOxygen
+        - LV-909 "Terrier" Liquid Fuel Engine
+        - RE-I5 "Skipper" Liquid Fuel Engine
+        - RE-M3 "Mainsail" Liquid Fuel Engine
+        - LFB KR-1x2 "Twin-Boar" Liquid Fuel Engine
+        - Kerbodyne KR-2L+ "Rhino" Liquid Fuel Engine
+      - LqdHydrogen/LqdOxygen
+        - S3 KS-25 "Vector" Liquid Fuel Engine [295-315s → 365-450s]
+        - T-1 Toroidal Aerospike "Dart" Liquid Fuel Engine [290-340s → 380-430s]
+        - RE-L10 "Poodle" Liquid Fuel Engine [90-350s → 180-460s]
+        - S3 KS-25x4 "Mammoth" Liquid Fuel Engine [295-315s → 365-450s]
+    - Making History:
+      - Hydrazine/NTO
+        - LV-T91 "Cheetah" Liquid Fuel Engine [150-355s → 150-315s]
+        - RE-J10 "Wolfhound" Liquid Fuel Engine [70-380s → 70-330s]
+      - Kerosene/LqdOxygen
+        - RV-1 "Cub" Vernier Engine
+        - RK-7 "Kodiak" Liquid Fueled Engine [285-300s → 285-320s]
+        - LV-TX87 "Bobcat" Liquid Fuel Engine
+        - Kerbodyne KE-1 "Mastodon" Liquid Fuel Engine
+      - LqdHydrogen/LqdOxygen
+        - RE-I2 "Skiff" Liquid Fuel Engine [265-330s → 200-420s]
+    - Restock+:
+      - Hydrazine/NTO
+        - LV-303 'Pug' Liquid Fuel Engine
+        - LV-T15 'Valiant' Liquid Fuel Engine
+        - RK-1 'Trash Panda' Vernier Engine
+        - RE-137 'Schnauzer' Liquid Fuel Engine [70-350s → 70-330s]
+      - Kerosene/LqdOxygen
+        - KR-1 'Boar' Liquid Fuel Engine
+        - Mk-1H 'Torch' Liquid Fuel Engine
+        - RK-107 'Ursa' Liquid Fueled Engine [285-300s → 285-320s]
+        - Kerbodyne UR-1 "Galleon"" Liquid Fuel Engine
+      - LqdHydrogen/LqdOxygen
+        - RE-I2 'Caravel' Liquid Fuel Engine [265-320s → 200-420s]
+        - KR-10A 'Corgi' Liquid Fuel Engine Cluster [95-355s → 110-465s]
+    - Near Future Launch Vehicles:
+      - Kerosene/LqdOxygen
+        - KS-10AJ 'Walrus' Liquid Fuel Engine
+        - KS-600AJ 'Manatee' Liquid Fuel Engine
+        - KS-1M 'Otter' Liquid Fuel Engine [280-295s → 280-310s]
+        - KR-1M-V 'Sphinx' Liquid Fuel Engine [260-330s → 230-350s]
+        - KR-84 'Ocelot' Liquid Fuel Engine
+        - KS-1E 'Goldfish' Liquid Fuel Engine [270-280s → 310-320s]
+        - KR-1E-V 'Angora' Liquid Fuel Engine [250-320 → 220-340s]
+        - KS-160 'Orca' Liquid Fuel Engine
+        - KS-107 'Porpoise' Liquid Fuel Engine
+      - Kerosene/LqdHydrogen/LqdOxygen
+        - KR-701 'Cougar' Liquid Fuel Engine [295-345s → 330-415s (mode 1); 220-460s (mode 2)]
+        - KR-74 'Lynx' Liquid Fuel Engine [298-345s → 355-405s (mode 1); 245-450s (mode 2)]
+- Changed MonoPropellant RCS to use Hydrazine
+- Changed LiquidFuel/Oxidizer RCS to use Hydrazine/NTO
+- Changed Near Future Launch Vehicles multimode bipropellant RCS to use Hydrazine/NTO, Kerosene/LqdOxygen, LqdHydrogen/LqdOxygen and LqdMethane/LqdOxygen
+- Replaced all Ore → MonoPropellant ModuleResourceConverter recipes to Ore → Hydrazine:
+- Replaced all Ore → LiquidFuel/LqdHydrogen/LqdMethane + Oxidizer ModuleResourceConverter recipes to the following:
+  - Ore → Hydrazine
+  - Ore → NTO
+  - Ore → Hydrazine + NTO
+  - Ore → Kerosene
+  - Ore → LqdOxygen
+  - Ore → Kerosene + LqdOxygen
+  - Ore → LqdHydrogen
+  - Ore → LqdHydrogen + LqdOxygen
+  - Ore → LqdMethane
+  - Ore → LqdMethane + LqdOxygen
