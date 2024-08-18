@@ -27,12 +27,13 @@ Engines can easily be patched to replace their propellants with one of the combi
 ### Required
 - [ModuleManager (4.2.3)](https://github.com/sarbian/ModuleManager)
 - [B9PartSwitch (2.20.0)](https://github.com/blowfishpro/B9PartSwitch)
-- [Cryogenic Tanks](https://github.com/post-kerbin-mining-corporation/CryoTanks)
+- [Immersive Chemical Core (0.1.0)](https://github.com/CharleRoger/ImmersiveChemicalCore)
+- [Cryogenic Tanks (1.6.6)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
 ### Supported
-- [Cryogenic Engines](https://github.com/post-kerbin-mining-corporation/CryoEngines)
-- [Kerbal Atomics](https://github.com/post-kerbin-mining-corporation/KerbalAtomics)
-- [Near Future Launch Vehicles](https://github.com/post-kerbin-mining-corporation/NearFutureLaunchVehicles)
-- [Restock and Restock+](https://github.com/PorktoberRevolution/ReStocked)
+- [Cryogenic Engines (2.0.6)](https://github.com/post-kerbin-mining-corporation/CryoEngines)
+- [Kerbal Atomics (1.3.3)](https://github.com/post-kerbin-mining-corporation/KerbalAtomics)
+- [Near Future Launch Vehicles (2.2.1)](https://github.com/post-kerbin-mining-corporation/NearFutureLaunchVehicles)
+- [Restock and Restock+ (1.4.5)](https://github.com/PorktoberRevolution/ReStocked)
 - Many other mods implicitly, though might do unexpected things. Let me know what else to support!
 
 If you'd like to add support for other mods yourself, I'll accept any pull requests.
