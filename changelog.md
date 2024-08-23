@@ -1,3 +1,18 @@
+# 0.1.1
+- Fixed patches targeting presence of MakingHistory with ModuleManager NEEDS
+- Changed Kerbodyne KR-2L+ "Rhino" to use LqdHydrogen/LqdOxygen since it makes a good Aerojet M-1 analogue, which is seemingly how Restock treats it, with performance balanced accordingly:
+  - 1750kN, 310-430s
+- Balanced hydrolox engines:
+  - Making History RE-I2 "Skiff" / Restock+ RE-I2 'Caravel': 300/510kN → 31kN, 1.6/2t → 1.4t (30% thrust scaled J-2 analogue)
+  - S3 KS-25 "Vector": 1000kN → 675kN, 4t → 3t (30% thrust scaled RS-25 analogue)
+  - S3 KS-25x4 "Mammoth": 4000kN → 2700kN, 15t → 12t (4x S3 KS-25 "Vector")
+  - CryoEngines CE-60 'Tharsis': 360kN → 320kN, 3t → 2.4t (2x CE-60 'Pavonis')
+  - Restock+ KR-10A 'Corgi': 750kN → 220kN, 5.25t → 2.2t (4x CryoEngines CE-10 'Hecate')
+- Balanced hypergolic engines:
+  - LV-T30 "Reliant": Vacuum 310s → 300s (Minor adjustment to balance against other hypergolic engines)
+  - LV-T45 "Swivel": Vacuum 320s → 310s (Minor adjustment to balance against other hypergolic engines)
+  - RE-J10 "Wolfhound": 375kN → 110kN, 3.3t → 0.8t (Restock+ RE-137 'Schnauzer' stats, which are much more sensible)
+
 # 0.1.0
 - Pre-release
 - Add B9 tank types for new propellant combinations with mixture ratios designed to fit nicely in tanks while keeping in line with reality:
