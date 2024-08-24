@@ -1,3 +1,8 @@
+# 0.1.2
+- Fixed catch-all engine type patch which converts all not-directly-supported engines into Hydrazine/NTO
+- Added simple regex which replaces "Liquid Fuel" in engine titles with "Hypergolic", "Kerosene", "Liquid Hydrogen", "Liquid Methane" or "Kero-Hydro-Lox" (ideally this would hook into localisation, but only supports English for now)
+- Replaced MonoPropellant with Hydrazine in tanks contained in B9 part switches, e.g. the integrated tanks on the orbital maneuvering engines from Near Future Spacecraft
+
 # 0.1.1
 - Fixed patches targeting presence of MakingHistory with ModuleManager NEEDS
 - Changed Kerbodyne KR-2L+ "Rhino" to use LqdHydrogen/LqdOxygen since it makes a good Aerojet M-1 analogue, which is seemingly how Restock treats it, with performance balanced accordingly:
