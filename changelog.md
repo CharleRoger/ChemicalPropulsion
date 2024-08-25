@@ -1,3 +1,15 @@
+# 0.1.3
+- Improved propellant type assignment targeting, should fix some odd cases where copies of parts inherit the wrong propellant type
+- Changed engine name replacement to use terms which characterise the propellant combination: "Kerolox", "Methalox" and "Hydrolox"
+- Moved hydrolox options behind methalox in tanks and other places, so that they're broadly ordered by specific impules (Hypergolic < Kerolox < Methalox < Hydrolox)
+- Add descriptions to propellant combinations, only used in RCS switches at the moment
+- Added MissingHistory support:
+  - LV-303 "Pug": Hypergolic, stats unchanged
+  - LV-T15 "Valiant": Hypergolic, stats unchanged
+  - Other engines handled automatically
+- Added Labradoodle support:
+  - RE-L20 "Labrador": Kerolox, stats unchanged
+
 # 0.1.2
 - Fixed catch-all engine type patch which converts all not-directly-supported engines into Hydrazine/NTO
 - Added simple regex which replaces "Liquid Fuel" in engine titles with "Hypergolic", "Kerosene", "Liquid Hydrogen", "Liquid Methane" or "Kero-Hydro-Lox" (ideally this would hook into localisation, but only supports English for now)
