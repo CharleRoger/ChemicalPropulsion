@@ -1,7 +1,7 @@
 # 0.1.3
 - Improved propellant type assignment targeting, should fix some odd cases where copies of parts inherit the wrong propellant type
 - Changed engine name replacement to use terms which characterise the propellant combination: "Kerolox", "Methalox" and "Hydrolox"
-- Moved hydrolox options behind methalox in tanks and other places, so that they're broadly ordered by specific impules (Hypergolic < Kerolox < Methalox < Hydrolox)
+- Moved hydrolox options behind methalox in tanks and other places, so that they're broadly ordered by specific impulse (Hypergolic < Kerolox < Methalox < Hydrolox)
 - Add descriptions to propellant combinations, only used in RCS switches at the moment
 - Added MissingHistory support:
   - LV-303 "Pug": Hypergolic, stats unchanged
