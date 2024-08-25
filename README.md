@@ -18,10 +18,10 @@ Engines can easily be patched to replace their propellants with one of the combi
 ```
 @PART[partName]:FOR[ImmersiveChemicalPropulsion]
 {
-    @MODULE[ModuleEngines*]
-    {
-        icPropellantType = Hydrazine_NTO // Kerosene_LqdOxygen, LqdHydrogen_LqdOxygen, LqdMethane_LqdOxygen, Kerosene_LqdHydrogen_LqdOxygen, Pentaborane_LqdFluorine, LqdHydrogen_LqdFluorine
-    }
+	@MODULE[ModuleEngines*]
+	{
+		icPropellantType = Hydrazine_NTO // Kerosene_LqdOxygen, LqdHydrogen_LqdOxygen, LqdMethane_LqdOxygen, Kerosene_LqdHydrogen_LqdOxygen, Pentaborane_LqdFluorine, LqdHydrogen_LqdFluorine
+	}
 }
 ```
 ## CryoTanks changes
