@@ -1,3 +1,12 @@
+# 0.2.0
+- Added generic targeting of integrated fuel tanks on boosters using the engine propellant type
+- Added native fuel tank switch for more control. Replaces existing switches, so removes the dependency on CryoTanks
+- Added native RCS bipropellant switch for more control. Replaces existing switches, e.g. the one provided by Near Future Launch Vehicles
+- Added support for Near Future Aeronautics aviation fuel tanks
+- Added support for VABOrganizer, with new categories for different types of engine and RCS. This adds subcategorisation to many parts which didn't already have any, including tanks
+- Added flags for Immersive Chemical Core 0.2.0 CryoTanks boiloff system, which should ensure all cryogenic fuels are given boiloff configs no matter where the are stored
+- Fixed tank type patch ordering
+- Fixed Pentaborane/LqdFluorine B9 tank type mass and cost (exotics coming soon)
 # 0.1.3
 - Improved propellant type assignment targeting, should fix some odd cases where copies of parts inherit the wrong propellant type
 - Changed engine name replacement to use terms which characterise the propellant combination: "Kerolox", "Methalox" and "Hydrolox"
