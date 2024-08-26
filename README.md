@@ -20,7 +20,7 @@ Engines can easily be patched to replace their propellants with one of the combi
 {
 	@MODULE[ModuleEngines*]
 	{
-		icPropellantType = Hydrazine_NTO // Kerosene_LqdOxygen, LqdHydrogen_LqdOxygen, LqdMethane_LqdOxygen, Kerosene_LqdHydrogen_LqdOxygen, Pentaborane_LqdFluorine, LqdHydrogen_LqdFluorine
+		icEngineType = hypergolic // kerolox, methalox, hydrolox, kerohydrolox
 	}
 }
 ```
@@ -31,10 +31,10 @@ This mod replaces all CryoTanks fuel switch types to Immersive Chemical tank typ
 ### Required
 - [ModuleManager (4.2.3)](https://github.com/sarbian/ModuleManager)
 - [B9PartSwitch (2.20.0)](https://github.com/blowfishpro/B9PartSwitch)
-- [Immersive Chemical Core (0.1.0)](https://github.com/CharleRoger/ImmersiveChemicalCore)
-- [Cryogenic Tanks (1.6.6)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
+- [Immersive Chemical Core (0.2.0)](https://github.com/CharleRoger/ImmersiveChemicalCore)
 ### Supported
 - [Cryogenic Engines (2.0.6)](https://github.com/post-kerbin-mining-corporation/CryoEngines)
+- [Cryogenic Tanks (1.6.6)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
 - [Kerbal Atomics (1.3.3)](https://github.com/post-kerbin-mining-corporation/KerbalAtomics)
 - [Near Future Launch Vehicles (2.2.1)](https://github.com/post-kerbin-mining-corporation/NearFutureLaunchVehicles)
 - [Restock and Restock+ (1.4.5)](https://github.com/PorktoberRevolution/ReStocked)
