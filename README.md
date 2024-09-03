@@ -1,18 +1,29 @@
 # Immersive Chemical Propulsion
 An overhaul to the stock propellant system, replacing generic LiquidFuel, Oxidizer and MonoPropellant with a handful of real chemicals.
-This mod is distinct from RealFuels in that it only deals with six resources — Kerosene, LqdOxygen, LqdHydrogen, LqdMethane, Hydrazine and NTO — for a straightforward enhanced propellant system more in line with Nertea's Cryogenic Engines. In fact, Nertea's mods are a particular target of this overhaul, which can be thought of as a Nertea-like soft alternative to RealFuels.
+This mod is distinct from RealFuels in that it deals with only ten resources — Kerosene, HTP, LqdOxygen, LqdHydrogen, LqdMethane, Hydrazine, NTO, Pentaborane, Diborane and LqdFluorine — for a straightforward enhanced propellant system more in line with Nertea's Cryogenic Engines. In fact, Nertea's mods are a particular target of this overhaul, which can be thought of as a Nertea-like soft alternative to RealFuels.
 
 # Features
 ## Engine changes
-LiquidFuel/Oxidizer engines and tanks are set to fixed ratios for the following propellant mixtures:
- - 2 Hydrazine / 3 NTO
- - 3 Kerosene / 5 LqdOxygen
- - 3 LqdHydrogen / 1 LqdOxygen (roughly equivalent in mass to CryoEngines/CryoTanks native 15 LqdHydrogen / 1 Oxidizer)
- - 7 LqdMethane / 9 LqdOxygen (a more realistic figure, more fuel-rich than CryoEngines/CryoTanks native 3 LqdMethane / 1 Oxidizer)
- - 1 Kerosene / 4 LqdHydrogen / 3 LqdOxygen (equivalent to 1/3 kerolox + 2/3 hydrolox)
-Exotic fuel mixtures are also provided, but not used for anything (yet):
- - 3 Pentaborane / 7 LqdFluorine
- - 3 LqdHydrogen / 1 LqdFluorine
+Monopropellant engines and tanks have a choice of two propellants: HTP which is cheap and available at the beginning of career mode, and Hydrazine which is unlocked later and more expensive but yields a significantly higher specific impulse.
+
+LiquidFuel/Oxidizer engines are categorised into one of four types, each of which similarly has a pair "basic" and "advanced" bipropellants with fixed mixture ratios:
+- Hypergolic:
+  - 1 Kerosene / 4 HTP
+  - 2 Hydrazine / 3 NTO
+- Kerolox:
+  - 3 Kerosene / 5 LqdOxygen
+  - 5 Pentaborane / 11 LqdFluorine
+- Methalox:
+  - 7 LqdMethane / 9 LqdOxygen (a more fuel-rich, more realistic figure than CryoEngines/CryoTanks native 3 LqdMethane / 1 Oxidizer)
+  - 3 Diborane / 5 LqdFluorine
+- Hydrolox:
+  - 3 LqdHydrogen / 1 LqdOxygen (roughly equivalent in mass to CryoEngines/CryoTanks native 15 LqdHydrogen / 1 Oxidizer)
+  - 3 LqdHydrogen / 1 LqdFluorine
+
+Near Future Launch Vehicles' KR-701 'Cougar' and KR-74 'Lynx' are bimodal hydrolox engines with an additional kerosene-augmented mode, based on their real-world analogues the RD-701 and RD-704:
+  - 1 Kerosene / 4 LqdHydrogen / 3 LqdOxygen
+
+Jet engines use Kerosene, with the rocket mode of multimodal engines running on Kerosene/LqdOxygen.
 
 Engines can easily be patched to replace their propellants with one of the combinations above like the following:
 ```
@@ -20,7 +31,7 @@ Engines can easily be patched to replace their propellants with one of the combi
 {
 	@MODULE[ModuleEngines*]
 	{
-		icEngineType = hypergolic // kerolox, methalox, hydrolox, kerohydrolox
+		icEngineType = hypergolic // kerolox, methalox, hydrolox, kerohydrolox, keroseneJet
 	}
 }
 ```
