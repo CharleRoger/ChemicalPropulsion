@@ -31,13 +31,13 @@ This mod replaces all CryoTanks fuel switch types to Immersive Chemical tank typ
 ### Required
 - [ModuleManager (4.2.3)](https://github.com/sarbian/ModuleManager)
 - [B9PartSwitch (2.20.0)](https://github.com/blowfishpro/B9PartSwitch)
-- [Immersive Chemical Core (0.2.0)](https://github.com/CharleRoger/ImmersiveChemicalCore)
+- [Immersive Chemical Core (0.3.0)](https://github.com/CharleRoger/ImmersiveChemicalCore)
 ### Supported
-- [Cryogenic Engines (2.0.6)](https://github.com/post-kerbin-mining-corporation/CryoEngines)
+- [Cryogenic Engines (2.0.7)](https://github.com/post-kerbin-mining-corporation/CryoEngines)
 - [Cryogenic Tanks (1.6.6)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
-- [Kerbal Atomics (1.3.3)](https://github.com/post-kerbin-mining-corporation/KerbalAtomics)
+- [Kerbal Atomics (1.3.4)](https://github.com/post-kerbin-mining-corporation/KerbalAtomics)
 - [Near Future Launch Vehicles (2.2.1)](https://github.com/post-kerbin-mining-corporation/NearFutureLaunchVehicles)
-- [Restock and Restock+ (1.4.5)](https://github.com/PorktoberRevolution/ReStocked)
+- [Restock and Restock+ (1.5.0)](https://github.com/PorktoberRevolution/ReStocked)
 - Many other mods implicitly, though might do unexpected things. Let me know what else to support!
 
 If you'd like to add support for other mods yourself, I'll accept any pull requests.

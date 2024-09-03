@@ -1,3 +1,20 @@
+# 0.3.0
+- Introduced HTP as a basic monopropellant and Kerosene/HTP as a basic hypergolic bipropellant
+- Added switches to engines, tanks, RCS for a pair of "basic" and "advanced" (higher Isp, more expensive) propellants for the five liquid engine types:
+  - Monopropellant: HTP — Hydrazine
+  - Hypergolic: Kerosene/HTP — Hydrazine/NTO
+  - Kerolox: Kerosene/LqdOxygen — Pentaborane/LqdFluorine
+  - Methalox: LqdMethane/LqdOxygen — Diborane/LqdFluorine
+  - Hydrolox: LqdHydrogen/LqdOxygen — LqdHydrogen/LqdFluorine
+- Removed Hydrazine and NTO recipes from ISRU in favour of a consistency (only basic propellants allowed)
+- Changed everything to use Immersive Chemical Core 0.3.0 common resource colours
+- Added common propellant ratios used throughout all patches
+- Restored original stats for the LV-T30 "Reliant" and the LV-T45 "Swivel", since the lower-Isp constraint on low tech engines is now handled by the use of Kerosene/HTP (note that no tech restrictions actually exist yet)
+- Balanced Restock+'s Pug against other hypergolic engines:
+  - LV-303 'Pug' Liquid Fuel Engine [250-330 → 220-310s]
+- Fixed stats of Near Future Launch Vehicles's Rutherford analogues to reflect their real performance and balanced them with the other kerolox engines:
+  - KS-1E 'Goldfish' Liquid Fuel Engine [270-280s → 270-310s]
+  - KR-1E-V 'Angora' Liquid Fuel Engine [250-320 → 220-340s]
 # 0.2.0
 - Added generic targeting of integrated fuel tanks on boosters using the engine propellant type
 - Added native fuel tank switch for more control. Replaces existing switches, so removes the dependency on CryoTanks
@@ -112,8 +129,8 @@
         - KS-1M 'Otter' Liquid Fuel Engine [280-295s → 280-310s]
         - KR-1M-V 'Sphinx' Liquid Fuel Engine [260-330s → 230-350s]
         - KR-84 'Ocelot' Liquid Fuel Engine
-        - KS-1E 'Goldfish' Liquid Fuel Engine [270-280s → 310-320s]
-        - KR-1E-V 'Angora' Liquid Fuel Engine [250-320 → 220-340s]
+        - KS-1E 'Goldfish' Liquid Fuel Engine [270-280s → 280-310s]
+        - KR-1E-V 'Angora' Liquid Fuel Engine [250-320 → 310-320s]
         - KS-160 'Orca' Liquid Fuel Engine
         - KS-107 'Porpoise' Liquid Fuel Engine
       - Kerosene/LqdHydrogen/LqdOxygen
