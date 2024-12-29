@@ -1,3 +1,14 @@
+# 0.4.0
+- Renamed from "Immersive Chemical Propulsion" to "Chemical Propulsion"
+- Rewrote a good chunk of the patches using new FuelMixer plugin (0.1.0) to handle monopropellant and bipropellant fuel tanks, engines and RCS
+- Changed fuel mixtures available on bipropellant engine types:
+  - Monopropellant: HTP—Hydrazine
+  - Hypergolic: LqdAmmonia—Hydrazine—Pentaborane / NTO
+  - Kerolox: Kerosene / HTP—LqdOxygen—LqdFluorine
+  - Methalox: LqdMethane—Diborane / LqdOxygen—LqdFluorine
+  - Hydrolox: LqdHydrogen / LqdOxygen—LqdFluorine
+- Changed fuel cells to only use LqdHydrogen+LqdOxygen and ISRU to only deal with LqdHydrogen, LqdOxygen, LqdMethane and HTP in order to balance the more effective propellants by the lack of ISRU, and in preparation for Chemical Conversion which will handle all of this more comprehensively
+- Various tidying of code and small fixes
 # 0.3.0
 - Introduced HTP as a basic monopropellant and Kerosene/HTP as a basic hypergolic bipropellant
 - Added switches to engines, tanks, RCS for a pair of "basic" and "advanced" (higher Isp, more expensive) propellants for the five liquid engine types:
