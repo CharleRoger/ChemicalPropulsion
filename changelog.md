@@ -1,3 +1,9 @@
+# 0.4.1
+- Changed multimode engines to use FuelMixer, though currently without any propellant switcher (though FuelMixer can support this).
+- Added support for stock multimode engines
+- Added support for Near Future Aeronautics multimode engines
+- Added support for Kerbal Atomics multimode engines
+- Added support for WildBlueIndustries Mk-33
 # 0.4.0
 - Renamed from "Immersive Chemical Propulsion" to "Chemical Propulsion"
 - Rewrote a good chunk of the patches using new FuelMixer plugin (0.1.0) to handle monopropellant and bipropellant fuel tanks, engines and RCS
