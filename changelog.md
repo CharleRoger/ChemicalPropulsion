@@ -6,7 +6,8 @@
 - Added support for WildBlueIndustries Mk-33
 - Added `hydrogenJet` engine type
 - Fixed tanks with built-in engines using a different propellant, e.g. bipropellant tanks with solid fuel separators
-- Fixed FuelMixer default propellant assignment for multi-type engines, e.g. bipropellant RCS (kerolox, methalox and hydrolox)
+- Fixed FuelMixer default propellant assignment for monopropellant engines and multi-type engines, e.g. bipropellant RCS (kerolox, methalox and hydrolox)
+- Fixed B9PartSwitch togglable integrated tanks on engines, which should now apply their volume to FuelMixer
 # 0.4.0
 - Renamed from "Immersive Chemical Propulsion" to "Chemical Propulsion"
 - Rewrote a good chunk of the patches using new FuelMixer plugin (0.1.0) to handle monopropellant and bipropellant fuel tanks, engines and RCS
