@@ -4,6 +4,9 @@
 - Added support for Near Future Aeronautics multimode engines
 - Added support for Kerbal Atomics multimode engines
 - Added support for WildBlueIndustries Mk-33
+- Added `hydrogenJet` engine type
+- Fixed tanks with built-in engines using a different propellant, e.g. bipropellant tanks with solid fuel separators
+- Fixed FuelMixer default propellant assignment for multi-type engines, e.g. bipropellant RCS (kerolox, methalox and hydrolox)
 # 0.4.0
 - Renamed from "Immersive Chemical Propulsion" to "Chemical Propulsion"
 - Rewrote a good chunk of the patches using new FuelMixer plugin (0.1.0) to handle monopropellant and bipropellant fuel tanks, engines and RCS
