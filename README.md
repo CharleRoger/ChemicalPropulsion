@@ -35,7 +35,17 @@ Engines can easily be patched to replace their propellants with one of the combi
 {
 	@MODULE[ModuleEngines*]
 	{
-		chemTechEngineType = monopropellant // hypergolic, kerolox, methalox, hydrolox, kerohydrolox, keroseneJet, hydrogenJet
+		chemTechEngineType = monopropellant
+		// hydrogen
+		// bipropellantKeroxide
+		// bipropellantAmmonilox
+		// bipropellantHypergolic
+		// bipropellantKerolox
+		// bipropellantMethalox
+		// bipropellantHydrolox
+		// tripropellantKerohydrolox
+		// jetKerosene
+		// jetHydrogen
 	}
 }
 ```
