@@ -1,3 +1,48 @@
+# 0.5.0
+- Updated FuelMixer to 0.2.0
+- Added jet engine FuelMixer integration
+- Added N2F4 as an exotic advanced oxidizer in hypergolic engines
+- Added part upgrades for propellant unlocks
+- Added more verbose propellant descriptions
+- Added patch to remove KerbalAtomics' LF mode on the LV-N "Nerv"
+- Added proper support for `MultiModeEngine`s via the creation of extra `ModuleFuelMixerPropellant`s
+- Added `FuelMixerPropellantCombinationConfig`s for single-propellant nuclear thermal rockets and added a switch for them to all NTRs:
+  - LqdHydrogen: `ThrustMultiplier 0.3; IspMultiplier 2.4`, c.f. hydrolox `~0.765; ~1.355`
+  - LqdMethane: `ThrustMultiplier 0.45; IspMultiplier 1.8`, c.f. methalox `~0.964; ~1.083`
+  - LqdAmmonia: `ThrustMultiplier 0.6; IspMultiplier 1.2`, c.f. ammonilox `~0.931; ~0.978`
+- Added "None" option to tank propellant switches so that bipropellant tanks can contain just the fuel or just the oxidizer. Tank mass defaults to stock dry mass if both are set to "None"
+- Added LqdFluorine to aviation tanks
+- Added explicit `addedVolume` and `addedMass` parameters to all `ModuleFuelMixerPropellant`s
+- Improved generation of `ModuleB9PartSwitch` propellant switches, so they should be more reliable
+- Changed fuel mixtures available on liquid fuel engine types:
+  - Monopropellant: HTP—Hydrazine
+  - Keroxide: Kerosene / HTP
+  - Hypergolic: Hydrazine—Pentaborane / NTO-N2F4
+  - Ammonilox: LqdAmmonia / LqdOxygen-LqdFluorine (currently unassigned, but can be used in NTRs with an oxidizer-augmented mode)
+  - Kerolox: Kerosene / LqdOxygen—LqdFluorine
+  - Methalox: LqdMethane—Diborane / LqdOxygen—LqdFluorine
+  - Hydrolox: LqdHydrogen / LqdOxygen—LqdFluorine
+- Changed two engines from kerolox to hypergolic type, since there were not many hypergolic engines assigned after the introduction of keroxide:
+  - LV-TX87 "Bobcat" (Making History), since it's based on the LR-87 which was used with hypergolic propellants for most of its history
+  - RE-L20 "Labrador" (Labradoodle), since it kind of looks like an RD-170 and same as above
+- Assigned keroxide type to basic stock and Restock+ liquid fuel engines:
+  - LV-1R "Spider"
+  - 24-77 "Twitch"
+  - Mk-55 "Thud"
+  - LV-1 "Ant"
+  - 48-7S "Spark"
+  - LV-T30 "Reliant"
+  - LV-T45 "Swivel"
+  - LV-303 "Pug"
+  - LV-T15 "Valiant"
+- Assigned hydrogen type to engines which are already defined with LqdHydrogen as sole propellant
+- Buffed exotic propellant isp multipliers:
+  - Pentaborane: 1.14 → 1.55
+  - LqdFluorine: 1.12 → 1.2
+- Minor adjustment to jet engine propellant ratios to maintain exactly the same IntakeAir and mass flow rates as stock
+- Minor changes to part titles and VABOrganizer category titles
+- Removed LqdAmmonia as a hypergolic fuel option
+- Removed bipropellant `FuelMixerPropellantCombinationConfig`s since they are made redundant by rebalanced `FuelMixerPropellantConfig`s
 # 0.4.1
 - Changed multimode engines to use FuelMixer, though currently without any propellant switcher (though FuelMixer can support this).
 - Added support for stock multimode engines
