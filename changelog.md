@@ -1,3 +1,10 @@
+# 0.5.1
+- Added a last-ditch compatibility patch which replaces LiquidFuel and MonoPropellant in unpatched engines with Hydrazine... I imagine this will have unintended consequences but I haven't run into any yet
+- Realigned MissingHistory's "Pug" and "Valiant" engines to hvae identical stats with their Restock+ counterparts
+- Fixed assignment of tank volume and mass for built-in tanks on engines
+- Fixed assignment of jet engine VABOrganizer category on multimode engines
+- Fixed compatibility with many kinds of engines which were erroneously targeted due to containing targeted propellants alongside additional propellants
+- Fixed patch ordering of generic engine type assignment, which further improves mod compatibility
 # 0.5.0
 - Updated FuelMixer to 0.2.0
 - Added jet engine FuelMixer integration
@@ -101,12 +108,10 @@
   - Other engines handled automatically
 - Added Labradoodle support:
   - RE-L20 "Labrador": Kerolox, stats unchanged
-
 # 0.1.2
 - Fixed catch-all engine type patch which converts all not-directly-supported engines into Hydrazine/NTO
 - Added simple regex which replaces "Liquid Fuel" in engine titles with "Hypergolic", "Kerosene", "Liquid Hydrogen", "Liquid Methane" or "Kero-Hydro-Lox" (ideally this would hook into localisation, but only supports English for now)
 - Replaced MonoPropellant with Hydrazine in tanks contained in B9 part switches, e.g. the integrated tanks on the orbital maneuvering engines from Near Future Spacecraft
-
 # 0.1.1
 - Fixed patches targeting presence of MakingHistory with ModuleManager NEEDS
 - Changed Kerbodyne KR-2L+ "Rhino" to use LqdHydrogen/LqdOxygen since it makes a good Aerojet M-1 analogue, which is seemingly how Restock treats it, with performance balanced accordingly:
@@ -121,7 +126,6 @@
   - LV-T30 "Reliant": Vacuum 310s → 300s (Minor adjustment to balance against other hypergolic engines)
   - LV-T45 "Swivel": Vacuum 320s → 310s (Minor adjustment to balance against other hypergolic engines)
   - RE-J10 "Wolfhound": 375kN → 110kN, 3.3t → 0.8t (Restock+ RE-137 'Schnauzer' stats, which are much more sensible)
-
 # 0.1.0
 - Pre-release
 - Add B9 tank types for new propellant combinations with mixture ratios designed to fit nicely in tanks while keeping in line with reality:
