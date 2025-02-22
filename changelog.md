@@ -1,6 +1,6 @@
 # 0.5.1
 - Added a last-ditch compatibility patch which replaces LiquidFuel and MonoPropellant in unpatched engines with Hydrazine... I imagine this will have unintended consequences but I haven't run into any yet
-- Realigned MissingHistory's "Pug" and "Valiant" engines to hvae identical stats with their Restock+ counterparts
+- Realigned MissingHistory's "Pug" and "Valiant" engines to have identical stats with their Restock+ counterparts
 - Fixed assignment of tank volume and mass for built-in tanks on engines
 - Fixed assignment of jet engine VABOrganizer category on multimode engines
 - Fixed compatibility with many kinds of engines which were erroneously targeted due to containing targeted propellants alongside additional propellants
