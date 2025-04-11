@@ -1,3 +1,5 @@
+# 0.6.0
+- Removed exotic propellants (Diborane, Pentaborane, LqdFluorine, N2F4) which are now implemented solely by Chemical Exotics
 # 0.5.1
 - Added a last-ditch compatibility patch which replaces LiquidFuel and MonoPropellant in unpatched engines with Hydrazine... I imagine this will have unintended consequences but I haven't run into any yet
 - Realigned MissingHistory's "Pug" and "Valiant" engines to have identical stats with their Restock+ counterparts
