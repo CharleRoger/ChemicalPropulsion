@@ -1,4 +1,10 @@
 # 0.6.0
+- Updated to Ignition 0.3.0 (formerly FuelMixer)
+- Added ignition systems to bipropellant engines
+  - Kerolox requires TEATEB
+  - Ammonilox, methalox, hydrolox and jet engines require ElectricCharge
+  - All other types require no ignitor
+- Added TEATEB option to monopropellant tanks (This is intended to be temporary, bespoke TEATEB tanks will be added in the future)
 - Removed exotic propellants (Diborane, Pentaborane, LqdFluorine, N2F4) which are now implemented solely by Chemical Exotics
 # 0.5.1
 - Added a last-ditch compatibility patch which replaces LiquidFuel and MonoPropellant in unpatched engines with Hydrazine... I imagine this will have unintended consequences but I haven't run into any yet
