@@ -1,10 +1,10 @@
 # Chemical Propulsion
 An overhaul to the stock propellant system, replacing generic LiquidFuel, Oxidizer and MonoPropellant with a handful of real chemicals.
-This mod is distinct from RealFuels in that it deals with only a short list of resources — Kerosene, HTP, LqdOxygen, LqdHydrogen, LqdMethane, LqdAmmonia, Hydrazine and NTO — for a more straightforward and curated propellant system more in line with e.g. Nertea's Cryogenic Engines. In fact, Nertea's mods are a particular target of this overhaul, which can be thought of as a Nertea-like soft alternative to RealFuels.
+This mod is distinct from RealFuels in that it deals with only a short list of primary liquid propellants — Kerosene, HTP, LqdOxygen, LqdHydrogen, LqdMethane, LqdAmmonia, Hydrazine and NTO — for a more straightforward and curated propellant system more in line with e.g. Nertea's Cryogenic Engines. In fact, Nertea's mods are a particular target of this overhaul, which can be thought of as a Nertea-like soft alternative to RealFuels.
 
 ## Features
 ### Engine changes
-Monopropellant engines and tanks have a choice of two propellants: HTP which is cheap and available at the beginning of career mode, and Hydrazine which is unlocked later and more expensive but yields a significantly higher specific impulse.
+Monopropellant engines and tanks have a choice of two propellants: HTP which is cheap and available at the beginning of career mode, and Hydrazine which is unlocked later and more expensive but yields a significantly higher specific impulse. Solid rockets have a similar progression from PBAN to the slightly more performant HTPB.
 
 Bipropellant engines are categorised into one of six types with fixed mixture ratios:
 - Keroxide:
@@ -42,6 +42,7 @@ Engines can easily be patched to replace their propellants with one of the combi
 		// tripropellantKerohydrolox
 		// jetKerosene
 		// jetHydrogen
+		// solid
 	}
 }
 ```
@@ -52,13 +53,13 @@ This mod replaces all CryoTanks fuel switch types to Chemical Technologies tank 
 ### Required
 - [ModuleManager (4.2.3)](https://github.com/sarbian/ModuleManager)
 - [B9PartSwitch (2.20.0)](https://github.com/blowfishpro/B9PartSwitch)
-- [Chemical Core (0.5.0)](https://github.com/CharleRoger/ChemicalCore)
-- [Ignition (0.3.0)](https://github.com/CharleRoger/Ignition)
+- [Chemical Core (1.0.0)](https://github.com/CharleRoger/ChemicalCore)
+- [Ignition (1.0.0)](https://github.com/CharleRoger/Ignition)
 ### Supported
 - [Cryogenic Engines (2.0.8)](https://github.com/post-kerbin-mining-corporation/CryoEngines)
 - [Cryogenic Tanks (1.6.6)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
 - [Kerbal Atomics (1.3.4)](https://github.com/post-kerbin-mining-corporation/KerbalAtomics)
-- [Labradoodle (1.0.2)](https://github.com/CharleRoger/Labradoodle)
+- [Labradoodle (1.0.1)](https://github.com/CharleRoger/Labradoodle)
 - [MissingHistory (1.9.3)](https://spacedock.info/mod/1743/MissingHistory)
 - [Mk-33 (1.3.2)](https://github.com/Angel-125/Mk-33)
 - [Near Future Aeronautics (2.1.2)](https://github.com/post-kerbin-mining-corporation/NearFutureAeronautics)
