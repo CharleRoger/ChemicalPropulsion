@@ -1,3 +1,11 @@
+# 1.0.0
+- Release
+- Updated to Ignition 1.0.0
+  - Added ModuleIgnitionEngineController, ModuleIgnitionRCSController and ModuleIgnitionTankController where applicable
+- Added PBAN and HTPB options to solid rockets, which are now fully supported
+- Improved engine controller module tagging, which should mean much broader implicit support of some trickier multi mode engines
+- Fixed stack gauge display
+- Removed "none" option from monopropellant tanks on parts with RCS modules
 # 0.6.0
 - Updated to Ignition 0.3.0 (formerly FuelMixer)
 - Added ignition systems to bipropellant engines
