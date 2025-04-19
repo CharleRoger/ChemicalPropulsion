@@ -1,6 +1,7 @@
 # 1.0.1
 - Fixed Rhino Isp curve
 - Fixed Kerosene ignition potential
+- Fixed removal of tech restriction from default subtype on propellant switches with a "none" subtype
 - Changed LqdOxygen and TEATEB (thus kerolox) to unlock at "General Rocketry" and made a few adjustments to part tech requirements to accomodate
 # 1.0.0
 - Release
