@@ -1,5 +1,6 @@
 # 1.0.1
 - Fixed Rhino Isp curve
+- Fixed Kerosene ignition potential
 # 1.0.0
 - Release
 - Updated to Ignition 1.0.0
