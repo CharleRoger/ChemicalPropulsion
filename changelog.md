@@ -1,6 +1,7 @@
 # 1.0.1
 - Fixed Rhino Isp curve
 - Fixed Kerosene ignition potential
+- Changed LqdOxygen and TEATEB (thus kerolox) to unlock at "General Rocketry" and made a few adjustments to part tech requirements to accomodate
 # 1.0.0
 - Release
 - Updated to Ignition 1.0.0
