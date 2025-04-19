@@ -1,3 +1,5 @@
+# 1.0.1
+- Fixed Rhino Isp curve
 # 1.0.0
 - Release
 - Updated to Ignition 1.0.0
