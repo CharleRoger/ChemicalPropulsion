@@ -1,5 +1,6 @@
 # 1.0.2
 - Fixed propellant ratio parsing for jet engines
+- Improved behaviour of implicit engine type assignment
 # 1.0.1
 - Fixed Rhino Isp curve
 - Fixed Kerosene ignition potential
