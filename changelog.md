@@ -1,3 +1,12 @@
+# 1.1.0
+- Fixed solid rocket VABOrganizer subcategory assignment overwriting an existing subcategory
+- Fixed fuel-air ratio for multi mode jet engines
+- Updated to Ignition 1.1.0
+  - Added explicit propellant removal patch
+  - Removed IntakeAir propellant modules
+- Reordered patches to allow for better third-party mod support
+  - Added explicit support for Supplementary Electric Engines
+- Minor adjustments to switch subtype ordering
 # 1.0.2
 - Fixed propellant ratio parsing for jet engines
 - Improved behaviour of implicit engine type assignment
