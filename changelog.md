@@ -1,12 +1,14 @@
 # 1.1.0
-- Fixed solid rocket VABOrganizer subcategory assignment overwriting an existing subcategory
-- Fixed fuel-air ratio for multi mode jet engines
+- Added single-propellant configs for Hydrazine and HTP, used in monopropellant and thermal rockets
 - Updated to Ignition 1.1.0
   - Added explicit propellant removal patch
   - Removed IntakeAir propellant modules
 - Reordered patches to allow for better third-party mod support
   - Added explicit support for Supplementary Electric Engines
+- Changed LqdAmmonia tech level to "Basic Rocketry", since it has broad applications and can serve as a basic rocket fuel
 - Minor adjustments to switch subtype ordering
+- Fixed solid rocket VABOrganizer subcategory assignment overwriting an existing subcategory
+- Fixed fuel-air ratio for multi mode jet engines
 # 1.0.2
 - Fixed propellant ratio parsing for jet engines
 - Improved behaviour of implicit engine type assignment
