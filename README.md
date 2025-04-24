@@ -55,7 +55,7 @@ This mod replaces all CryoTanks fuel switch types to Chemical Technologies tank 
 - [B9PartSwitch (2.20.0)](https://github.com/blowfishpro/B9PartSwitch)
 - [Community Resource Pack (112.0.1)](https://github.com/UmbraSpaceIndustries/CommunityResourcePack)
 - [Chemical Core (1.0.0)](https://github.com/CharleRoger/ChemicalCore)
-- [Ignition (1.0.1)](https://github.com/CharleRoger/Ignition)
+- [Ignition (1.0.2)](https://github.com/CharleRoger/Ignition)
 ### Supported
 - [Cryogenic Engines (2.0.8)](https://github.com/post-kerbin-mining-corporation/CryoEngines)
 - [Cryogenic Tanks (1.6.6)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
