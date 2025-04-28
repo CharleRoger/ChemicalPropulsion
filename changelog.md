@@ -3,6 +3,7 @@
 - Updated to Ignition 1.1.0
   - Added explicit propellant removal patch
   - Removed IntakeAir propellant modules
+- Changed tagging system to use individual propellants rather than combined types to allow any arbitrary combinations
 - Reordered patches to allow for better third-party mod support
   - Added explicit support for Supplementary Electric Engines
 - Changed LqdAmmonia tech level to "Basic Rocketry", since it has broad applications and can serve as a basic rocket fuel

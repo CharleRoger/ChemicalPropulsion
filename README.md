@@ -6,7 +6,7 @@ This mod is distinct from RealFuels in that it deals with only a short list of p
 ### Engine changes
 Monopropellant engines and tanks have a choice of two propellants: HTP which is cheap and available at the beginning of career mode, and Hydrazine which is unlocked later and more expensive but yields a significantly higher specific impulse. Solid rockets have a similar progression from PBAN to the slightly more performant HTPB.
 
-Bipropellant engines are categorised into one of six types with fixed mixture ratios:
+Bipropellant engines are categorised into particular fuel-oxidizer combinations with fixed mixture ratios:
 - Keroxide:
   - 1 Kerosene / 3 HTP
 - Ammonilox:
@@ -27,22 +27,18 @@ LiquidFuel jet engines use Kerosene, with the rocket mode of multimodal engines 
 
 Engines can easily be patched to replace their propellants with one of the combinations above like the following:
 ```
-@PART[partName]:FOR[ChemicalPropulsion]
+@PART[partName]:BEFORE[zz_ChemicalPropulsion]
 {
 	@MODULE[ModuleEngines*]
 	{
-		chemTechEngineType = monopropellant
-		// hydrogen
-		// bipropellantKeroxide
-		// bipropellantAmmonilox
-		// bipropellantHypergolic
-		// bipropellantKerolox
-		// bipropellantMethalox
-		// bipropellantHydrolox
-		// tripropellantKerohydrolox
-		// jetKerosene
-		// jetHydrogen
-		// solid
+		// Single propellants
+		chemTechPropellant = propellantLqdHydrogen // propellantHTP, propellantPBAN
+
+		// Fuels
+		chemTechPropellant = fuelLqdAmmonia // fuelKerosene, fuelHydrazine, fuelLqdMethane, fuelLqdHydrogen
+
+		// Oxidizers
+		chemTechPropellant = oxidizerHTP // oxidizerLqdOxygen, oxidizerNTO
 	}
 }
 ```
