@@ -12,6 +12,7 @@
 - Changed LqdAmmonia tech level to "Basic Rocketry", since it has broad applications and can serve as a basic rocket fuel
 - Changed bipropellant RCS to use Hydrazine/NTO
 - Changed Near Future Spacecraft monopropellant engines to use Hydrazine/NTO
+- Changed 'Baguette', 'Dumpling' and 'Doughnut' stock small external tanks to single-propellant cryogenic tanks
 - Minor adjustments to switch subtype ordering
 - Fixed solid rocket VABOrganizer subcategory assignment overwriting an existing subcategory
 - Fixed fuel-air ratio for multi mode jet engines
