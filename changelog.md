@@ -3,9 +3,10 @@
 - Updated to Ignition 1.1.0
   - Added explicit propellant removal patch
   - Removed IntakeAir propellant modules
-- Changed tagging system to use individual propellants rather than combined types to allow any arbitrary combinations
-- Reordered patches to allow for better third-party mod support
-  - Added explicit support for Supplementary Electric Engines
+  - Added fixed ignitor to Kerosene-NTO engines
+- Reordered patches and changed tagging system to use individual propellants rather than combined types to allow any arbitrary combinations and thus better third-party mod support
+  - Added support for Supplementary Electric Engines
+  - Added support for OCRAP
 - Changed LqdAmmonia tech level to "Basic Rocketry", since it has broad applications and can serve as a basic rocket fuel
 - Changed bipropellant RCS to use Hydrazine/NTO
 - Minor adjustments to switch subtype ordering
