@@ -1,6 +1,7 @@
 # 1.1.0
 - Added single-propellant configs for Hydrazine and HTP, used in monopropellant and thermal rockets
 - Added support for Near Future Launch Vehicle's switchable tank volumes
+- Added support for Near Future Exploration's switchable tanks
 - Updated to Ignition 1.1.0
   - Added explicit propellant removal patch
   - Removed IntakeAir propellant modules
