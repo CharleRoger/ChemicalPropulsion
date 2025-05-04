@@ -62,6 +62,7 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [Mk-33 (1.3.2)](https://github.com/Angel-125/Mk-33)
 - [Near Future Aeronautics (2.1.2)](https://github.com/post-kerbin-mining-corporation/NearFutureAeronautics)
 - [Near Future Launch Vehicles (2.2.2)](https://github.com/post-kerbin-mining-corporation/NearFutureLaunchVehicles)
+- [OCRAP (1.0.1)](https://github.com/CharleRoger/OCRAP)
 - [Restock and Restock+ (1.5.1)](https://github.com/PorktoberRevolution/ReStocked)
 - [Supplementary Electric Engines (1.3.2)](https://forum.kerbalspaceprogram.com/topic/218397-1125-supplementary-electric-engines/)
 ### Implicit support
