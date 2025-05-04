@@ -14,6 +14,7 @@
 - Minor adjustments to switch subtype ordering
 - Fixed solid rocket VABOrganizer subcategory assignment overwriting an existing subcategory
 - Fixed fuel-air ratio for multi mode jet engines
+- Fixed behaviour of B9 togglable tanks controlled via `ModuleIgnitionTankController`
 # 1.0.2
 - Fixed propellant ratio parsing for jet engines
 - Improved behaviour of implicit engine type assignment
