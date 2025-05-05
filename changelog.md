@@ -10,6 +10,7 @@
   - Added support for Supplementary Electric Engines
   - Added support for OCRAP
 - Changed LqdAmmonia tech level to "Basic Rocketry", since it has broad applications and can serve as a basic rocket fuel
+- Changed NTO tech level to "Advanced Rocketry", since it can serve as an oxidizer before hypergolics are researched
 - Changed bipropellant RCS to use Hydrazine/NTO
 - Changed Near Future Spacecraft monopropellant engines to use Hydrazine/NTO
 - Changed 'Baguette', 'Dumpling' and 'Doughnut' stock small external tanks to single-propellant cryogenic tanks
