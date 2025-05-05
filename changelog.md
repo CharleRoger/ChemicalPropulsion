@@ -1,3 +1,23 @@
+# 1.1.0
+- Added single-propellant configs for Hydrazine and HTP, used in monopropellant and thermal rockets
+- Added support for Near Future Launch Vehicle's switchable tank volumes
+- Added support for Near Future Exploration's switchable tanks
+- Updated to Ignition 1.1.0
+  - Added explicit propellant removal patch
+  - Removed IntakeAir propellant modules
+  - Added fixed ignitor to Kerosene-NTO engines
+- Reordered patches and changed tagging system to use individual propellants rather than combined types to allow any arbitrary combinations and thus better third-party mod support
+  - Added support for Supplementary Electric Engines
+  - Added support for OCRAP
+- Changed LqdAmmonia tech level to "Basic Rocketry", since it has broad applications and can serve as a basic rocket fuel
+- Changed bipropellant RCS to use Hydrazine/NTO
+- Changed Near Future Spacecraft monopropellant engines to use Hydrazine/NTO
+- Changed 'Baguette', 'Dumpling' and 'Doughnut' stock small external tanks to single-propellant cryogenic tanks
+- Minor adjustments to switch subtype ordering
+- Fixed solid rocket VABOrganizer subcategory assignment overwriting an existing subcategory
+- Fixed fuel-air ratio for multi mode jet engines
+- Fixed behaviour of B9 togglable tanks controlled via `ModuleIgnitionTankController`
+- Fixed tank type assignment for built-in RCS tanks (e.g. on command pods)
 # 1.0.2
 - Fixed propellant ratio parsing for jet engines
 - Improved behaviour of implicit engine type assignment
