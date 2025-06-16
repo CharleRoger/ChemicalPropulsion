@@ -1,3 +1,26 @@
+# 1.2.0
+- Added Ethanol as a supported fuel and Ethanol/LqdOxygen as a supported bipropellant type
+- Added Alcoholic Aeronautics support (recommended for ethalox start)
+- Added one fixed ignitor to every bipropellant engine, so they can always be started at least once on the launch pad
+- Added handling of multiple tanks with separate volumes on the same part, fixes e.g. Near Future Spacecraft's service tanks
+- Changed the tech progression of various early engines and tanks to align with ethalox start
+- Changed Kerosene and TEATEB part upgrade descriptions
+- Changed monopropellant engines to use hypergolic propellants Hydrazine/NTO, since they are broadly based on real hypergolic engines:
+  - Stock:
+    - O-10 "Puff" ~~MonoPropellant Fuel~~ Hypergolic Engine
+  - Near Future Spacecraft:
+    - 64-8S 'Chickadee' Landing Engine
+    - 96-8S 'Hummingbird' Landing Engine
+	- LV-601 Orbital Maneuvering Engine
+	- LV-601-4 Orbital Maneuvering Engine Cluster
+	- LV-95 Orbital Maneuvering Engine
+	- LV-95-6 Orbital Maneuvering Engine Cluster
+- Reordered part switch subtypes to match the order of the corresponding part upgrades in the tech tree
+- Removed Ignition propellant module for IntakeAir
+- Improved patch which removed PROPELLANT modules using Chemical Technologies resources by ensuring it only does so when the specific resource is handled by an Ignition module.
+- Fixed jet engine propellant ratio
+- Fixed subtype tech restrictions on tanks with a "none" subtype
+- Fixed Mk-33 linear aerospike multimode engine
 # 1.1.0
 - Added single-propellant configs for Hydrazine and HTP, used in monopropellant and thermal rockets
 - Added support for Near Future Launch Vehicle's switchable tank volumes
