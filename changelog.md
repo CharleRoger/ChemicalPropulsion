@@ -3,6 +3,7 @@
 - Added Alcoholic Aeronautics support (recommended for ethalox start)
 - Added one fixed ignitor to every bipropellant engine, so they can always be started at least once on the launch pad
 - Added handling of multiple tanks with separate volumes on the same part, fixes e.g. Near Future Spacecraft's service tanks
+- Updated to Ignition 1.1.1
 - Changed the tech progression of various early engines and tanks to align with ethalox start
 - Changed Kerosene and TEATEB part upgrade descriptions
 - Changed monopropellant engines to use hypergolic propellants Hydrazine/NTO, since they are broadly based on real hypergolic engines:
