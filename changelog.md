@@ -1,5 +1,13 @@
 # 1.2.1
 - Improved targeting of B9PartSwitch tanks to find various kinds of tanks using CryoTanks subtypes and convert them to Ignition tanks
+- Added bespoke compatibility patches for the following mods:
+  - Benjee10's shared assets (e.g. for Shuttle Orbiter Construction Kit)
+  - Kerbal Reusability Expansion
+  - Knes
+  - Tantares
+  - TantaresLV
+  - TantaresSP
+  - Tundra Exploration
 # 1.2.0
 - Added Ethanol as a supported fuel and Ethanol/LqdOxygen as a supported bipropellant type
 - Added Alcoholic Aeronautics support (recommended for ethalox start)
