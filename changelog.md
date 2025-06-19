@@ -8,6 +8,7 @@
   - TantaresLV
   - TantaresSP
   - Tundra Exploration
+- Changed RCS and tanks on Near Future Spacecraft's Amalthea, Tethys and Nereid command pods to use hypergolic bipropellant rather than monopropellant. Note that the latter two are soft-deprecated as of Near Future Spacecraft 1.4.6.
 # 1.2.0
 - Added Ethanol as a supported fuel and Ethanol/LqdOxygen as a supported bipropellant type
 - Added Alcoholic Aeronautics support (recommended for ethalox start)
