@@ -1,3 +1,5 @@
+# 1.2.1
+- Improved targeting of B9PartSwitch tanks to find various kinds of tanks using CryoTanks subtypes and convert them to Ignition tanks
 # 1.2.0
 - Added Ethanol as a supported fuel and Ethanol/LqdOxygen as a supported bipropellant type
 - Added Alcoholic Aeronautics support (recommended for ethalox start)
