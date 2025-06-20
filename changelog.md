@@ -1,5 +1,7 @@
 # 1.2.1
 - Fixed the single fixed ignitor added to every bipropellant engine
+- Fixed SystemHeat compatibility
+- Fixed Chemical Storage compatibility
 - Improved targeting of B9PartSwitch tanks to find various kinds of tanks using CryoTanks subtypes and convert them to Ignition tanks
 - Added bespoke compatibility patches for the following mods:
   - Benjee10's shared assets (e.g. for Shuttle Orbiter Construction Kit)
