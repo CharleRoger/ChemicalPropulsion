@@ -3,9 +3,6 @@
   - Benjee10's shared assets (e.g. for Shuttle Orbiter Construction Kit)
   - Kerbal Reusability Expansion
   - Tundra Exploration
-  - Tantares
-  - TantaresLV
-  - TantaresSP
 - Changed RCS and tanks on Near Future Spacecraft's Amalthea, Tethys and Nereid command pods to use hypergolic bipropellant rather than monopropellant. Note that the latter two are soft-deprecated as of Near Future Spacecraft 1.4.6.
 - Improved targeting of B9PartSwitch tanks to find various kinds of tanks using CryoTanks subtypes and convert them to Ignition tanks
 - Fixed the single fixed ignitor added to every bipropellant engine
