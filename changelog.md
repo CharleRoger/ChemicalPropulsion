@@ -10,6 +10,8 @@
   - Kerosene: General Rocketry → Start
   - NTO: Advanced Rocketry → Advanced Fuel Systems
 - Changed oxidizer used in OCRAP engines from NTO to IWFNA
+# 1.2.2
+- Fixed Alcoholic Aeronautics compatibility
 # 1.2.1
 - Added bespoke compatibility patches for the following mods:
   - Kerbal Reusability Expansion
