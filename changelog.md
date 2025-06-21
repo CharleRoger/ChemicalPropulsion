@@ -1,3 +1,15 @@
+# 1.3.0
+- Added IWFNA (Nitric acid) as a basic hypergolic oxidizer
+- Added bespoke compatibility patches for the following mods:
+  - Knes
+  - Tantares
+  - TantaresLV
+  - TantaresSP
+- Changed the positions of some propellant part upgrades in the tech tree to support nitric acid:
+  - Kerosene: General Rocketry → Basic Rocketry
+  - NTO: Advanced  Rocketry → Advanced Fuel Systems
+  - PBAN: Basic Rocketry → General Rocketry
+- Changed oxidizer used in OCRAP engines from NTO to IWFNA
 # 1.2.1
 - Added bespoke compatibility patches for the following mods:
   - Kerbal Reusability Expansion
