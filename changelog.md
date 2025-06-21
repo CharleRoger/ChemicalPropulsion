@@ -5,10 +5,10 @@
   - Tantares
   - TantaresLV
   - TantaresSP
-- Changed the positions of some propellant part upgrades in the tech tree to support nitric acid:
-  - Kerosene: General Rocketry → Basic Rocketry
-  - NTO: Advanced  Rocketry → Advanced Fuel Systems
-  - PBAN: Basic Rocketry → General Rocketry
+- Changed the positions of some propellant part upgrades in the tech tree to fit with new design supporting more mods:
+  - Hydrazine: Advanced Rocketry → General Rocketry
+  - Kerosene: General Rocketry → Start
+  - NTO: Advanced Rocketry → Advanced Fuel Systems
 - Changed oxidizer used in OCRAP engines from NTO to IWFNA
 # 1.2.1
 - Added bespoke compatibility patches for the following mods:
