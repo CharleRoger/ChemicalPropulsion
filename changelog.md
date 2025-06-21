@@ -5,6 +5,7 @@
   - Tantares
   - TantaresLV
   - TantaresSP
+- Updated to Chemical Core 1.2.0
 - Changed the positions of some propellant part upgrades in the tech tree to fit with new design supporting more mods:
   - Hydrazine: Advanced Rocketry → General Rocketry
   - Kerosene: General Rocketry → Start
