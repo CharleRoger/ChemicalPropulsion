@@ -6,10 +6,6 @@
 - Added bespoke compatibility patches for the following mods:
   - Benjee10's shared assets (e.g. for Shuttle Orbiter Construction Kit)
   - Kerbal Reusability Expansion
-  - Knes
-  - Tantares
-  - TantaresLV
-  - TantaresSP
   - Tundra Exploration
 - Changed RCS and tanks on Near Future Spacecraft's Amalthea, Tethys and Nereid command pods to use hypergolic bipropellant rather than monopropellant. Note that the latter two are soft-deprecated as of Near Future Spacecraft 1.4.6.
 # 1.2.0
