@@ -59,7 +59,6 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [Cryogenic Tanks (1.6.6)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
 - [Kerbal Atomics (1.3.4)](https://github.com/post-kerbin-mining-corporation/KerbalAtomics)
 - [Kerbal Reusability Expansion (2.9.3)](https://github.com/TundraMods/Kerbal-Reusability-Expansion)
-- [Knes (1.9.9)](https://github.com/AstroWell/Knes)
 - [Labradoodle (1.0.1)](https://github.com/CharleRoger/Labradoodle)
 - [MissingHistory (1.9.3)](https://spacedock.info/mod/1743/MissingHistory)
 - [Mk-33 (1.3.2)](https://github.com/Angel-125/Mk-33)
@@ -72,9 +71,6 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [Shuttle Orbiter Construction Kit (1.1.8)](https://github.com/benjee10/Shuttle-Orbiter-Construction-Kit)
 - [Supplementary Electric Engines (1.3.2)](https://forum.kerbalspaceprogram.com/topic/218397-1125-supplementary-electric-engines/)
 - [SystemHeat (0.8.1)](https://github.com/post-kerbin-mining-corporation/SystemHeat)
-- [Tantares (28.0.0)](https://github.com/Tantares/Tantares)
-- [TantaresLV (16.2.0)](https://github.com/Tantares/TantaresLV)
-- [TantaresSP (6.0.0)](https://github.com/Tantares/TantaresSP)
 - [Tundra Exploration (7.1.1)](https://github.com/TundraMods/TundraExploration)
 ### Implicit support
 - [CryoEngines Extensions (1.0.4)](https://forum.kerbalspaceprogram.com/topic/219145-112x-cryoengines-extensions-new-methane-and-hydrogen-engines-fabriqu%C3%A9-au-canada/)
