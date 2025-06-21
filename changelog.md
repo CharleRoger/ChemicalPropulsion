@@ -1,3 +1,5 @@
+# 1.2.2
+- Fixed Alcoholic Aeronautics compatibility
 # 1.2.1
 - Added bespoke compatibility patches for the following mods:
   - Kerbal Reusability Expansion
