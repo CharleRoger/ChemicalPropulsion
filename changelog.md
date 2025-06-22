@@ -1,4 +1,6 @@
 # 1.3.0
+- Updated to Chemical Core 1.2.0
+- Updated to Ignition 1.2.0
 - Added IWFNA (Nitric acid) as a basic hypergolic oxidizer
 - Added bespoke compatibility patches for the following mods:
   - Knes
@@ -6,13 +8,13 @@
   - TantaresLV
   - TantaresSP
 - Added tank mass offset computation
-- Updated to Chemical Core 1.2.0
-- Updated to Ignition 1.2.0
 - Changed the positions of some propellant part upgrades in the tech tree to fit with new design supporting more mods:
   - Hydrazine: Advanced Rocketry → General Rocketry
   - Kerosene: General Rocketry → Start
   - NTO: Advanced Rocketry → Advanced Fuel Systems
 - Changed oxidizer used in OCRAP engines from NTO to IWFNA
+- Increased thrust and/or isp of stock and Making History SRBs
+- Fixed hidden parts appearing due to VABOrganizer subcategory assignment
 # 1.2.2
 - Fixed Alcoholic Aeronautics compatibility
 # 1.2.1
