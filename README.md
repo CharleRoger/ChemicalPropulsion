@@ -50,7 +50,7 @@ This mod replaces all CryoTanks fuel switch types to Chemical Technologies tank 
 - [B9PartSwitch (2.20.0)](https://github.com/blowfishpro/B9PartSwitch)
 - [Community Resource Pack (112.0.1)](https://github.com/UmbraSpaceIndustries/CommunityResourcePack)
 - [Chemical Core (1.2.0)](https://github.com/CharleRoger/ChemicalCore)
-- [Ignition (1.2.0)](https://github.com/CharleRoger/Ignition)
+- [Ignition (1.1.2)](https://github.com/CharleRoger/Ignition)
 ## Compatibility
 Some mods are explicitly patched to work with Chemical Propulsion, while others are patched implicitly or are simply unaffected and have been found compatible.
 ### Explicit support
