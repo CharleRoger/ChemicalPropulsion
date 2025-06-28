@@ -59,6 +59,7 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [Cryogenic Tanks (1.6.6)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
 - [Kerbal Atomics (1.3.4)](https://github.com/post-kerbin-mining-corporation/KerbalAtomics)
 - [Kerbal Reusability Expansion (2.9.3)](https://github.com/TundraMods/Kerbal-Reusability-Expansion)
+- [Kerbalism (3.19)](https://github.com/Kerbalism/Kerbalism)
 - [Knes (1.9.9)](https://github.com/AstroWell/Knes)
 - [Labradoodle (1.0.1)](https://github.com/CharleRoger/Labradoodle)
 - [MissingHistory (1.9.3)](https://spacedock.info/mod/1743/MissingHistory)
