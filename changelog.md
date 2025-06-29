@@ -3,13 +3,15 @@
 - Updated to Ignition 1.2.0
 - Added IWFNA (Nitric acid) as a basic hypergolic oxidizer
 - Added bespoke compatibility patches for the following mods:
-  - Configurable Containers
   - Kerbalism
   - Knes
-  - Modular Fuel Tanks
   - Tantares
   - TantaresLV
   - TantaresSP
+- Added compatibility patches to find and replace fuel tank switches from the following mods:
+  - B9PartSwitch
+  - Configurable Containers
+  - Modular Fuel Tanks
 - Added tank mass offset computation
 - Changed the positions of some propellant part upgrades in the tech tree to fit with new design supporting more mods:
   - Hydrazine: Advanced Rocketry → General Rocketry
