@@ -72,6 +72,7 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [Near Future Launch Vehicles (2.2.2)](https://github.com/post-kerbin-mining-corporation/NearFutureLaunchVehicles)
 - [Near Future Spacecraft (1.4.4)](https://github.com/post-kerbin-mining-corporation/NearFutureSpacecraft)
 - [OCRAP (1.0.1)](https://github.com/CharleRoger/OCRAP)
+- [Procedural Parts (2.7.2.0)](https://github.com/KSP-RO/ProceduralParts)
 - [Restock and Restock+ (1.5.1)](https://github.com/PorktoberRevolution/ReStocked)
 - [Shuttle Orbiter Construction Kit (1.1.8)](https://github.com/benjee10/Shuttle-Orbiter-Construction-Kit)
 - [Supplementary Electric Engines (1.3.2)](https://forum.kerbalspaceprogram.com/topic/218397-1125-supplementary-electric-engines/)

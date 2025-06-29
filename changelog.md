@@ -5,6 +5,7 @@
 - Added bespoke compatibility patches for the following mods:
   - Kerbalism
   - Knes
+  - Procedural Parts
   - Tantares
   - TantaresLV
   - TantaresSP
