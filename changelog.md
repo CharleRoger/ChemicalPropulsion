@@ -11,6 +11,7 @@
 - Added compatibility patches to find and replace fuel tank switches from the following mods:
   - B9PartSwitch
   - Configurable Containers
+  - Firespitter
   - Modular Fuel Tanks
 - Added tank mass offset computation
 - Changed the positions of some propellant part upgrades in the tech tree to fit with new design supporting more mods:

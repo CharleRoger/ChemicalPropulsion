@@ -58,6 +58,7 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [Configurable Containers (2.6.2.1)](https://github.com/allista/ConfigurableContainers)
 - [Cryogenic Engines (2.0.8)](https://github.com/post-kerbin-mining-corporation/CryoEngines)
 - [Cryogenic Tanks (1.6.6)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
+- [Firespitter (7.17)](https://github.com/snjo/Firespitter)
 - [Kerbal Atomics (1.3.4)](https://github.com/post-kerbin-mining-corporation/KerbalAtomics)
 - [Kerbal Reusability Expansion (2.9.3)](https://github.com/TundraMods/Kerbal-Reusability-Expansion)
 - [Kerbalism (3.19)](https://github.com/Kerbalism/Kerbalism)
