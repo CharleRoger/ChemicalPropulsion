@@ -3,6 +3,7 @@
 - Updated to Ignition 1.2.0
 - Added IWFNA (Nitric acid) as a basic hypergolic oxidizer
 - Added bespoke compatibility patches for the following mods:
+  - Configurable Containers
   - Kerbalism
   - Knes
   - Tantares
