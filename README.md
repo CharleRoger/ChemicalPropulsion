@@ -64,6 +64,7 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [Knes (1.9.9)](https://github.com/AstroWell/Knes)
 - [Labradoodle (1.0.1)](https://github.com/CharleRoger/Labradoodle)
 - [MissingHistory (1.9.3)](https://spacedock.info/mod/1743/MissingHistory)
+- [Modular Fuel Tanks (5.13.1)](https://github.com/KSP-RO/RealFuels/tree/master/ModularFuelTanks)
 - [Mk-33 (1.3.2)](https://github.com/Angel-125/Mk-33)
 - [Near Future Aeronautics (2.1.2)](https://github.com/post-kerbin-mining-corporation/NearFutureAeronautics)
 - [Near Future eXploration (1.1.3)](https://github.com/post-kerbin-mining-corporation/NearFutureExploration)

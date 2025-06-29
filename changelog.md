@@ -6,6 +6,7 @@
   - Configurable Containers
   - Kerbalism
   - Knes
+  - Modular Fuel Tanks
   - Tantares
   - TantaresLV
   - TantaresSP
