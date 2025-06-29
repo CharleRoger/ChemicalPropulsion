@@ -1,6 +1,6 @@
 # 1.3.0
 - Updated to Chemical Core 1.2.0
-- Updated to Ignition 1.2.0
+- Updated to Ignition 1.1.2
 - Added IWFNA (Nitric acid) as a basic hypergolic oxidizer
 - Added bespoke compatibility patches for the following mods:
   - Kerbalism
@@ -19,6 +19,7 @@
   - Kerosene: General Rocketry → Start
   - NTO: Advanced Rocketry → Advanced Fuel Systems
 - Changed oxidizer used in OCRAP engines from NTO to IWFNA
+- Changed MonoPropellant fuel cells to use Hydrazine
 - Increased thrust and/or isp of stock and Making History SRBs
 - Fixed hidden parts appearing due to VABOrganizer subcategory assignment
 # 1.2.2
