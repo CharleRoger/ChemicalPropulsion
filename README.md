@@ -75,16 +75,17 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [Procedural Parts (2.7.2.0)](https://github.com/KSP-RO/ProceduralParts)
 - [Restock and Restock+ (1.5.1)](https://github.com/PorktoberRevolution/ReStocked)
 - [Shuttle Orbiter Construction Kit (1.1.8)](https://github.com/benjee10/Shuttle-Orbiter-Construction-Kit)
-- [Supplementary Electric Engines (1.3.2)](https://forum.kerbalspaceprogram.com/topic/218397-1125-supplementary-electric-engines/)
+- [Supplementary Electric Engines (1.3.2)](https://forum.kerbalspaceprogram.com/topic/218397-1125-supplementary-electric-engines)
 - [SystemHeat (0.8.1)](https://github.com/post-kerbin-mining-corporation/SystemHeat)
 - [Tantares (28.0.0)](https://github.com/Tantares/Tantares)
 - [TantaresLV (16.2.0)](https://github.com/Tantares/TantaresLV)
 - [TantaresSP (6.0.0)](https://github.com/Tantares/TantaresSP)
 - [Tundra Exploration (7.1.1)](https://github.com/TundraMods/TundraExploration)
+- [Universal Storage II Finalized (4.0.2.2)](https://github.com/linuxgurugamer/universal-storage-2)
 ### Implicit support
-- [CryoEngines Extensions (1.0.4)](https://forum.kerbalspaceprogram.com/topic/219145-112x-cryoengines-extensions-new-methane-and-hydrogen-engines-fabriqu%C3%A9-au-canada/)
+- [CryoEngines Extensions (1.0.4)](https://forum.kerbalspaceprogram.com/topic/219145-112x-cryoengines-extensions-new-methane-and-hydrogen-engines-fabriqu%C3%A9-au-canada)
 - [Far Future Technologies (1.4.2)](https://github.com/post-kerbin-mining-corporation/FarFutureTechnologies)
-- [Silly Photon Drives (1.1.1)](https://forum.kerbalspaceprogram.com/topic/220997-1125-silly-photon-drives/)
+- [Silly Photon Drives (1.1.1)](https://forum.kerbalspaceprogram.com/topic/220997-1125-silly-photon-drives)
 - Many more, though might do unexpected things. Let me know what else to support!
 
 ## License
