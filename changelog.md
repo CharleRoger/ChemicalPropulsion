@@ -10,6 +10,7 @@
   - TantaresLV
   - TantaresSP
   - Universal Storage II Finalized
+  - UnKerballed Start
 - Added compatibility patches to find and replace fuel tank switches from the following mods:
   - B9PartSwitch
   - Configurable Containers

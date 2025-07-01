@@ -82,9 +82,11 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [TantaresSP (6.0.0)](https://github.com/Tantares/TantaresSP)
 - [Tundra Exploration (7.1.1)](https://github.com/TundraMods/TundraExploration)
 - [Universal Storage II Finalized (4.0.2.2)](https://github.com/linuxgurugamer/universal-storage-2)
+- [UnKerballed Start (1.3.2)](https://github.com/theonegalen/UnKerballedStart)
 ### Implicit support
 - [CryoEngines Extensions (1.0.4)](https://forum.kerbalspaceprogram.com/topic/219145-112x-cryoengines-extensions-new-methane-and-hydrogen-engines-fabriqu%C3%A9-au-canada)
 - [Far Future Technologies (1.4.2)](https://github.com/post-kerbin-mining-corporation/FarFutureTechnologies)
+- [Probes Before Crew (2.93)](https://forum.kerbalspaceprogram.com/topic/181013-ksp-18-112-probes-before-crew-pbc-version-293)
 - [Silly Photon Drives (1.1.1)](https://forum.kerbalspaceprogram.com/topic/220997-1125-silly-photon-drives)
 - Many more, though might do unexpected things. Let me know what else to support!
 
