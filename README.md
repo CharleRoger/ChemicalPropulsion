@@ -59,6 +59,7 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [Cryogenic Engines (2.0.8)](https://github.com/post-kerbin-mining-corporation/CryoEngines)
 - [Cryogenic Tanks (1.6.6)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
 - [Firespitter (7.17)](https://github.com/snjo/Firespitter)
+- [Grounded - Modular Vehicles (5.0)](https://forum.kerbalspaceprogram.com/topic/171377-110x-grounded-modular-vehicles-r50-mining-modules-rotor-emergency-light-jun-5-2019) (courtesy of Ari Lana @ratemisia)
 - [Kerbal Atomics (1.3.4)](https://github.com/post-kerbin-mining-corporation/KerbalAtomics)
 - [Kerbal Reusability Expansion (2.9.3)](https://github.com/TundraMods/Kerbal-Reusability-Expansion)
 - [Kerbalism (3.19)](https://github.com/Kerbalism/Kerbalism)
@@ -84,6 +85,7 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [Universal Storage II Finalized (4.0.2.2)](https://github.com/linuxgurugamer/universal-storage-2)
 - [UnKerballed Start (1.3.2)](https://github.com/theonegalen/UnKerballedStart)
 ### Implicit support
+- [Airplane Plus (26.5)](https://forum.kerbalspaceprogram.com/topic/140262-14x-18x-airplane-plus-r264-fixed-issuesgithub-is-up-to-date-dec-21-2019) (courtesy of Ari Lana @ratemisia)
 - [CryoEngines Extensions (1.0.4)](https://forum.kerbalspaceprogram.com/topic/219145-112x-cryoengines-extensions-new-methane-and-hydrogen-engines-fabriqu%C3%A9-au-canada)
 - [Far Future Technologies (1.4.2)](https://github.com/post-kerbin-mining-corporation/FarFutureTechnologies)
 - [Probes Before Crew (2.93)](https://forum.kerbalspaceprogram.com/topic/181013-ksp-18-112-probes-before-crew-pbc-version-293)
