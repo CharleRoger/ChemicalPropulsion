@@ -3,8 +3,8 @@
 - Updated to Ignition 1.1.2
 - Added IWFNA (Nitric acid) as a basic hypergolic oxidizer
 - Added bespoke compatibility patches for the following mods:
-  - Firespitter
-  - Grounded - Modular Vehicles (courtesy of Ari Lana @ratemisia)
+  - Firespitter (with contributions from Ari Lana @ratemisia)
+  - Grounded - Modular Vehicles (with contributions from Ari Lana @ratemisia)
   - Kerbalism
   - Knes
   - Procedural Parts
