@@ -1,3 +1,5 @@
+# 1.3.1
+- Improved Firespitter engine patch
 # 1.3.0
 - Updated to Chemical Core 1.2.0
 - Updated to Ignition 1.1.2
