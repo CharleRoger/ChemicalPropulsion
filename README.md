@@ -49,6 +49,7 @@ This mod replaces all CryoTanks fuel switch types to Chemical Technologies tank 
 - [Community Resource Pack (112.0.1)](https://github.com/UmbraSpaceIndustries/CommunityResourcePack)
 - [Chemical Core (1.2.0)](https://github.com/CharleRoger/ChemicalCore)
 - [Ignition (1.1.2)](https://github.com/CharleRoger/Ignition)
+- [Space Dust Next (3.0.0)](https://github.com/NerdyBoy709/SpaceDustNext) (only if using [Space Dust](https://github.com/post-kerbin-mining-corporation/SpaceDust))
 ## Compatibility
 ### Recommended
 The following mods are recommended to make the most of core set of propellants.
