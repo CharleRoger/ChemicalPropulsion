@@ -1,3 +1,11 @@
+# 1.4.0
+- Added part upgrade activation system which keeps part upgrades and associated switch subtypes hidden if unused
+- Added Extras/ChemicalPropulsionExotics, absorbed from now-deprecated Chemical Exotics
+- Added hypergolic propellants to Alcoholic Aeronautics engines
+- Updated to Chemical Core 1.3.0
+- Improved VABOrganizer subtype assignment
+- Changed propellant tagging system to use separate `chemTechPropellant`, `chemTechFuel` and `chemTechOxidizer` fields
+  - This fixes various propellant subtype ordering issues causing the wrong propellant to be selected to represent the default stats of engines and RCS
 # 1.3.1
 - Improved Firespitter engine patch
 - Added support for Breaking Ground's `ModuleRoboticServoRotor`
