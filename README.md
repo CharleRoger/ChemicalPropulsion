@@ -83,9 +83,9 @@ Engines and RCS can easily be patched to replace their propellants with one of t
 ## Dependencies
 
 - [ModuleManager (4.2.3)](https://github.com/sarbian/ModuleManager)
-- [B9PartSwitch (2.20.0)](https://github.com/blowfishpro/B9PartSwitch)
+- [B9PartSwitch (2.21.0.1)](https://github.com/KSPModStewards/B9PartSwitch)
 - [Community Resource Pack (112.0.1)](https://github.com/UmbraSpaceIndustries/CommunityResourcePack)
-- [Chemical Core (1.2.0)](https://github.com/CharleRoger/ChemicalCore)
+- [Chemical Core (1.3.0)](https://github.com/CharleRoger/ChemicalCore)
 - [Ignition (1.1.2)](https://github.com/CharleRoger/Ignition)
 
 ## Compatibility
