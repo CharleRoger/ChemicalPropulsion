@@ -49,9 +49,9 @@ This mod replaces all CryoTanks fuel switch types to Chemical Technologies tank 
 Four additional exotic propellants — Pentaborane, Diborane, LqdFluorine and N2F4 — are supported by Chemical Propulsion but are not currently implemented anywhere in the basic setup. In the future, some mods may be patched to make use of these propellants, but for now they are only usable via the opt-in patches provided which add exotic subtypes to the default engine configurations.
 
 ### Configuration
-Engines and RCS can easily be patched to replace their propellants with one of the supported resources by setting one or more `chemTechPropellant` fields on the module, the values of which are strings composed of a propellant type and a resource name:
+Engines and RCS can easily be patched to replace their propellants with one of the supported resources by setting one or more `chemTechPropellant`, `chemTechFuel` or `chemTechOxidizer` fields on the module, the values of which are a resource name:
 
-- `fuel`: A fuel which should be paired with an oxidizer or used in an air-breathing engine.
+- `chemTechFuel`: A fuel which should be paired with an oxidizer or used in an air-breathing engine.
   - `Ethanol`
   - `Kerosene`
   - `LqdAmmonia`
@@ -60,14 +60,14 @@ Engines and RCS can easily be patched to replace their propellants with one of t
   - `LqdHydrogen`
   - `Pentaborane`
   - `Diborane`
-- `oxidizer`: An oxidizer which should be paired with a fuel. Supported resource names:
+- `chemTechOxidizer`: An oxidizer which should be paired with a fuel. Supported resource names:
   - `LqdOxygen`
   - `IWFNA`
   - `HTP`
   - `NTO`
   - `LqdFluorine`
   - `N2F4`
-- `propellant`: A single propellant which should not be combined with any specified fuel or oxidizer. All above resources are supported.
+- `chemTechPropellant`: A single propellant which should not be combined with any specified fuel or oxidizer. All above resources are supported.
 
 ```
 @PART[partName]:BEFORE[zz_ChemicalPropulsion]
