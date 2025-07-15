@@ -2,6 +2,9 @@
 - Added part upgrade activation system which keeps part upgrades and associated switch subtypes hidden if unused
 - Added Extras/ChemicalPropulsionExotics, absorbed from now-deprecated Chemical Exotics
 - Added hypergolic propellant options to Alcoholic Aeronautics engines
+- Added bespoke compatibility patches for the following mods:
+  - CRE (Commonwealth Rockets)
+  - BlueSteel (Commonwealth Aeronautics)
 - Updated to Chemical Core 1.3.0
 - Improved VABOrganizer subtype assignment
 - Changed propellant tagging system to use separate `chemTechPropellant`, `chemTechFuel` and `chemTechOxidizer` fields

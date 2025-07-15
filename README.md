@@ -106,6 +106,8 @@ The following mods are recommended to make the most of core set of propellants.
 ### Suggested
 I would also suggest at least a couple of these mods for more bipropellant rockets and useful tanks, or all of them if you like having hundreds of parts.
 
+- [BlueSteel (1.3)](https://github.com/AstroWell/BlueSteel)
+- [CRE (2.3)](https://github.com/Tantares/CRE)
 - [CryoEngines Extensions (1.0.4)](https://forum.kerbalspaceprogram.com/topic/219145-112x-cryoengines-extensions-new-methane-and-hydrogen-engines-fabriqu%C3%A9-au-canada)
 - [Knes (1.9.9)](https://github.com/AstroWell/Knes)
 - [Near Future Aeronautics (2.1.2)](https://github.com/post-kerbin-mining-corporation/NearFutureAeronautics)
