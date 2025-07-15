@@ -86,7 +86,7 @@ Engines and RCS can easily be patched to replace their propellants with one of t
 - [B9PartSwitch (2.21.0.1)](https://github.com/KSPModStewards/B9PartSwitch)
 - [Community Resource Pack (112.0.1)](https://github.com/UmbraSpaceIndustries/CommunityResourcePack)
 - [Chemical Core (1.3.0)](https://github.com/CharleRoger/ChemicalCore)
-- [Ignition (1.1.2)](https://github.com/CharleRoger/Ignition)
+- [Ignition (1.1.3)](https://github.com/CharleRoger/Ignition)
 - [Space Dust Next (3.0.0)](https://github.com/NerdyBoy709/SpaceDustNext) (only if using [Space Dust](https://github.com/post-kerbin-mining-corporation/SpaceDust))
 
 ## Compatibility

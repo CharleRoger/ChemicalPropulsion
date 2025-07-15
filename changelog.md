@@ -6,6 +6,7 @@
   - CRE (Commonwealth Rockets)
   - BlueSteel (Commonwealth Aeronautics)
 - Updated to Chemical Core 1.3.0
+- Updated to Ignition 1.1.3
 - Improved VABOrganizer subtype assignment
 - Improved part title replacement
 - Improved patching of engines and RCS using SolidFuel
