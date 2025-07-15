@@ -13,6 +13,7 @@
   - Fixes lack of tanks on parts with air intakes
 - Changed propellant tagging system to use separate `chemTechPropellant`, `chemTechFuel` and `chemTechOxidizer` fields
   - Fixes various propellant subtype ordering issues causing the wrong propellant to be selected to represent the default stats of engines and RCS
+- Changed aviation fuel tanks to only contain jet fuels (Kerosene, LqdHydrogen, Kerosene)
 - Changed Labradoodle's RE-L20 "Labrador" from hypergolic to kerolox
 - Changed tech tree position for Making History's RK-7 "Kodiak" / ReStockPlus' RK-107 'Ursa' from Heavy Rocketry to Advanced Rocketry
 - Changed default propellant for Supplementary Electric Engines' electrothermal engines to Hydrazine
