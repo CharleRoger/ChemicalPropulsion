@@ -9,8 +9,9 @@
 - Improved VABOrganizer subtype assignment
 - Improved patching of engines and RCS using SolidFuel
   - Fixes Near Future Propulsion's KO-1 Pulsed Plasma RCS Thruster
-- Improved tank patching
+- Improved various aspects of tank patching
   - Fixes lack of tanks on parts with air intakes or electric charge
+  - Fixes lack of "none" type on tanks with an unrelated engine, e.g. the FL-C1000
 - Changed propellant tagging system to use separate `chemTechPropellant`, `chemTechFuel` and `chemTechOxidizer` fields
   - Fixes various propellant subtype ordering issues causing the wrong propellant to be selected to represent the default stats of engines and RCS
 - Changed aviation fuel tanks to only contain jet fuels (Kerosene, LqdHydrogen, Kerosene)
