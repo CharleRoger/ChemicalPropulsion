@@ -7,7 +7,8 @@
   - BlueSteel (Commonwealth Aeronautics)
 - Updated to Chemical Core 1.3.0
 - Improved VABOrganizer subtype assignment
-- Changed Labradoodle's RE-L20 "Labrador" engine from hypergolic to kerolox
+- Changed Labradoodle's RE-L20 "Labrador" from hypergolic to kerolox
+- Changed tech tree position for Making History's RK-7 "Kodiak" / ReStockPlus's RK-107 'Ursa' from Heavy Rocketry to Advanced Rocketry
 - Changed propellant tagging system to use separate `chemTechPropellant`, `chemTechFuel` and `chemTechOxidizer` fields
   - This fixes various propellant subtype ordering issues causing the wrong propellant to be selected to represent the default stats of engines and RCS
 # 1.3.1
