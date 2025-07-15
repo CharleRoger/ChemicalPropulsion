@@ -9,6 +9,7 @@
 - Updated to Ignition 1.1.3
 - Improved VABOrganizer subtype assignment
 - Improved part title replacement
+- Improved propellant subtype priority ordering
 - Improved patching of engines and RCS using SolidFuel
   - Fixes Near Future Propulsion's KO-1 Pulsed Plasma RCS Thruster
 - Improved various aspects of tank patching
