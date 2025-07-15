@@ -14,6 +14,27 @@
 - Changed propellant tagging system to use separate `chemTechPropellant`, `chemTechFuel` and `chemTechOxidizer` fields
   - Fixes various propellant subtype ordering issues causing the wrong propellant to be selected to represent the default stats of engines and RCS
 - Changed aviation fuel tanks to only contain jet fuels (Kerosene, LqdHydrogen, Kerosene)
+- Changed configuration of some stock engines:
+  - RE-M3 "Mainsail"
+    - Isp: 285-310s → 300-330s
+  - Mk-55 "Thud"
+    - Kerosene-HTP → Kerolox
+  - LV-1 "Ant", LV-1R "Spider", 48-7S "Spark", 24-77 "Twitch"
+    - Kerosene-HTP → Hypergolic
+  - LV-909 "Terrier"
+    - Kerolox → Hypergolic
+	- Isp 85-345s → 85-315s
+  - RE-I5 "Skipper"
+    - Kerolox → Hydrolox
+    - Isp: 280-320s → 350-445s
+	- Thrust: 650kN → 325kN
+  - CR-7 R.A.P.I.E.R.
+    - Air-breathing:
+      - Kerosene → LqdHydrogen
+	  - Isp: 3200s → 3600s
+	- Closed-cycle:
+	  - Kerolox → Hydrolox
+	  - Isp: 275-305s → 350-460s
 - Changed Labradoodle's RE-L20 "Labrador" from hypergolic to kerolox
 - Changed tech tree position for Making History's RK-7 "Kodiak" / ReStockPlus' RK-107 'Ursa' from Heavy Rocketry to Advanced Rocketry
 - Changed default propellant for Supplementary Electric Engines' electrothermal engines to Hydrazine
