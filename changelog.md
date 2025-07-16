@@ -1,3 +1,5 @@
+# 1.4.0.1
+- Fixed Universal Storage II Finalized compatibility
 # 1.4.0
 - Added part upgrade activation system which keeps part upgrades and associated switch subtypes hidden if unused
 - Added Extras/ChemicalPropulsionExotics, absorbed from now-deprecated Chemical Exotics
