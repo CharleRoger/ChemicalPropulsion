@@ -1,3 +1,5 @@
+# 1.4.0.2
+- Actually fixed Universal Storage II Finalized compatibility
 # 1.4.0.1
 - Fixed Universal Storage II Finalized compatibility
 # 1.4.0
