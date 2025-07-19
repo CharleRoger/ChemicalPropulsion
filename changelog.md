@@ -5,6 +5,7 @@
   - Slightly nerfed LqdMethane and LqdAmmonia thrust when used in thermal rockets
 - Added ChemicalPropulsionNuclear extra which adds Water, LqdCO2, LqdCO and LqdNitrogen options to NTRs and cryogenic tanks
 - Fixed LOX-augmented NTR propellant switches
+- Fixed Kerbal Atomics `MultiModeEngine` patch interfering with NTR propellant assignment
 # 1.4.0.2
 - Actually fixed Universal Storage II Finalized compatibility
 # 1.4.0.1
