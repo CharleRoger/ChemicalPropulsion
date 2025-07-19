@@ -45,9 +45,6 @@ Liquid fuel jet engines use `Kerosene`, with the rocket mode of multimodal engin
 ### CryoTanks changes
 This mod replaces all CryoTanks fuel switch types to Chemical Technologies tank types. One particular feature of this is the removal of CryoTanks' native 1.5x hydrogen packing density buff, which not-insignificantly affects the use of LqdHydrogen in the game. This is not just an arbitrary change purely motivated by realism. The ~14% higher density of LqdOxygen over Oxidizer and adjusted methalox mixture ratio (higher oxidizer mass fraction) make cryogenic bipropellants much more attractive, removing the need for any sneaky volume buffs in chemical rockets. Hydrolox suffers a little bit, but I've found this actually balances better against their high Isp. Nuclear engines naturally suffer the most, but again, these engines are very high Isp and it should really be expected that you'd need to haul massive tanks everywhere. I've always wanted my CryoTanks to be bigger, personally.
 
-### Exotic propellants
-Four additional exotic propellants — Pentaborane, Diborane, LqdFluorine and N2F4 — are supported by Chemical Propulsion but are not currently implemented anywhere in the basic setup. In the future, some mods may be patched to make use of these propellants, but for now they are only usable via the opt-in patches provided which add exotic subtypes to the default engine configurations.
-
 ### Configuration
 Engines and RCS can easily be patched to replace their propellants with one of the supported resources by setting one or more `chemTechPropellant`, `chemTechFuel` or `chemTechOxidizer` fields on the module, the values of which are a resource name:
 
@@ -69,16 +66,41 @@ Engines and RCS can easily be patched to replace their propellants with one of t
   - `N2F4`
 - `chemTechPropellant`: A single propellant which should not be combined with any specified fuel or oxidizer. All above resources are supported.
 
+For example, the following patch converts a multimode engine with a pure LiquidFuel mode and a LiquidFuel-Oxidizer mode to use LqdHydrogen and LqdOxygen:
 ```
 @PART[partName]:BEFORE[zz_ChemicalPropulsion]
 {
-	@MODULE[ModuleEngines*]
+	@MODULE[ModuleEngines*]:HAS[@PROPELLANT[LiquidFuel],!PROPELLANT[Oxidizer]]
 	{
-		// Single propellants
-		chemTechPropellant = propellantLqdHydrogen // fuelKerosene, oxidizerLqdOxygen etc.
+		chemTechPropellant = LqdHydrogen
+	}
+
+	@MODULE[ModuleEngines*]:HAS[@PROPELLANT[LiquidFuel],@PROPELLANT[Oxidizer]]
+	{
+		chemTechFuel = LqdHydrogen
+		chemTechOxidizer = LqdOxygen
 	}
 }
 ```
+
+## Extras
+Some patches for additional propellant options are provided in the Extras folder.
+
+### Exotics
+Adds four exotic propellants which are unlocked late in the tech tree and can replace certain conventional propellants for increased thrust and Isp:
+
+- `Pentaborane` - Can be used in place of Hydrazine as a hypergolic fuel or Kerosene as a jet fuel
+- `Diborane` - Can be used in place of LqdMethane as a cryogenic fuel
+- `N2F4` - Can be used in place of NTO as a hypergolic cryogenic oxidizer
+- `LqdFluorine` - Can be used in place of LqdOxygen as a cryogenic oxidizer
+
+### Nuclear
+Adds four high-thrust, low-Isp propellant options to nuclear thermal rockets (multipliers vs. LqdHydrogen):
+
+- `Water` - +92% thrust, -58% Isp
+- `LqdCO2` - +142% thrust, -69% Isp
+- `LqdCO` - +158% thrust, -72% Isp
+- `LqdNitrogen` - +158% thrust, -72% Isp
 
 ## Dependencies
 
