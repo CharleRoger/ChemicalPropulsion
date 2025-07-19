@@ -4,6 +4,7 @@
   - Disabled LqdMethane and LqdAmmonia options in stock. These are enabled by the presence of any compatible mod using these resources
   - Slightly nerfed LqdMethane and LqdAmmonia thrust when used in thermal rockets
 - Added ChemicalPropulsionNuclear extra which adds Water, LqdCO2, LqdCO and LqdNitrogen options to NTRs and cryogenic tanks
+- Fixed LOX-augmented NTR propellant switches
 # 1.4.0.2
 - Actually fixed Universal Storage II Finalized compatibility
 # 1.4.0.1
