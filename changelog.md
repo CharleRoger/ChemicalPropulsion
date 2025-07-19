@@ -1,12 +1,15 @@
 # 1.4.1
+- Updated to Chemical Core 1.3.1
 - Changes to thermal rocket propellants:
   - Changed subtype ordering from LqdAmmonia / LqdMethane / LqdHydrogen to LqdHydrogen / LqdMethane / LqdAmmonia
   - Disabled LqdMethane and LqdAmmonia options in stock. These are enabled by the presence of any compatible mod using these resources
   - Slightly nerfed LqdMethane and LqdAmmonia thrust when used in thermal rockets
+- Deactivated nitric acid subtypes when there is no using mod present (currently Tantares or Knes)
 - Added ChemicalPropulsionNuclear extra which adds Water, LqdCO2, LqdCO and LqdNitrogen options to NTRs and cryogenic tanks
 - Fixed LOX-augmented NTR propellant switches
 - Fixed Kerbal Atomics `MultiModeEngine` patch interfering with NTR propellant assignment
 - Fixed Chemical Propulsion Exotics assignment of Pentaborane option to Kerosene jet engines
+- Fixed Near Future Launch Vehicles' bipropellant RCS to use NTO as the default oxidizer for stats computation
 # 1.4.0.2
 - Actually fixed Universal Storage II Finalized compatibility
 # 1.4.0.1
