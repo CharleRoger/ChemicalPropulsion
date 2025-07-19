@@ -1,4 +1,5 @@
 # 1.4.1
+- Updated to Chemical Core 1.3.1
 - Changes to thermal rocket propellants:
   - Changed subtype ordering from LqdAmmonia / LqdMethane / LqdHydrogen to LqdHydrogen / LqdMethane / LqdAmmonia
   - Disabled LqdMethane and LqdAmmonia options in stock. These are enabled by the presence of any compatible mod using these resources
