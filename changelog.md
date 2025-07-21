@@ -2,11 +2,12 @@
 - Updated to Chemical Core 1.3.1
 - Updated to Ignition 1.1.4
 - Added Aniline as a basic hypergolic fuel to pair with nitric acid. This is currently used only by Taerobee and Tantares
-- Added ChemicalPropulsionNuclear extra which adds Water, LqdCO2, LqdCO and LqdNitrogen options to NTRs and cryogenic tanks
-- Deactivated IWFNA (nitric acid), LqdMethane and LqdAmmonia subtypes when there is no using mod present
+- Added Chemical Propulsion Nuclear extra which adds Water, LqdCO2, LqdCO and LqdNitrogen options to NTRs and cryogenic tanks
+- Moved tank subtype handling from extras to main patches to support third party activation
 - Changed propellant subtype ordering from LqdAmmonia > LqdMethane > LqdHydrogen to LqdHydrogen > LqdMethane > LqdAmmonia
 - Changed oxidizer subtype ordering from IWFNA > NTO to NTO > IWFNA
 - Slightly nerfed LqdMethane and LqdAmmonia thrust when used in thermal rockets
+- Deactivated IWFNA (nitric acid), LqdMethane and LqdAmmonia subtypes when there is no using mod present
 - Fixed LOX-augmented NTR propellant switches
 - Fixed Kerbal Atomics `MultiModeEngine` patch interfering with NTR propellant assignment
 - Fixed Chemical Propulsion Exotics assignment of Pentaborane option to Kerosene jet engines
