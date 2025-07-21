@@ -134,6 +134,7 @@ I would also suggest at least a couple of these mods for more bipropellant rocke
 - [Near Future Aeronautics (2.1.2)](https://github.com/post-kerbin-mining-corporation/NearFutureAeronautics)
 - [Near Future eXploration (1.1.3)](https://github.com/post-kerbin-mining-corporation/NearFutureExploration)
 - [OCRAP (1.0.1)](https://github.com/CharleRoger/OCRAP)
+- [Taerobee (1.4.3.0)](https://github.com/zer0Kerbal/Taerobee)
 - [Tantares (28.0.0)](https://github.com/Tantares/Tantares)
 - [TantaresLV (16.2.0)](https://github.com/Tantares/TantaresLV)
 - [TantaresSP (6.0.0)](https://github.com/Tantares/TantaresSP)

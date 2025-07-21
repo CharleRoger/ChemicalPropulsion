@@ -2,7 +2,8 @@
 - Updated to Chemical Core 1.3.1
 - Updated to Ignition 1.1.4
 - Added Aniline as a basic hypergolic fuel to pair with nitric acid
-- Added Chemical Propulsion Hypergolics extra which adds Aniline and IWFNA as lower-tech alternatives to Hydrazine and NTO in all hypergolic engines. These propellants are also configured in various particular mod engines without requiring this extra.
+- Added Chemical Propulsion Hypergolics extra which adds Aniline and IWFNA as lower-tech alternatives to Hydrazine and NTO in all hypergolic engines. These propellants are also configured in various particular mod engines without requiring this extra
+- Added Taerobee compatibility
 - Added Chemical Propulsion Nuclear extra which adds Water, LqdCO2, LqdCO and LqdNitrogen options to NTRs and cryogenic tanks
 - Moved tank subtype handling from extras to main patches to support third party activation
 - Changed propellant subtype ordering from LqdAmmonia > LqdMethane > LqdHydrogen to LqdHydrogen > LqdMethane > LqdAmmonia
