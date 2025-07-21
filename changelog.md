@@ -1,5 +1,6 @@
 # 1.4.1
 - Updated to Chemical Core 1.3.1
+- Updated to Ignition 1.1.4
 - Deactivated IWFNA (nitric acid), LqdMethane and LqdAmmonia subtypes when there is no using mod present
 - Changed propellant subtype ordering from LqdAmmonia > LqdMethane > LqdHydrogen to LqdHydrogen > LqdMethane > LqdAmmonia
 - Changed oxidizer subtype ordering from IWFNA > NTO to NTO > IWFNA
