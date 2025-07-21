@@ -85,6 +85,12 @@ For example, the following patch converts a multimode engine with a pure LiquidF
 ## Extras
 Some patches for additional propellant options are provided in the Extras folder.
 
+### Keroxide
+Adds HTP as an oxidizer option to all kerolox engines, which is more expensive and yields slightly lower Isp than LqdOxygen, but has two main advantages:
+
+- An ignition mechanism is not required as the hot gases produced by the catalytic decomposition of HTP ignite on contact with Kerosene
+- HTP is much denser than LqdOxygen and has a higher oxidizer-fuel mixture ratio with Kerosene, so the volumetric impulse is actually slightly higher than that of kerolox
+
 ### Exotics
 Adds four exotic propellants which are unlocked late in the tech tree and can replace certain conventional propellants for increased thrust and Isp:
 
