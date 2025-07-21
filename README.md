@@ -116,7 +116,7 @@ The following mods are recommended to make the most of core set of propellants.
 
 - [Alcoholic Aeronautics (1.0.0)](https://github.com/CharleRoger/AlcoholicAeronautics)
 - [Cryogenic Engines (2.0.8)](https://github.com/post-kerbin-mining-corporation/CryoEngines)
-- [Cryogenic Tanks (1.6.6)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
+- [Cryogenic Tanks (1.6.7)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
 - [Kerbal Atomics (1.3.4)](https://github.com/post-kerbin-mining-corporation/KerbalAtomics)
 - [Labradoodle (1.0.1)](https://github.com/CharleRoger/Labradoodle)
 - [Near Future Launch Vehicles (2.2.2)](https://github.com/post-kerbin-mining-corporation/NearFutureLaunchVehicles)
@@ -156,7 +156,7 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [Procedural Parts (2.7.2.0)](https://github.com/KSP-RO/ProceduralParts)
 - [Shuttle Orbiter Construction Kit (1.1.8)](https://github.com/benjee10/Shuttle-Orbiter-Construction-Kit)
 - [Silly Photon Drives (1.1.1)](https://forum.kerbalspaceprogram.com/topic/220997-1125-silly-photon-drives)
-- [SystemHeat (0.8.1)](https://github.com/post-kerbin-mining-corporation/SystemHeat)
+- [SystemHeat (0.8.4)](https://github.com/post-kerbin-mining-corporation/SystemHeat)
 - [Tundra Exploration (7.1.1)](https://github.com/TundraMods/TundraExploration)
 - [UnKerballed Start (1.3.2)](https://github.com/theonegalen/UnKerballedStart)
 - [VABOrganizer (1.1.0)](https://github.com/post-kerbin-mining-corporation/VABOrganizer)
