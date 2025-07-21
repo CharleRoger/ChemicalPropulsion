@@ -135,6 +135,7 @@ The following mods are recommended to make the most of core set of propellants.
 - [Near Future Spacecraft (1.4.4)](https://github.com/post-kerbin-mining-corporation/NearFutureSpacecraft)
 - [Restock and Restock+ (1.5.1)](https://github.com/PorktoberRevolution/ReStocked)
 - [Supplementary Electric Engines (1.3.2)](https://forum.kerbalspaceprogram.com/topic/218397-1125-supplementary-electric-engines)
+- [VABOrganizer (1.1.0)](https://github.com/post-kerbin-mining-corporation/VABOrganizer)
 
 ### Suggested
 I would also suggest at least a couple of these mods for more bipropellant rockets and useful tanks, or all of them if you like having hundreds of parts.
@@ -172,7 +173,6 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [SystemHeat (0.8.2)](https://github.com/post-kerbin-mining-corporation/SystemHeat)
 - [Tundra Exploration (7.1.1)](https://github.com/TundraMods/TundraExploration)
 - [UnKerballed Start (1.3.2)](https://github.com/theonegalen/UnKerballedStart)
-- [VABOrganizer (1.1.0)](https://github.com/post-kerbin-mining-corporation/VABOrganizer)
 - Many more, though might do unexpected things. Let me know what else to support!
 
 ## License
