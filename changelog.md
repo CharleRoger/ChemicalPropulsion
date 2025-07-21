@@ -8,6 +8,7 @@
 - Moved tank subtype handling from extras to main patches to support third party activation
 - Changed propellant subtype ordering from LqdAmmonia > LqdMethane > LqdHydrogen to LqdHydrogen > LqdMethane > LqdAmmonia
 - Changed oxidizer subtype ordering from IWFNA > NTO to NTO > IWFNA
+- Changed Procedural Parts SRB tech level to "Basic Rocketry"
 - Slightly nerfed LqdMethane and LqdAmmonia thrust when used in thermal rockets
 - Deactivated IWFNA (nitric acid), LqdMethane and LqdAmmonia subtypes when there is no using mod present
 - Fixed LOX-augmented NTR propellant switches
