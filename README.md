@@ -91,6 +91,12 @@ Adds HTP as an oxidizer option to all kerolox engines, which is more expensive a
 - An ignition mechanism is not required as the hot gases produced by the catalytic decomposition of HTP ignite on contact with Kerosene
 - HTP is much denser than LqdOxygen and has a higher oxidizer-fuel mixture ratio with Kerosene, so the volumetric impulse is actually slightly higher than that of kerolox
 
+### Hypergolics
+Adds an alternative pair of cheaper, lower-performance fuel and oxidizer to all hypergolic engines:
+
+- `Aniline` - Low-tech alternative to Hydrazine
+- `IWFNA` (Nitric acid) - Low-tech alternative to NTO
+
 ### Exotics
 Adds four exotic propellants which are unlocked late in the tech tree and can replace certain conventional propellants for increased thrust and Isp:
 
