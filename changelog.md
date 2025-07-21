@@ -1,5 +1,5 @@
 # 1.5.0
-- Updated to Chemical Core 1.3.1
+- Updated to Chemical Core 1.4.0
 - Updated to Ignition 1.1.4
 - Added Aniline as a basic hypergolic fuel to pair with nitric acid
 - Added Taerobee compatibility
