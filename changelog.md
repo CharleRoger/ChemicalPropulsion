@@ -1,4 +1,4 @@
-# 1.4.1
+# 1.5.0
 - Updated to Chemical Core 1.3.1
 - Updated to Ignition 1.1.4
 - Added Aniline as a basic hypergolic fuel to pair with nitric acid
@@ -6,6 +6,18 @@
 - Added Taerobee compatibility
 - Added Chemical Propulsion Nuclear extra which adds Water, LqdCO2, LqdCO and LqdNitrogen options to NTRs and cryogenic tanks
 - Moved tank subtype handling from extras to main patches to support third party activation
+- Changed configuration of former-keroxide stock and ReStock+ engines:
+  - LV-T30 "Reliant"
+    - Keroxide → Kerolox
+    - Isp: 265-310s → 260-295s
+  - LV-T45 "Swivel"
+    - Keroxide → Kerolox
+    - Isp: 250-320s → 220-315s
+	- Thrust: 215kN → 150kN
+  - LV-T15 'Valiant'
+    - Keroxide → Kerolox
+  - LV-303 'Pug'
+    - Keroxide → Hypergolic
 - Changed propellant subtype ordering from LqdAmmonia > LqdMethane > LqdHydrogen to LqdHydrogen > LqdMethane > LqdAmmonia
 - Changed oxidizer subtype ordering from IWFNA > NTO to NTO > IWFNA
 - Changed Procedural Parts SRB tech level to "Basic Rocketry"
