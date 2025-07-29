@@ -1,3 +1,6 @@
+# 1.5.1
+- Added Space Dust compatibility
+  - Space Dust Next is required for new propellant distributions, scanning and harvesting
 # 1.5.0
 - Updated to Chemical Core 1.4.0
 - Updated to Ignition 1.1.4
