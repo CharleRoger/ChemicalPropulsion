@@ -1,4 +1,5 @@
 # 1.5.1
+- Updated to Ignition 1.2.0.1
 - Added Space Dust compatibility
   - Space Dust Next is required for new propellant distributions, scanning and harvesting
 - Changed default catch-all bipropellant type for not-explicitly-supported engines to kerolox
