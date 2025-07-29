@@ -1,6 +1,7 @@
 # 1.5.1
 - Added Space Dust compatibility
   - Space Dust Next is required for new propellant distributions, scanning and harvesting
+- Changed default catch-all bipropellant type for not-explicitly-supported engines to kerolox
 # 1.5.0
 - Updated to Chemical Core 1.4.0
 - Updated to Ignition 1.1.4
