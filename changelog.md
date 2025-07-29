@@ -8,6 +8,7 @@
   - Ursa (Crew pod and spaceship parts)
 - Changed default catch-all bipropellant type for not-explicitly-supported engines to kerolox
 - Fixed "Keroxide" part title replacement overriding "Kerolox"
+- Fixed Near Future Launch Vehicles' monopropellant RCS being wrongly assigned hypergolics
 # 1.5.0
 - Updated to Chemical Core 1.4.0
 - Updated to Ignition 1.1.4
