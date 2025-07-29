@@ -176,6 +176,7 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [SystemHeat (0.8.2)](https://github.com/post-kerbin-mining-corporation/SystemHeat)
 - [Tundra Exploration (7.1.1)](https://github.com/TundraMods/TundraExploration)
 - [UnKerballed Start (1.3.2)](https://github.com/theonegalen/UnKerballedStart)
+- [Ursa (Crew pod and spaceship parts) (1.0)](https://forum.kerbalspaceprogram.com/topic/227652-ursa-crew-pod-and-spaceship-parts)
 - Many more, though might do unexpected things. Let me know what else to support!
 
 ## License
