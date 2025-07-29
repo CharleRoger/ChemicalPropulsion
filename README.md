@@ -134,6 +134,7 @@ The following mods are recommended to make the most of core set of propellants.
 - [Near Future Launch Vehicles (2.2.2)](https://github.com/post-kerbin-mining-corporation/NearFutureLaunchVehicles)
 - [Near Future Spacecraft (1.4.4)](https://github.com/post-kerbin-mining-corporation/NearFutureSpacecraft)
 - [Restock and Restock+ (1.5.1)](https://github.com/PorktoberRevolution/ReStocked)
+- [Space Dust (0.5.5)](https://github.com/post-kerbin-mining-corporation/SpaceDust)
 - [Supplementary Electric Engines (1.3.2)](https://forum.kerbalspaceprogram.com/topic/218397-1125-supplementary-electric-engines)
 - [VABOrganizer (1.1.0)](https://github.com/post-kerbin-mining-corporation/VABOrganizer)
 
@@ -147,7 +148,6 @@ I would also suggest at least a couple of these mods for more bipropellant rocke
 - [Near Future Aeronautics (2.1.2)](https://github.com/post-kerbin-mining-corporation/NearFutureAeronautics)
 - [Near Future eXploration (1.1.3)](https://github.com/post-kerbin-mining-corporation/NearFutureExploration)
 - [OCRAP (1.0.1)](https://github.com/CharleRoger/OCRAP)
-- [Space Dust (0.5.5)](https://github.com/post-kerbin-mining-corporation/SpaceDust)
 - [Taerobee (1.4.3.0)](https://github.com/zer0Kerbal/Taerobee)
 - [Tantares (28.0.0)](https://github.com/Tantares/Tantares)
 - [TantaresLV (16.2.0)](https://github.com/Tantares/TantaresLV)
@@ -169,6 +169,7 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [Mk-33 (1.3.2)](https://github.com/Angel-125/Mk-33)
 - [Probes Before Crew (2.93)](https://forum.kerbalspaceprogram.com/topic/181013-ksp-18-112-probes-before-crew-pbc-version-293)
 - [Procedural Parts (2.7.2.0)](https://github.com/KSP-RO/ProceduralParts)
+- [Rocket Motor Menagerie (1.1.2)](https://github.com/EStreetRockets/RocketMotorMenagerie)
 - [Shuttle Orbiter Construction Kit (1.1.8)](https://github.com/benjee10/Shuttle-Orbiter-Construction-Kit)
 - [Silly Photon Drives (1.1.1)](https://forum.kerbalspaceprogram.com/topic/220997-1125-silly-photon-drives)
 - [SystemHeat (0.8.2)](https://github.com/post-kerbin-mining-corporation/SystemHeat)

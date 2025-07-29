@@ -1,7 +1,9 @@
 # 1.5.1
 - Updated to Ignition 1.2.0.1
-- Added explicit Space Dust compatibility patch which removes stock propellants from all scanners, telescopes and harvesters
-  - Space Dust Next is essentially required for playability
+- Added explicit compatibility patches for the following mods:
+  - Rocket Motor Menagerie
+  - Space Dust (removes stock propellants from all scanners, telescopes and harvesters)
+    - Space Dust Next is essentially required for playability
 - Changed default catch-all bipropellant type for not-explicitly-supported engines to kerolox
 - Fixed "Keroxide" part title replacement overriding "Kerolox"
 # 1.5.0
