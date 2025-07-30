@@ -7,6 +7,7 @@
     - Space Dust Next is essentially required for playability
   - Ursa (Crew pod and spaceship parts)
 - Changed default catch-all bipropellant type for not-explicitly-supported engines to kerolox
+- Moved non-stock-configured propellant tagging outside of core patches so these options won't show up in sandbox mode
 - Fixed "Keroxide" part title replacement overriding "Kerolox"
 - Fixed Near Future Launch Vehicles' monopropellant RCS being wrongly assigned hypergolics
 # 1.5.0
