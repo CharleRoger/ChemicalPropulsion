@@ -7,6 +7,12 @@
   - Space Dust (removes stock propellants from all scanners, telescopes and harvesters)
     - Space Dust Next is essentially required for playability
   - Ursa (Crew pod and spaceship parts)
+- Added more detailed stats and propellant types to propellant part upgrade descriptions:
+  - Storable = Can be stored in a conventional tank
+  - Cryogenic = Requires CryoTanks cooling
+  - Exotic = Unconventional, dangerous. Right now this basically just means *expensive*
+  - Hypergolic = Hypergolic with other hypergolic propellants
+  - Super-hypergolic = Hypergolic with everything
 - Changed default catch-all bipropellant type for not-explicitly-supported engines to kerolox
 - Moved non-stock-configured propellant tagging outside of core patches so these options won't show up in sandbox mode
 - Fixed "Keroxide" part title replacement overriding "Kerolox"
