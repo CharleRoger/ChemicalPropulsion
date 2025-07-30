@@ -1,4 +1,5 @@
 # 1.5.1
+- Updated to Chemical Core 1.4.1
 - Updated to Ignition 1.2.0.1
 - Added explicit compatibility patches for the following mods:
   - Internal RCS
