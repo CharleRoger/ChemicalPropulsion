@@ -17,6 +17,7 @@
 - Moved non-stock-configured propellant tagging outside of core patches so these options won't show up in sandbox mode
 - Fixed "Keroxide" part title replacement overriding "Kerolox"
 - Fixed Near Future Launch Vehicles' monopropellant RCS being wrongly assigned hypergolics
+- Fixed Chemical Propulsion Nuclear wrongly targeting non-nuclear thermal engines
 # 1.5.0
 - Updated to Chemical Core 1.4.0
 - Updated to Ignition 1.1.4
