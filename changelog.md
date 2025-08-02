@@ -14,6 +14,7 @@
   - Hypergolic = Hypergolic with other hypergolic propellants
   - Super-hypergolic = Hypergolic with everything
 - Changed default catch-all bipropellant type for not-explicitly-supported engines to kerolox
+- Changed PBAN and early SRBs to starting technology since this is too much of a compatibility headache otherwise
 - Moved non-stock-configured propellant tagging outside of core patches so these options won't show up in sandbox mode
 - Fixed "Keroxide" part title replacement overriding "Kerolox"
 - Fixed Near Future Launch Vehicles' monopropellant RCS being wrongly assigned hypergolics
