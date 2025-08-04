@@ -23,10 +23,11 @@
 - Consolidated patch ordering into coherent stages (see README)
 - Moved non-stock-configured propellant tagging outside of core patches so these options won't show up in sandbox mode
 - Swapped the order of Hydrazine<->Aniline and NTO<->Nitric acid B9PartSwitch subtypes to avoid issues with tech restrictions
+- Removed alternate hypergolic options from engines with default aniline and/or nitric acid (affects a few engines from Taerobee and Tantares)
 - Fixed "Keroxide" part title replacement overriding "Kerolox"
 - Fixed Near Future Launch Vehicles' monopropellant RCS being wrongly assigned hypergolics
 - Fixed Chemical Propulsion Nuclear wrongly targeting non-nuclear thermal engines
-- Removed alternate hypergolic options from engines with default aniline and/or nitric acid (affects a few engines from Taerobee and Tantares)
+- Fixed Chemical Propulsion Nuclear improperly assigning tank tags
 # 1.5.0
 - Updated to Chemical Core 1.4.0
 - Updated to Ignition 1.1.4
