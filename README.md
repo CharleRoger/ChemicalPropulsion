@@ -39,49 +39,6 @@ Some mod engines have bespoke propellant configurations which are not typical mo
 ### CryoTanks changes
 This mod replaces all CryoTanks fuel switch types to Chemical Technologies tank types. One particular feature of this is the removal of CryoTanks' native 1.5x hydrogen packing density buff, which not-insignificantly affects the use of LqdHydrogen in the game. This is not just an arbitrary change purely motivated by realism. The ~14% higher density of LqdOxygen over Oxidizer and adjusted methalox mixture ratio (higher oxidizer mass fraction) make cryogenic bipropellants much more attractive, removing the need for any sneaky volume buffs in chemical rockets. Hydrolox suffers a little bit, but I've found this actually balances better against their high Isp. Nuclear engines naturally suffer the most, but again, these engines are very high Isp and it should really be expected that you'd need to haul massive tanks everywhere. I've always wanted my CryoTanks to be bigger, personally.
 
-### Configuration
-Engines and RCS can easily be patched to replace their propellants with one of the supported resources by setting one or more `chemTechPropellant`, `chemTechFuel` or `chemTechOxidizer` fields on the module, the values of which are a resource name:
-
-- `chemTechFuel`: A fuel which should be paired with an oxidizer or used in an air-breathing engine.
-  - `Ethanol`
-  - `Kerosene`
-  - `Aniline`
-  - `LqdAmmonia`
-  - `Hydrazine`
-  - `LqdMethane`
-  - `LqdHydrogen`
-  - `Pentaborane`
-  - `Diborane`
-- `chemTechOxidizer`: An oxidizer which should be paired with a fuel. Supported resource names:
-  - `LqdOxygen`
-  - `IWFNA`
-  - `HTP`
-  - `NTO`
-  - `LqdFluorine`
-  - `N2F4`
-- `chemTechPropellant`: A single propellant which should not be combined with any specified fuel or oxidizer. All above resources are supported, plus the following:
-  - `Water`
-  - `LqdCO2`
-  - `LqdCO`
-  - `LqdNitrogen`
-
-For example, the following patch converts a multimode engine with a pure LiquidFuel mode and a LiquidFuel-Oxidizer mode to use LqdHydrogen and LqdOxygen:
-```
-@PART[partName]:BEFORE[zz_ChemicalPropulsion]
-{
-	@MODULE[ModuleEngines*]:HAS[@PROPELLANT[LiquidFuel],!PROPELLANT[Oxidizer]]
-	{
-		chemTechPropellant = LqdHydrogen
-	}
-
-	@MODULE[ModuleEngines*]:HAS[@PROPELLANT[LiquidFuel],@PROPELLANT[Oxidizer]]
-	{
-		chemTechFuel = LqdHydrogen
-		chemTechOxidizer = LqdOxygen
-	}
-}
-```
-
 ## Extras
 Some patches for additional propellant options are provided in the Extras folder.
 
@@ -112,6 +69,94 @@ Adds four high-thrust, low-Isp propellant options to nuclear thermal rockets (mu
 - `LqdCO2` - +142% thrust, -69% Isp
 - `LqdCO` - +158% thrust, -72% Isp
 - `LqdNitrogen` - +158% thrust, -72% Isp
+
+## Configuration
+Parts can easily be patched to replace their propellants with supported resources by setting one or more `chemTechPropellant`, `chemTechFuel` or `chemTechOxidizer` fields on the part or relevant module, the values of which are a resource name:
+
+- `chemTechFuel`: A fuel which should be paired with an oxidizer or used in an air-breathing engine.
+  - `Ethanol`
+  - `Kerosene`
+  - `Aniline`
+  - `LqdAmmonia`
+  - `Hydrazine`
+  - `LqdMethane`
+  - `LqdHydrogen`
+  - `Pentaborane`
+  - `Diborane`
+- `chemTechOxidizer`: An oxidizer which should be paired with a fuel. Supported resource names:
+  - `LqdOxygen`
+  - `IWFNA`
+  - `HTP`
+  - `NTO`
+  - `LqdFluorine`
+  - `N2F4`
+- `chemTechPropellant`: A single propellant which should not be combined with any specified fuel or oxidizer. All above resources are supported, plus the following:
+  - `Water`
+  - `LqdCO2`
+  - `LqdCO`
+  - `LqdNitrogen`
+
+For example, the following patch will automatically remove any stock propellants stored on the part and replace them with a bipropellant tank with a switch for the two fuels:
+```
+@PART[partName]:BEFORE[zz_ChemicalPropulsion]
+{
+	chemTechFuel = Ethanol
+	chemTechFuel = Hydrazine
+	chemTechOxidizer = LqdOxygen
+}
+```
+This patch converts a multimode engine with a pure LiquidFuel mode and a LiquidFuel-Oxidizer mode to use LqdHydrogen and LqdOxygen:
+```
+@PART[partName]:BEFORE[zz_ChemicalPropulsion]
+{
+	@MODULE[ModuleEngines*]:HAS[@PROPELLANT[LiquidFuel],!PROPELLANT[Oxidizer]]
+	{
+		chemTechPropellant = LqdHydrogen
+	}
+
+	@MODULE[ModuleEngines*]:HAS[@PROPELLANT[LiquidFuel],@PROPELLANT[Oxidizer]]
+	{
+		chemTechFuel = LqdHydrogen
+		chemTechOxidizer = LqdOxygen
+	}
+}
+```
+
+### Patch ordering
+Patches are organised into six stages as shown below. If you're looking to add a compatibility patch for a mod, you'll probably only need `BEFORE[zz_ChemicalPropulsion]`, perhaps `AFTER[zz_ChemicalPropulsion]`, and only `AFTER[zzz_ChemicalPropulsion]` if you really want to get messy.
+
+#### BEFORE[zz_ChemicalPropulsion]
+
+- Main `chemTech` tag assignment, e.g.:
+  - `chemTechFuel = Ethanol` on a `PART` (tank resource)
+  - `chemTechOxidizer = LqdOxygen` on a `ModuleEngines` (engine propellant)
+#### FOR[zz_ChemicalPropulsion]
+
+- Chemical Propulsion automatically assigns tags, e.g.:
+  - If an engine has `PROPELLANT[SolidFuel]` and no `chemTech` tags, `chemTechPropellant = PBAN` and `chemTechPropellant = HTPB` are added
+  - If an engine is configured with `chemTechFuel = Kerosene` and `chemTechOxidizer = LqdOxygen`, then `chemTechIgnitor = TEATEB` is added
+  - If `chemTechOxidizer = LqdOxygen` is present anywhere, Chemical Propulsion Exotics will add `chemTechOxidizer = LqdFluorine` in the same place
+#### AFTER[zz_ChemicalPropulsion]
+
+- You can also assign propellant tags here, like `BEFORE`, in order to bypass the `FOR` step, e.g.:
+  - You want an engine to run kerolox, but not require an ignitor and lack the fluorine option provided by Chemical Propulsion Exotics, so just assign `chemTechFuel = Kerosene` and `chemTechOxidizer = LqdOxygen` here
+#### BEFORE[zzz_ChemicalPropulsion]
+
+- The presence of finalised `chemTech` tags is used to create Ignition modules and switches as appropriate
+  - Modules are given a second layer of tags which prepares them for the next stage but are not yet fully configured
+#### FOR[zzz_ChemicalPropulsion]
+
+- Stock resources/propellants and any Chemical Propulsion resources/propellants which are not tagged are removed
+- Pre-existing propellant switches are removed
+- Ignition modules and switches are fully fleshed-out with their required data
+- Various other changes to parts, e.g.:
+  - Converter recipes
+  - Changing part titles which include stock propellant names
+  - VABOrganizer subcategory assignment
+  - Changes to engines which can't be done by Ignition alone
+#### AFTER[zzz_ChemicalPropulsion]
+
+- Reserved to make any post-processing changes you like
 
 ## Dependencies
 
