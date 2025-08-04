@@ -13,6 +13,11 @@
   - Exotic = Unconventional, dangerous. Right now this basically just means *expensive*
   - Hypergolic = Hypergolic with other hypergolic propellants
   - Super-hypergolic = Hypergolic with everything
+- Changed ignitors for certain bipropellant mixtures:
+  - Aniline/Hydrazine with a non-hypergolic oxidizer requires Nitric acid/NTO ignitor (switchable)
+  - Nitric acid/NTO with a non-hypergolic fuel requires Aniline/Hydrazine ignitor (switchable)
+  - Fixed ignitor removed from hypergolic engines
+  - Electric ignitor removed from ethalox engines
 - Changed default catch-all bipropellant type for not-explicitly-supported engines to kerolox
 - Changed PBAN and early SRBs to starting technology since this is too much of a compatibility headache otherwise
 - Moved non-stock-configured propellant tagging outside of core patches so these options won't show up in sandbox mode
