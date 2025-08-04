@@ -19,6 +19,7 @@
 - Fixed "Keroxide" part title replacement overriding "Kerolox"
 - Fixed Near Future Launch Vehicles' monopropellant RCS being wrongly assigned hypergolics
 - Fixed Chemical Propulsion Nuclear wrongly targeting non-nuclear thermal engines
+- Removed alternate hypergolic options from engines with default aniline and/or nitric acid (affects a few engines from Taerobee and Tantares)
 # 1.5.0
 - Updated to Chemical Core 1.4.0
 - Updated to Ignition 1.1.4
