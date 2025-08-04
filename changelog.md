@@ -16,6 +16,7 @@
 - Changed default catch-all bipropellant type for not-explicitly-supported engines to kerolox
 - Changed PBAN and early SRBs to starting technology since this is too much of a compatibility headache otherwise
 - Moved non-stock-configured propellant tagging outside of core patches so these options won't show up in sandbox mode
+- Swapped the order of Hydrazine<->Aniline and NTO<->Nitric acid B9PartSwitch subtypes to avoid issues with tech restrictions
 - Fixed "Keroxide" part title replacement overriding "Kerolox"
 - Fixed Near Future Launch Vehicles' monopropellant RCS being wrongly assigned hypergolics
 - Fixed Chemical Propulsion Nuclear wrongly targeting non-nuclear thermal engines
