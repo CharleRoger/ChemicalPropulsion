@@ -16,6 +16,7 @@
 - Added Aniline subtype to Near Future Exploration tanks
 - Added a few common bipropellant mixtures to tanks from the following mods:
   - Near Future Exploration
+  - Universal Storage II Finalized
 - Added `storable` tank type for all non-cryogenic single propellants (currently only used by Chemical Storage)
 - Added VABOrganizer subcategories for Chemical Propulsion tank types, which should make it more obvious when a tank is not properly supported:
   - Bipropellant
