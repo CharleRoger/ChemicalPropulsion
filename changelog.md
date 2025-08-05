@@ -30,6 +30,7 @@
 - Fixed Chemical Propulsion Nuclear wrongly targeting non-nuclear thermal engines
 - Fixed Chemical Propulsion Nuclear improperly assigning tank tags
 - Fixed Near Future Exploration tank switch subtype masses
+- Fixed exotic propellants not appearing in cryogenic tanks
 # 1.5.0
 - Updated to Chemical Core 1.4.0
 - Updated to Ignition 1.1.4
