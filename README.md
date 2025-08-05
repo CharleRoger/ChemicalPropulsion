@@ -129,15 +129,19 @@ Patches are organised into six stages as shown below. If you're looking to add a
 
 - Main `chemTech` tag assignment, e.g.:
   - `chemTechFuel = Ethanol` on a `PART` (tank resource)
+  - `chemTechTankType = cryogenic` on a `PART` (tank type, expanded in `FOR` below)
   - `chemTechOxidizer = LqdOxygen` on a `ModuleEngines` (engine propellant)
 #### FOR[zz_ChemicalPropulsion]
 
 - Chemical Propulsion automatically assigns tags, e.g.:
+  - If a part has `chemTechTankType = cryogenic`, then the standard cryogenic propellants are added, e.g. `chemTechPropellant = LqdHydrogen`. Extras and other mods may expand this further, e.g. Chemical Propulsion Exotics would add `chemTechPropellant = LqdFluorine` and `chemTechPropellant = N2F4`
   - If an engine has `PROPELLANT[SolidFuel]` and no `chemTech` tags, `chemTechPropellant = PBAN` and `chemTechPropellant = HTPB` are added
   - If an engine is configured with `chemTechFuel = Kerosene` and `chemTechOxidizer = LqdOxygen`, then `chemTechIgnitor = TEATEB` is added
   - If `chemTechOxidizer = LqdOxygen` is present anywhere, Chemical Propulsion Exotics will add `chemTechOxidizer = LqdFluorine` in the same place
+- Chemical Propulsion automatically computes tank volume, mass and cost, stored in variables like `chemTechTankVolumePropellant`, `chemTechTankMassFuel`, `chemTechTankCostFuelOxidizer`, etc.
 #### AFTER[zz_ChemicalPropulsion]
 
+- Reserved for post-processing steps, e.g. manipulating the auto-computed tank parameters.
 - You can also assign propellant tags here, like `BEFORE`, in order to bypass the `FOR` step, e.g.:
   - You want an engine to run kerolox, but not require an ignitor and lack the fluorine option provided by Chemical Propulsion Exotics, so just assign `chemTechFuel = Kerosene` and `chemTechOxidizer = LqdOxygen` here
 #### BEFORE[zzz_ChemicalPropulsion]
@@ -156,7 +160,7 @@ Patches are organised into six stages as shown below. If you're looking to add a
   - Changes to engines which can't be done by Ignition alone
 #### AFTER[zzz_ChemicalPropulsion]
 
-- Reserved to make any post-processing changes you like
+- Reserved for any final post-processing
 
 ## Dependencies
 
