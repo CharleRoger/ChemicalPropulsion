@@ -14,6 +14,8 @@
   - Hypergolic = Hypergolic with other hypergolic propellants
   - Super-hypergolic = Hypergolic with everything
 - Added Aniline subtype to Near Future Exploration tanks
+- Added a few common bipropellant mixtures to tanks from the following mods:
+  - Near Future Exploration
 - Changed ignitors for certain bipropellant mixtures:
   - Aniline/Hydrazine with a non-hypergolic oxidizer requires Nitric acid/NTO ignitor (switchable)
   - Nitric acid/NTO with a non-hypergolic fuel requires Aniline/Hydrazine ignitor (switchable)
