@@ -17,6 +17,12 @@
 - Added a few common bipropellant mixtures to tanks from the following mods:
   - Near Future Exploration
 - Added `storable` tank type for all non-cryogenic single propellants (currently only used by Chemical Storage)
+- Added VABOrganizer subcategories for Chemical Propulsion tank types, which should make it more obvious when a tank is not properly supported:
+  - Bipropellant
+  - Storable Propellant
+  - Cryogenic Propellant
+  - Aviation Fuel
+  - Monopropellant
 - Changed ignitors for certain bipropellant mixtures:
   - Aniline/Hydrazine with a non-hypergolic oxidizer requires Nitric acid/NTO ignitor (switchable)
   - Nitric acid/NTO with a non-hypergolic fuel requires Aniline/Hydrazine ignitor (switchable)
