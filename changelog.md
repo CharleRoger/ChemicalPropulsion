@@ -37,6 +37,7 @@
 - Moved non-stock-configured propellant tagging outside of core patches so these options won't show up in sandbox mode
 - Made some minor improvements VABOrganizer subcategory assignment
 - Removed alternate hypergolic options from engines with default aniline and/or nitric acid (affects a few engines from Taerobee and Tantares)
+- Removed Ethanol, Aniline, LqdAmmonia, LqdMethane and IWFNA propellant subtypes from Universal Storage II Finalized tank switches since they don't appear in the "stock" configuration of Chemical Propulsion
 - Fixed "Keroxide" part title replacement overriding "Kerolox"
 - Fixed Near Future Launch Vehicles' monopropellant RCS being wrongly assigned hypergolics
 - Fixed Chemical Propulsion Nuclear wrongly targeting non-nuclear thermal engines
