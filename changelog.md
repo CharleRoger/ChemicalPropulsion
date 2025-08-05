@@ -16,6 +16,7 @@
 - Added Aniline subtype to Near Future Exploration tanks
 - Added a few common bipropellant mixtures to tanks from the following mods:
   - Near Future Exploration
+- Added `storable` tank type for all non-cryogenic single propellants (currently only used by Chemical Storage)
 - Changed ignitors for certain bipropellant mixtures:
   - Aniline/Hydrazine with a non-hypergolic oxidizer requires Nitric acid/NTO ignitor (switchable)
   - Nitric acid/NTO with a non-hypergolic fuel requires Aniline/Hydrazine ignitor (switchable)
