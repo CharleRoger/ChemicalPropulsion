@@ -13,6 +13,7 @@
   - Exotic = Unconventional, dangerous. Right now this basically just means *expensive*
   - Hypergolic = Hypergolic with other hypergolic propellants
   - Super-hypergolic = Hypergolic with everything
+- Added Aniline subtype to Near Future Exploration tanks
 - Changed ignitors for certain bipropellant mixtures:
   - Aniline/Hydrazine with a non-hypergolic oxidizer requires Nitric acid/NTO ignitor (switchable)
   - Nitric acid/NTO with a non-hypergolic fuel requires Aniline/Hydrazine ignitor (switchable)
