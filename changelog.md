@@ -23,6 +23,7 @@
   - Cryogenic Propellant
   - Aviation Fuel
   - Monopropellant
+- Added CryoTanks boiloff for LqdCO2 and LqdNitrogen
 - Changed ignitors for certain bipropellant mixtures:
   - Aniline/Hydrazine with a non-hypergolic oxidizer requires Nitric acid/NTO ignitor (switchable)
   - Nitric acid/NTO with a non-hypergolic fuel requires Aniline/Hydrazine ignitor (switchable)
