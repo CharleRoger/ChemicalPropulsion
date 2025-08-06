@@ -1,8 +1,10 @@
 # 1.5.1
 - Updated to Chemical Core 1.4.1
 - Updated to Ignition 1.2.1
+- Added Simplified Chinese localization (contributed by @Aebestach)
 - Added explicit compatibility patches for the following mods:
   - Internal RCS
+  - Moldavite Machines (contributed by @Aebestach)
   - Near Future Construction
   - Rocket Motor Menagerie
   - Space Dust (removes stock propellants from all scanners, telescopes and harvesters)
