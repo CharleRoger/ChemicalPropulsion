@@ -1,3 +1,55 @@
+# 1.5.1
+- Updated to Chemical Core 1.4.1
+- Updated to Ignition 1.2.1
+- Added explicit compatibility patches for the following mods:
+  - Internal RCS
+  - Near Future Construction
+  - Rocket Motor Menagerie
+  - Space Dust (removes stock propellants from all scanners, telescopes and harvesters)
+    - Space Dust Next is essentially required for playability
+  - Ursa (Crew pod and spaceship parts)
+- Added more detailed stats and propellant types to propellant part upgrade descriptions:
+  - Storable = Can be stored in a conventional tank
+  - Cryogenic = Requires CryoTanks cooling
+  - Exotic = Unconventional, dangerous. Right now this basically just means *expensive*
+  - Hypergolic = Hypergolic with other hypergolic propellants
+  - Super-hypergolic = Hypergolic with everything
+- Added Aniline subtype to Near Future Exploration tanks
+- Added a few common bipropellant mixtures to tanks from the following mods:
+  - Near Future Exploration
+  - Procedural Parts
+  - Universal Storage II Finalized
+- Added `storable` tank type for all non-cryogenic single propellants (currently only used by Chemical Storage)
+- Added VABOrganizer subcategories for Chemical Propulsion tank types, which should make it more obvious when a tank is not properly supported:
+  - Bipropellant
+  - Storable Propellant
+  - Cryogenic Propellant
+  - Aviation Fuel
+  - Monopropellant
+- Added CryoTanks boiloff for LqdCO2 and LqdNitrogen
+- Added support for exotic propellants (Pentaborane, Diborane, LqdFluorine, N2F4) in Procedural Parts tanks
+- Added more robust fuel cell patch which should catch and properly convert most cases
+  - Fixes Near Future Launch Vehicles RCS integrated fuel cells
+- Reduced CryoTanks cooling cost to 50% default on cryogenic tanks
+- Changed ignitors for certain bipropellant mixtures:
+  - Aniline/Hydrazine with a non-hypergolic oxidizer requires Nitric acid/NTO ignitor (switchable)
+  - Nitric acid/NTO with a non-hypergolic fuel requires Aniline/Hydrazine ignitor (switchable)
+  - Fixed ignitor removed from hypergolic engines
+  - Electric ignitor removed from ethalox engines
+- Changed default catch-all bipropellant type for not-explicitly-supported engines to kerolox
+- Changed PBAN and early SRBs to starting technology since this is too much of a compatibility headache otherwise
+- Consolidated patch ordering into coherent stages (see README)
+- Consolidated switch subtype ordering to avoid issues with tech restrictions
+- Moved non-stock-configured propellant tagging outside of core patches so these options won't show up in sandbox mode
+- Made some minor improvements to VABOrganizer subcategory assignment
+- Removed alternate hypergolic options from engines with default aniline and/or nitric acid (affects a few engines from Taerobee and Tantares)
+- Removed Ethanol, Aniline, LqdAmmonia, LqdMethane and IWFNA propellant subtypes from Universal Storage II Finalized tank switches since they don't appear in the "stock" configuration of Chemical Propulsion
+- Fixed "Keroxide" part title replacement overriding "Kerolox"
+- Fixed Near Future Launch Vehicles' monopropellant RCS being wrongly assigned hypergolics
+- Fixed Chemical Propulsion Nuclear wrongly targeting non-nuclear thermal engines
+- Fixed Chemical Propulsion Nuclear improperly assigning tank tags
+- Fixed Near Future Exploration tank switch subtype masses
+- Fixed exotic propellants not appearing in cryogenic tanks
 # 1.5.0
 - Updated to Chemical Core 1.4.0
 - Updated to Ignition 1.1.4

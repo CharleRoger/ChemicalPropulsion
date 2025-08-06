@@ -39,49 +39,6 @@ Some mod engines have bespoke propellant configurations which are not typical mo
 ### CryoTanks changes
 This mod replaces all CryoTanks fuel switch types to Chemical Technologies tank types. One particular feature of this is the removal of CryoTanks' native 1.5x hydrogen packing density buff, which not-insignificantly affects the use of LqdHydrogen in the game. This is not just an arbitrary change purely motivated by realism. The ~14% higher density of LqdOxygen over Oxidizer and adjusted methalox mixture ratio (higher oxidizer mass fraction) make cryogenic bipropellants much more attractive, removing the need for any sneaky volume buffs in chemical rockets. Hydrolox suffers a little bit, but I've found this actually balances better against their high Isp. Nuclear engines naturally suffer the most, but again, these engines are very high Isp and it should really be expected that you'd need to haul massive tanks everywhere. I've always wanted my CryoTanks to be bigger, personally.
 
-### Configuration
-Engines and RCS can easily be patched to replace their propellants with one of the supported resources by setting one or more `chemTechPropellant`, `chemTechFuel` or `chemTechOxidizer` fields on the module, the values of which are a resource name:
-
-- `chemTechFuel`: A fuel which should be paired with an oxidizer or used in an air-breathing engine.
-  - `Ethanol`
-  - `Kerosene`
-  - `Aniline`
-  - `LqdAmmonia`
-  - `Hydrazine`
-  - `LqdMethane`
-  - `LqdHydrogen`
-  - `Pentaborane`
-  - `Diborane`
-- `chemTechOxidizer`: An oxidizer which should be paired with a fuel. Supported resource names:
-  - `LqdOxygen`
-  - `IWFNA`
-  - `HTP`
-  - `NTO`
-  - `LqdFluorine`
-  - `N2F4`
-- `chemTechPropellant`: A single propellant which should not be combined with any specified fuel or oxidizer. All above resources are supported, plus the following:
-  - `Water`
-  - `LqdCO2`
-  - `LqdCO`
-  - `LqdNitrogen`
-
-For example, the following patch converts a multimode engine with a pure LiquidFuel mode and a LiquidFuel-Oxidizer mode to use LqdHydrogen and LqdOxygen:
-```
-@PART[partName]:BEFORE[zz_ChemicalPropulsion]
-{
-	@MODULE[ModuleEngines*]:HAS[@PROPELLANT[LiquidFuel],!PROPELLANT[Oxidizer]]
-	{
-		chemTechPropellant = LqdHydrogen
-	}
-
-	@MODULE[ModuleEngines*]:HAS[@PROPELLANT[LiquidFuel],@PROPELLANT[Oxidizer]]
-	{
-		chemTechFuel = LqdHydrogen
-		chemTechOxidizer = LqdOxygen
-	}
-}
-```
-
 ## Extras
 Some patches for additional propellant options are provided in the Extras folder.
 
@@ -113,13 +70,105 @@ Adds four high-thrust, low-Isp propellant options to nuclear thermal rockets (mu
 - `LqdCO` - +158% thrust, -72% Isp
 - `LqdNitrogen` - +158% thrust, -72% Isp
 
+## Configuration
+Parts can easily be patched to replace their propellants with supported resources by setting one or more `chemTechPropellant`, `chemTechFuel` or `chemTechOxidizer` fields on the part or relevant module, the values of which are a resource name:
+
+- `chemTechFuel`: A fuel which should be paired with an oxidizer or used in an air-breathing engine.
+  - `Ethanol`
+  - `Kerosene`
+  - `Aniline`
+  - `LqdAmmonia`
+  - `Hydrazine`
+  - `LqdMethane`
+  - `LqdHydrogen`
+  - `Pentaborane`
+  - `Diborane`
+- `chemTechOxidizer`: An oxidizer which should be paired with a fuel. Supported resource names:
+  - `LqdOxygen`
+  - `IWFNA`
+  - `HTP`
+  - `NTO`
+  - `LqdFluorine`
+  - `N2F4`
+- `chemTechPropellant`: A single propellant which should not be combined with any specified fuel or oxidizer. All above resources are supported, plus the following:
+  - `Water`
+  - `LqdCO2`
+  - `LqdCO`
+  - `LqdNitrogen`
+
+For example, the following patch will automatically remove any stock propellants stored on the part and replace them with a bipropellant tank with a switch for the two fuels:
+```
+@PART[partName]:BEFORE[zz_ChemicalPropulsion]
+{
+	chemTechFuel = Ethanol
+	chemTechFuel = Hydrazine
+	chemTechOxidizer = LqdOxygen
+}
+```
+This patch converts a multimode engine with a pure LiquidFuel mode and a LiquidFuel-Oxidizer mode to use LqdHydrogen and LqdOxygen:
+```
+@PART[partName]:BEFORE[zz_ChemicalPropulsion]
+{
+	@MODULE[ModuleEngines*]:HAS[@PROPELLANT[LiquidFuel],!PROPELLANT[Oxidizer]]
+	{
+		chemTechPropellant = LqdHydrogen
+	}
+
+	@MODULE[ModuleEngines*]:HAS[@PROPELLANT[LiquidFuel],@PROPELLANT[Oxidizer]]
+	{
+		chemTechFuel = LqdHydrogen
+		chemTechOxidizer = LqdOxygen
+	}
+}
+```
+
+### Patch ordering
+Patches are organised into six stages as shown below. If you're looking to add a compatibility patch for a mod, you'll probably only need `BEFORE[zz_ChemicalPropulsion]`, perhaps `AFTER[zz_ChemicalPropulsion]`, and only `AFTER[zzz_ChemicalPropulsion]` if you really want to get messy.
+
+#### BEFORE[zz_ChemicalPropulsion]
+
+- Main `chemTech` tag assignment, e.g.:
+  - `chemTechFuel = Ethanol` on a `PART` (tank resource)
+  - `chemTechTankType = cryogenic` on a `PART` (tank type, expanded in `FOR` below)
+  - `chemTechOxidizer = LqdOxygen` on a `ModuleEngines` (engine propellant)
+#### FOR[zz_ChemicalPropulsion]
+
+- Chemical Propulsion automatically assigns tags, e.g.:
+  - If a part has `chemTechTankType = cryogenic`, then the standard cryogenic propellants are added, e.g. `chemTechPropellant = LqdHydrogen`. Extras and other mods may expand this further, e.g. Chemical Propulsion Exotics would add `chemTechPropellant = LqdFluorine` and `chemTechPropellant = N2F4`
+  - If an engine has `PROPELLANT[SolidFuel]` and no `chemTech` tags, `chemTechPropellant = PBAN` and `chemTechPropellant = HTPB` are added
+  - If an engine is configured with `chemTechFuel = Kerosene` and `chemTechOxidizer = LqdOxygen`, then `chemTechIgnitor = TEATEB` is added
+  - If `chemTechOxidizer = LqdOxygen` is present anywhere, Chemical Propulsion Exotics will add `chemTechOxidizer = LqdFluorine` in the same place
+- Chemical Propulsion automatically computes tank volume, mass and cost, stored in variables like `chemTechTankVolumePropellant`, `chemTechTankMassFuel`, `chemTechTankCostFuelOxidizer`, etc.
+#### AFTER[zz_ChemicalPropulsion]
+
+- Reserved for post-processing steps, e.g. manipulating the auto-computed tank parameters.
+- You can also assign propellant tags here, like `BEFORE`, in order to bypass the `FOR` step, e.g.:
+  - You want an engine to run kerolox, but not require an ignitor and lack the fluorine option provided by Chemical Propulsion Exotics, so just assign `chemTechFuel = Kerosene` and `chemTechOxidizer = LqdOxygen` here
+#### BEFORE[zzz_ChemicalPropulsion]
+
+- The presence of finalised `chemTech` tags is used to create Ignition modules and switches as appropriate
+  - Modules are given a second layer of tags which prepares them for the next stage but are not yet fully configured
+#### FOR[zzz_ChemicalPropulsion]
+
+- Stock resources/propellants and any Chemical Propulsion resources/propellants which are not tagged are removed
+- Pre-existing propellant switches are removed
+- Ignition modules and switches are fully fleshed-out with their required data
+- Various other changes to parts, e.g.:
+  - Converter recipes
+  - Changing part titles which include stock propellant names
+  - VABOrganizer subcategory assignment
+  - Changes to engines which can't be done by Ignition alone
+#### AFTER[zzz_ChemicalPropulsion]
+
+- Reserved for any final post-processing
+
 ## Dependencies
 
 - [ModuleManager (4.2.3)](https://github.com/sarbian/ModuleManager)
 - [B9PartSwitch (2.21.0.1)](https://github.com/KSPModStewards/B9PartSwitch)
 - [Community Resource Pack (112.0.1)](https://github.com/UmbraSpaceIndustries/CommunityResourcePack)
-- [Chemical Core (1.4.0)](https://github.com/CharleRoger/ChemicalCore)
-- [Ignition (1.1.4)](https://github.com/CharleRoger/Ignition)
+- [Chemical Core (1.4.1)](https://github.com/CharleRoger/ChemicalCore)
+- [Ignition (1.2.1)](https://github.com/CharleRoger/Ignition)
 - [Space Dust Next (3.0.0)](https://github.com/NerdyBoy709/SpaceDustNext) (only if using [Space Dust](https://github.com/post-kerbin-mining-corporation/SpaceDust))
 
 ## Compatibility
@@ -134,6 +183,7 @@ The following mods are recommended to make the most of core set of propellants.
 - [Near Future Launch Vehicles (2.2.2)](https://github.com/post-kerbin-mining-corporation/NearFutureLaunchVehicles)
 - [Near Future Spacecraft (1.4.4)](https://github.com/post-kerbin-mining-corporation/NearFutureSpacecraft)
 - [Restock and Restock+ (1.5.1)](https://github.com/PorktoberRevolution/ReStocked)
+- [Space Dust (0.5.5)](https://github.com/post-kerbin-mining-corporation/SpaceDust)
 - [Supplementary Electric Engines (1.3.2)](https://forum.kerbalspaceprogram.com/topic/218397-1125-supplementary-electric-engines)
 - [VABOrganizer (1.1.0)](https://github.com/post-kerbin-mining-corporation/VABOrganizer)
 
@@ -161,6 +211,7 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [Far Future Technologies (1.4.2)](https://github.com/post-kerbin-mining-corporation/FarFutureTechnologies)
 - [Firespitter (7.17)](https://github.com/snjo/Firespitter)
 - [Grounded - Modular Vehicles (5.0)](https://forum.kerbalspaceprogram.com/topic/171377-110x-grounded-modular-vehicles-r50-mining-modules-rotor-emergency-light-jun-5-2019) (courtesy of Ari Lana @ratemisia)
+- [Internal RCS (1.3)](https://forum.kerbalspaceprogram.com/topic/172990-13x-14x-internal-rcs)
 - [Kerbal Reusability Expansion (2.9.3)](https://github.com/TundraMods/Kerbal-Reusability-Expansion)
 - [Kerbalism (3.19)](https://github.com/Kerbalism/Kerbalism)
 - [MissingHistory (1.9.3)](https://spacedock.info/mod/1743/MissingHistory)
@@ -168,11 +219,13 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [Mk-33 (1.3.2)](https://github.com/Angel-125/Mk-33)
 - [Probes Before Crew (2.93)](https://forum.kerbalspaceprogram.com/topic/181013-ksp-18-112-probes-before-crew-pbc-version-293)
 - [Procedural Parts (2.7.2.0)](https://github.com/KSP-RO/ProceduralParts)
+- [Rocket Motor Menagerie (1.1.2)](https://github.com/EStreetRockets/RocketMotorMenagerie)
 - [Shuttle Orbiter Construction Kit (1.1.8)](https://github.com/benjee10/Shuttle-Orbiter-Construction-Kit)
 - [Silly Photon Drives (1.1.1)](https://forum.kerbalspaceprogram.com/topic/220997-1125-silly-photon-drives)
 - [SystemHeat (0.8.2)](https://github.com/post-kerbin-mining-corporation/SystemHeat)
 - [Tundra Exploration (7.1.1)](https://github.com/TundraMods/TundraExploration)
 - [UnKerballed Start (1.3.2)](https://github.com/theonegalen/UnKerballedStart)
+- [Ursa (Crew pod and spaceship parts) (1.0)](https://forum.kerbalspaceprogram.com/topic/227652-ursa-crew-pod-and-spaceship-parts)
 - Many more, though might do unexpected things. Let me know what else to support!
 
 ## License
