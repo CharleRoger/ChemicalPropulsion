@@ -28,6 +28,8 @@
   - Monopropellant
 - Added CryoTanks boiloff for LqdCO2 and LqdNitrogen
 - Added support for exotic propellants (Pentaborane, Diborane, LqdFluorine, N2F4) in Procedural Parts tanks
+- Added more robust fuel cell patch which should catch and properly convert most cases
+  - Fixes Near Future Launch Vehicles RCS integrated fuel cells
 - Reduced CryoTanks cooling cost to 50% default on cryogenic tanks
 - Changed ignitors for certain bipropellant mixtures:
   - Aniline/Hydrazine with a non-hypergolic oxidizer requires Nitric acid/NTO ignitor (switchable)
