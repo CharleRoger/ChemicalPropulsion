@@ -1,3 +1,5 @@
+# 1.5.2.1
+- Fixed Procedural Parts SRB
 # 1.5.2
 - Consolidated LqdMethane and LqdAmmonia assignment, which should hopefully give a more consistent experience depending on whether using-mods are present
 - Added missing mod-triggered propellant assignment to "storable" tank type
