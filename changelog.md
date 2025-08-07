@@ -7,6 +7,8 @@
 - Fixed hypergolic RCS integrated fuel cell converter name
 - Fixed ignitor resource assignment patch ordering
   - Fixes automatically assigned propellants in particular, which previously did not have the proper ignitors assigned
+- Fixed certain ignitor fluids being assigned to unintended types of engine
+- Fixed electric ignitor not being assigned to lox-augmented mode of multimode NTRs
 # 1.5.1
 - Updated to Chemical Core 1.4.1
 - Updated to Ignition 1.2.1
