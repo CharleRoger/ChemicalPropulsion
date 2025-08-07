@@ -1,3 +1,5 @@
+# 1.5.2
+- Fixed hypergolic RCS integrated fuel cell converter name
 # 1.5.1
 - Updated to Chemical Core 1.4.1
 - Updated to Ignition 1.2.1
