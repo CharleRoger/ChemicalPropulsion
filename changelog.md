@@ -2,6 +2,7 @@
 - Consolidated LqdMethane and LqdAmmonia assignment, which should hopefully give a more consistent experience depending on whether using-mods are present
 - Added missing mod-triggered propellant assignment to "storable" tank type
 - Changed Missing History's LV-T15 "Valiant" and LV-303 "Pug" to kerolox and hypergolic propellants respectively, bringing them in line with the ReStockPlus equivalents
+- Changed Near Future Aeronautics' multimodal jet-rocket engines to use LqdHydrogen instead of Kerosene
 - Fixed hypergolic RCS integrated fuel cell converter name
 - Fixed ignitor resource assignment patch ordering
   - Fixes automatically assigned propellants in particular, which previously did not have the proper ignitors assigned
