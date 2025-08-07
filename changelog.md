@@ -1,3 +1,14 @@
+# 1.5.2
+- Consolidated LqdMethane and LqdAmmonia assignment, which should hopefully give a more consistent experience depending on whether using-mods are present
+- Added missing mod-triggered propellant assignment to "storable" tank type
+- Added "none" ignitor fluid subtype
+- Changed Missing History's LV-T15 "Valiant" and LV-303 "Pug" to kerolox and hypergolic propellants respectively, bringing them in line with the ReStockPlus equivalents
+- Changed Near Future Aeronautics' multimodal jet-rocket engines to use LqdHydrogen instead of Kerosene
+- Fixed hypergolic RCS integrated fuel cell converter name
+- Fixed ignitor resource assignment patch ordering
+  - Fixes automatically assigned propellants in particular, which previously did not have the proper ignitors assigned
+- Fixed certain ignitor fluids being assigned to unintended types of engine
+- Fixed electric ignitor not being assigned to lox-augmented mode of multimode NTRs
 # 1.5.1
 - Updated to Chemical Core 1.4.1
 - Updated to Ignition 1.2.1
