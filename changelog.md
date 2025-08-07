@@ -1,5 +1,6 @@
 # 1.5.2
 - Consolidated LqdMethane and LqdAmmonia assignment, which should hopefully give a more consistent experience depending on whether using-mods are present
+- Added missing mod-triggered propellant assignment to "storable" tank type
 - Fixed hypergolic RCS integrated fuel cell converter name
 - Fixed ignitor resource assignment patch ordering
   - Fixes automatically assigned propellants in particular, which previously did not have the proper ignitors assigned
