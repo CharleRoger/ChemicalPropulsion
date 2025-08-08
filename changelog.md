@@ -1,3 +1,5 @@
+# 1.5.2.2
+- Fixed Tundra Exploration compatibility
 # 1.5.2.1
 - Fixed Procedural Parts SRB
 # 1.5.2
