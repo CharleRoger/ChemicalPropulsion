@@ -1,3 +1,5 @@
+# 1.5.2.3
+- Corrected Near Future Aeronautics' multimodal jet-rocket engines to have proper hydrolox isp
 # 1.5.2.2
 - Fixed Tundra Exploration compatibility
 # 1.5.2.1
