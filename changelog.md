@@ -1,5 +1,6 @@
 # 1.5.2.3
 - Corrected Near Future Aeronautics' multimodal jet-rocket engines to have proper hydrolox isp
+- Adjusted the isp curve of T-1 Toroidal Aerospike "Dart" and bipropellant mode of CR-7 R.A.P.I.E.R. to give improved performance in thicker atmospheres
 # 1.5.2.2
 - Fixed Tundra Exploration compatibility
 # 1.5.2.1
