@@ -1,6 +1,7 @@
 # 1.5.3
 - Updated to Chemical Core 1.4.2
 - Updated to Ignition 1.2.1.2
+- Added Waterfall plume to hydrolox mode of Near Future Launch Vehicles KR-701 'Cougar' and KR-74 'Lynx' multimode bipropellant-tripropellant engines
 - Changed Near Future Aeronautics' multimodal jet-rocket engines to have proper hydrolox isp
 - Adjusted the isp curve of T-1 Toroidal Aerospike "Dart" and bipropellant mode of CR-7 R.A.P.I.E.R. to give improved performance in thicker atmospheres
 # 1.5.2.2
