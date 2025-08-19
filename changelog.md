@@ -2,6 +2,7 @@
 - Updated to Ignition 1.2.2
 - Added hypergolic ignitor options to ethalox engines
 - Removed fixed pyrotechnic ignitor when using a chemical ignitor fluid. Choose one or the other
+- Fixed Chemical Propulsion Nuclear assigning inert propellants to lox-augmented NTRs which should only have combustible fuel options
 # 1.5.3
 - Updated to Chemical Core 1.4.2
 - Updated to Ignition 1.2.1.2
