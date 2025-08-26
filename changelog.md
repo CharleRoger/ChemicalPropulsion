@@ -1,3 +1,5 @@
+# 1.5.5
+- Removed erroneous change to Cryogenic Engines' CE-60 'Tharsis' engine
 # 1.5.4
 - Updated to Ignition 1.2.2
 - Added hypergolic ignitor options to ethalox engines
