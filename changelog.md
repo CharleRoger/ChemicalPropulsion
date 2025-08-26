@@ -1,5 +1,6 @@
 # 1.5.5
 - Added LqdCO-burning option to LOX-augmented NTRs in Chemical Propulsion Nuclear
+- Changed extras patch ordering so they work no matter where they are installed
 - Removed erroneous change to Cryogenic Engines' CE-60 'Tharsis' engine
 # 1.5.4
 - Updated to Ignition 1.2.2
