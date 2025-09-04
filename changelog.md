@@ -2,6 +2,7 @@
 - Added LqdCO-burning option to LOX-augmented NTRs in Chemical Propulsion Nuclear
 - Added Diborane option to thermal rockets when using both Chemical Propulsion Exotics and Chemical Propulsion Nuclear
 - Changed extras patch ordering so they work no matter where they are installed
+- Buffed isp for various hypergolic RCS parts which still had default MonoPropellant isp
 - Nerfed Chemical Propulsion Nuclear alternate NTR propellant Isp
 - Removed erroneous change to Cryogenic Engines' CE-60 'Tharsis' engine
 # 1.5.4
