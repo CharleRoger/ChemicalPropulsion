@@ -6,6 +6,7 @@
 - Buffed isp for various hypergolic RCS parts which still had default MonoPropellant isp
 - Nerfed Chemical Propulsion Nuclear alternate NTR propellant Isp
 - Removed erroneous change to Cryogenic Engines' CE-60 'Tharsis' engine
+- Fixed incompatibility with Rational Resources Kerbalism
 # 1.5.4
 - Updated to Ignition 1.2.2
 - Added hypergolic ignitor options to ethalox engines
