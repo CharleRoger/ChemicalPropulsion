@@ -1,8 +1,12 @@
 # 1.5.5
 - Added LqdCO-burning option to LOX-augmented NTRs in Chemical Propulsion Nuclear
 - Added Diborane option to thermal rockets when using both Chemical Propulsion Exotics and Chemical Propulsion Nuclear
-- Added explicit compatibility patches for the following mods:
-  - SXT
+- Added compatibility patches for the following mods:
+  - SXT Continued
+  - Mk2 Expansion
+  - Mk3 Expansion
+  - Skyhawk Science System (contributed by @Arofire)
+- Added descriptions to switcher subtypes
 - Changed EVA propulsion to use Nitrogen
 - Changed extras patch ordering so they work no matter where they are installed
 - Buffed isp for various hypergolic RCS parts which still had default MonoPropellant isp
