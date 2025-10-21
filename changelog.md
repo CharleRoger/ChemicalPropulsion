@@ -5,6 +5,7 @@
   - SXT Continued
   - Mk2 Expansion
   - Mk3 Expansion
+  - SMURFF
   - Skyhawk Science System (contributed by @Arofire)
 - Added descriptions to switcher subtypes
 - Changed EVA propulsion to use Nitrogen
