@@ -4,7 +4,7 @@
   - R-12 'Doughnut' External Tank
   - Mk0 Liquid Fuel Fuselage
 - Fixed "None"-configured tank dry mass when using SMURFF
-- Fixed dry mass on Mk0 Liquid Fuel Fuselage
+- Fixed CryoTanks boiloff being unconfigured for parts which only contain tanks in a B8PartSwitch module
 - Fixed tank volumes on "Shround" switch on Near Future Spacecraft's Mk4-1 'Amalthea' Specialized Command Module
 # 1.5.5
 - Added LqdCO-burning option to LOX-augmented NTRs in Chemical Propulsion Nuclear
