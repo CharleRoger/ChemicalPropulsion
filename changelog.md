@@ -1,6 +1,4 @@
-# 1.5.6
-- Added Russian localization (contributed by @Bimo1D)
-- Fixed pyrotechnic ignitor description
+- Fixed dry mass and cost on 'Dumpling', 'Baguette' and 'Doughnut' tanks
 # 1.5.5
 - Added LqdCO-burning option to LOX-augmented NTRs in Chemical Propulsion Nuclear
 - Added Diborane option to thermal rockets when using both Chemical Propulsion Exotics and Chemical Propulsion Nuclear
