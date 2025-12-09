@@ -1,5 +1,10 @@
-- Fixed dry mass and cost on 'Dumpling', 'Baguette' and 'Doughnut' tanks
+- Fixed dry mass and cost on some stock tanks:
+  - R-4 'Dumpling' External Tank
+  - R-11 'Baguette' External Tank
+  - R-12 'Doughnut' External Tank
+  - Mk0 Liquid Fuel Fuselage
 - Fixed "None"-configured tank dry mass when using SMURFF
+- Fixed dry mass on Mk0 Liquid Fuel Fuselage
 # 1.5.5
 - Added LqdCO-burning option to LOX-augmented NTRs in Chemical Propulsion Nuclear
 - Added Diborane option to thermal rockets when using both Chemical Propulsion Exotics and Chemical Propulsion Nuclear
