@@ -5,7 +5,7 @@
   - R-12 'Doughnut' External Tank
   - Mk0 Liquid Fuel Fuselage
 - Fixed "None"-configured tank dry mass when using SMURFF
-- Fixed CryoTanks boiloff being unconfigured for parts which only contain tanks in a B8PartSwitch module
+- Fixed CryoTanks boiloff being unconfigured for parts which only contain tanks in a B9PartSwitch module
 - Fixed tank volumes on "Shroud" switch on Near Future Spacecraft's Mk4-1 'Amalthea' Specialized Command Module
 # 1.5.6
 - Added Russian localization (contributed by @Bimo1D)
