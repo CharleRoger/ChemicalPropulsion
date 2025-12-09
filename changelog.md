@@ -1,3 +1,4 @@
+# 1.5.6.1
 - Fixed dry mass and cost on some stock tanks:
   - R-4 'Dumpling' External Tank
   - R-11 'Baguette' External Tank
@@ -6,6 +7,9 @@
 - Fixed "None"-configured tank dry mass when using SMURFF
 - Fixed CryoTanks boiloff being unconfigured for parts which only contain tanks in a B8PartSwitch module
 - Fixed tank volumes on "Shround" switch on Near Future Spacecraft's Mk4-1 'Amalthea' Specialized Command Module
+# 1.5.6
+- Added Russian localization (contributed by @Bimo1D)
+- Fixed pyrotechnic ignitor description
 # 1.5.5
 - Added LqdCO-burning option to LOX-augmented NTRs in Chemical Propulsion Nuclear
 - Added Diborane option to thermal rockets when using both Chemical Propulsion Exotics and Chemical Propulsion Nuclear
