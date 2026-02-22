@@ -1,3 +1,5 @@
+# 1.5.7.0
+- Added relevant oxidizers to aviation fuel tanks
 # 1.5.6.1
 - Fixed dry mass and cost on some stock tanks:
   - R-4 'Dumpling' External Tank
