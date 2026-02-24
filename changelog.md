@@ -1,5 +1,7 @@
-# 1.5.7.0
+# 1.5.7
+- Updated to Chemical Propulsion 1.4.5
 - Added relevant oxidizers to aviation fuel tanks
+- Added long descriptions to propellant switch subtypes
 # 1.5.6.1
 - Fixed dry mass and cost on some stock tanks:
   - R-4 'Dumpling' External Tank
