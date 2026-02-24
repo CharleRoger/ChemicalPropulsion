@@ -28,7 +28,7 @@ Bipropellant engines are categorised into particular fuel-oxidizer combinations 
 
 Monopropellant engines and tanks have a choice of two propellants: `HTP` which is cheap and available at the beginning of career mode, and `Hydrazine` which is unlocked later and more expensive but yields a significantly higher specific impulse.
 
-Solid rockets have a similar progression from `PBAN` to the slightly more performant `HTPB`.
+Solid rockets have a similar progression from `PSPC` to the slightly more performant `PBAN` or `HTPB`.
 
 Liquid fuel jet engines use `Kerosene`, with the rocket mode of multimodal engines running on `Kerosene` and `LqdOxygen`.
 
@@ -135,7 +135,7 @@ Patches are organised into six stages as shown below. If you're looking to add a
 
 - Chemical Propulsion automatically assigns tags, e.g.:
   - If a part has `chemTechTankType = cryogenic`, then the standard cryogenic propellants are added, e.g. `chemTechPropellant = LqdHydrogen`. Extras and other mods may expand this further, e.g. Chemical Propulsion Exotics would add `chemTechPropellant = LqdFluorine` and `chemTechPropellant = N2F4`
-  - If an engine has `PROPELLANT[SolidFuel]` and no `chemTech` tags, `chemTechPropellant = PBAN` and `chemTechPropellant = HTPB` are added
+  - If an engine has `PROPELLANT[SolidFuel]` and no `chemTech` tags, `chemTechPropellant = PSPC`, `chemTechPropellant = PBAN` and `chemTechPropellant = HTPB` are added
   - If an engine is configured with `chemTechFuel = Kerosene` and `chemTechOxidizer = LqdOxygen`, then `chemTechIgnitor = TEATEB` is added
   - If `chemTechOxidizer = LqdOxygen` is present anywhere, Chemical Propulsion Exotics will add `chemTechOxidizer = LqdFluorine` in the same place
 - Chemical Propulsion automatically computes tank volume, mass and cost, stored in variables like `chemTechTankVolumePropellant`, `chemTechTankMassFuel`, `chemTechTankCostFuelOxidizer`, etc.
@@ -167,7 +167,7 @@ Patches are organised into six stages as shown below. If you're looking to add a
 - [ModuleManager (4.2.3)](https://github.com/sarbian/ModuleManager)
 - [B9PartSwitch (2.21.0.3)](https://github.com/KSPModStewards/B9PartSwitch)
 - [Community Resource Pack (112.0.1)](https://github.com/UmbraSpaceIndustries/CommunityResourcePack)
-- [Chemical Core (1.4.4)](https://github.com/CharleRoger/ChemicalCore)
+- [Chemical Core (1.4.5)](https://github.com/CharleRoger/ChemicalCore)
 - [Ignition (1.2.2.1)](https://github.com/CharleRoger/Ignition)
 - [Space Dust Next (3.3.0)](https://github.com/NerdyBoy709/SpaceDustNext) (only if using [Space Dust](https://github.com/post-kerbin-mining-corporation/SpaceDust))
 
