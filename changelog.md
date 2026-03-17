@@ -2,7 +2,7 @@
 - Updated to Chemical Propulsion 1.4.5
 - Added relevant oxidizers to aviation fuel tanks
 - Added long descriptions to propellant switch subtypes
-- Added PSPC (Polysulfide propellant composite) as a basic solid rocket propellant
+- Moved HTPB and a new solid rocket propellant, PSPC (Polysulfide propellant composite), to a new extra: Chemical Propulsion Solids
 # 1.5.6.1
 - Fixed dry mass and cost on some stock tanks:
   - R-4 'Dumpling' External Tank

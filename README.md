@@ -1,20 +1,25 @@
 # Chemical Propulsion
+
 An overhaul to the stock propellant system, replacing generic LiquidFuel, Oxidizer, MonoPropellant and SolidFuel with a handful of real chemicals.
 
 ## Features
+
 ### Core design
+
 This mod is distinct from RealFuels in that it deals with only a small set of primary liquid propellants, for a more straightforward and curated propellant system more in line with e.g. Nertea's Cryogenic Engines. In fact, Nertea's mods are a particular target of this overhaul, which can be thought of as a Nertea-like soft alternative to RealFuels.
 
-Each propellant has a part upgrade which provides switch subtypes on relevant parts when unlocked in the tech tree. Most propellants only appear in game if a using-mod is present, while the following six are used in a pure stock configuration:
+Each propellant has a part upgrade which provides switch subtypes on relevant parts when unlocked in the tech tree. Most propellants only appear in game if a using-mod is present, while the following seven are used in a pure stock configuration:
 
-- `LqdOxygen`
 - `Kerosene`
-- `HTP` (High-test peroxide)
-- `Hydrazine`
 - `LqdHydrogen`
+- `Hydrazine`
+- `HTP` (High-test peroxide)
+- `LqdOxygen`
 - `NTO` (Dinitrogen tetroxide)
+- `PBAN` (Polybutadiene acrylonitrile)
 
 ### Engine changes
+
 Bipropellant engines are categorised into particular fuel-oxidizer combinations with fixed mixture ratios. Any fuel can be paired with any oxidizer, though not all combinations are necessarily configured or available depending on which supported mods you use. The bipropellants used in stock are:
 
 - Keroxide:
@@ -28,33 +33,38 @@ Bipropellant engines are categorised into particular fuel-oxidizer combinations 
 
 Monopropellant engines and tanks have a choice of two propellants: `HTP` which is cheap and available at the beginning of career mode, and `Hydrazine` which is unlocked later and more expensive but yields a significantly higher specific impulse.
 
-Solid rockets have a similar progression from `PSPC` to the slightly more performant `PBAN` or `HTPB`.
-
 Liquid fuel jet engines use `Kerosene`, with the rocket mode of multimodal engines running on `Kerosene` and `LqdOxygen`.
+
+Solid rockets use `PBAN`.
 
 Some mod engines have bespoke propellant configurations which are not typical monopropellants or bipropellants. For example, Near Future Launch Vehicles' KR-701 'Cougar' and KR-74 'Lynx' are bimodal hydrolox engines with an additional kerosene-augmented mode, based on their real-world analogues the RD-701 and RD-704:
 
 - 1 `Kerosene` / 4 `LqdHydrogen` / 3 `LqdOxygen` (equivalent to 1 part kerolox + 2 parts hydrolox)
 
 ### CryoTanks changes
+
 This mod replaces all CryoTanks fuel switch types to Chemical Technologies tank types. One particular feature of this is the removal of CryoTanks' native 1.5x hydrogen packing density buff, which not-insignificantly affects the use of LqdHydrogen in the game. This is not just an arbitrary change purely motivated by realism. The ~14% higher density of LqdOxygen over Oxidizer and adjusted methalox mixture ratio (higher oxidizer mass fraction) make cryogenic bipropellants much more attractive, removing the need for any sneaky volume buffs in chemical rockets. Hydrolox suffers a little bit, but I've found this actually balances better against their high Isp. Nuclear engines naturally suffer the most, but again, these engines are very high Isp and it should really be expected that you'd need to haul massive tanks everywhere. I've always wanted my CryoTanks to be bigger, personally.
 
 ## Extras
+
 Some patches for additional propellant options are provided in the Extras folder.
 
 ### Keroxide
+
 Adds HTP as an oxidizer option to all kerolox engines, which is more expensive and yields slightly lower Isp than LqdOxygen, but has two main advantages:
 
 - An ignition mechanism is not required as the hot gases produced by the catalytic decomposition of HTP ignite on contact with Kerosene
 - HTP is much denser than LqdOxygen and has a higher oxidizer-fuel mixture ratio with Kerosene, so the volumetric impulse is actually slightly higher than that of kerolox
 
 ### Hypergolics
+
 Adds an alternative pair of cheaper, lower-performance fuel and oxidizer to all hypergolic engines:
 
 - `Aniline` - Low-tech alternative to Hydrazine
 - `IWFNA` (Nitric acid) - Low-tech alternative to NTO
 
 ### Exotics
+
 Adds four exotic propellants which are unlocked late in the tech tree and can replace certain conventional propellants for increased thrust and Isp:
 
 - `Pentaborane` - Can be used in place of Hydrazine as a hypergolic fuel or Kerosene as a jet fuel
@@ -63,6 +73,7 @@ Adds four exotic propellants which are unlocked late in the tech tree and can re
 - `LqdFluorine` - Can be used in place of LqdOxygen as a cryogenic oxidizer
 
 ### Nuclear
+
 Adds four high-thrust, low-Isp propellant options to nuclear thermal rockets (multipliers vs. LqdHydrogen):
 
 - `Water` - +92% thrust, -58% Isp
@@ -70,7 +81,12 @@ Adds four high-thrust, low-Isp propellant options to nuclear thermal rockets (mu
 - `LqdCO` - +158% thrust, -72% Isp
 - `LqdNitrogen` - +158% thrust, -72% Isp
 
+### Solids
+
+Adds a less performant starting solid rocket propellant, `PSPC`, and a slightly higher thrust but lower specific impulse advanced propellant, `HTPB`.
+
 ## Configuration
+
 Parts can easily be patched to replace their propellants with supported resources by setting one or more `chemTechPropellant`, `chemTechFuel` or `chemTechOxidizer` fields on the part or relevant module, the values of which are a resource name:
 
 - `chemTechFuel`: A fuel which should be paired with an oxidizer or used in an air-breathing engine.
@@ -91,6 +107,9 @@ Parts can easily be patched to replace their propellants with supported resource
   - `LqdFluorine`
   - `N2F4`
 - `chemTechPropellant`: A single propellant which should not be combined with any specified fuel or oxidizer. All above resources are supported, plus the following:
+  - `PSPC`
+  - `PBAN`
+  - `HTPB`
   - `Water`
   - `LqdCO2`
   - `LqdCO`
@@ -123,6 +142,7 @@ This patch converts a multimode engine with a pure LiquidFuel mode and a LiquidF
 ```
 
 ### Patch ordering
+
 Patches are organised into six stages as shown below. If you're looking to add a compatibility patch for a mod, you'll probably only need `BEFORE[zz_ChemicalPropulsion]`, perhaps `AFTER[zz_ChemicalPropulsion]`, and only `AFTER[zzz_ChemicalPropulsion]` if you really want to get messy.
 
 #### BEFORE[zz_ChemicalPropulsion]
@@ -131,23 +151,27 @@ Patches are organised into six stages as shown below. If you're looking to add a
   - `chemTechFuel = Ethanol` on a `PART` (tank resource)
   - `chemTechTankType = cryogenic` on a `PART` (tank type, expanded in `FOR` below)
   - `chemTechOxidizer = LqdOxygen` on a `ModuleEngines` (engine propellant)
+
 #### FOR[zz_ChemicalPropulsion]
 
 - Chemical Propulsion automatically assigns tags, e.g.:
   - If a part has `chemTechTankType = cryogenic`, then the standard cryogenic propellants are added, e.g. `chemTechPropellant = LqdHydrogen`. Extras and other mods may expand this further, e.g. Chemical Propulsion Exotics would add `chemTechPropellant = LqdFluorine` and `chemTechPropellant = N2F4`
-  - If an engine has `PROPELLANT[SolidFuel]` and no `chemTech` tags, `chemTechPropellant = PSPC`, `chemTechPropellant = PBAN` and `chemTechPropellant = HTPB` are added
+  - If an engine has `PROPELLANT[SolidFuel]` and no `chemTech` tags, `chemTechPropellant = PBAN` is added, while Chemical Propulsion Solids additionally tags the part with `chemTechPropellant = PSPC` and `chemTechPropellant = HTPB`
   - If an engine is configured with `chemTechFuel = Kerosene` and `chemTechOxidizer = LqdOxygen`, then `chemTechIgnitor = TEATEB` is added
   - If `chemTechOxidizer = LqdOxygen` is present anywhere, Chemical Propulsion Exotics will add `chemTechOxidizer = LqdFluorine` in the same place
 - Chemical Propulsion automatically computes tank volume, mass and cost, stored in variables like `chemTechTankVolumePropellant`, `chemTechTankMassFuel`, `chemTechTankCostFuelOxidizer`, etc.
+
 #### AFTER[zz_ChemicalPropulsion]
 
 - Reserved for post-processing steps, e.g. manipulating the auto-computed tank parameters.
 - You can also assign propellant tags here, like `BEFORE`, in order to bypass the `FOR` step, e.g.:
   - You want an engine to run kerolox, but not require an ignitor and lack the fluorine option provided by Chemical Propulsion Exotics, so just assign `chemTechFuel = Kerosene` and `chemTechOxidizer = LqdOxygen` here
+
 #### BEFORE[zzz_ChemicalPropulsion]
 
 - The presence of finalised `chemTech` tags is used to create Ignition modules and switches as appropriate
   - Modules are given a second layer of tags which prepares them for the next stage but are not yet fully configured
+
 #### FOR[zzz_ChemicalPropulsion]
 
 - Stock resources/propellants and any Chemical Propulsion resources/propellants which are not tagged are removed
@@ -158,6 +182,7 @@ Patches are organised into six stages as shown below. If you're looking to add a
   - Changing part titles which include stock propellant names
   - VABOrganizer subcategory assignment
   - Changes to engines which can't be done by Ignition alone
+
 #### AFTER[zzz_ChemicalPropulsion]
 
 - Reserved for any final post-processing
@@ -172,7 +197,9 @@ Patches are organised into six stages as shown below. If you're looking to add a
 - [Space Dust Next (3.3.0)](https://github.com/NerdyBoy709/SpaceDustNext) (only if using [Space Dust](https://github.com/post-kerbin-mining-corporation/SpaceDust))
 
 ## Compatibility
+
 ### Recommended
+
 The following mods are recommended to make the most of core set of propellants.
 
 - [Alcoholic Aeronautics (1.0.0)](https://github.com/CharleRoger/AlcoholicAeronautics)
@@ -188,6 +215,7 @@ The following mods are recommended to make the most of core set of propellants.
 - [VABOrganizer (1.1.0)](https://github.com/post-kerbin-mining-corporation/VABOrganizer)
 
 ### Suggested
+
 I would also suggest at least a couple of these mods for more bipropellant rockets and useful tanks, or all of them if you like having hundreds of parts.
 
 - [BlueSteel (1.3)](https://github.com/AstroWell/BlueSteel)
@@ -204,6 +232,7 @@ I would also suggest at least a couple of these mods for more bipropellant rocke
 - [Universal Storage II Finalized (4.0.2.2)](https://github.com/linuxgurugamer/universal-storage-2)
 
 ### Compatible
+
 Some mods are explicitly patched to work with Chemical Propulsion, while others are patched implicitly or are simply unaffected and have been found compatible.
 
 - [Airplane Plus (26.5)](https://forum.kerbalspaceprogram.com/topic/140262-14x-18x-airplane-plus-r264-fixed-issuesgithub-is-up-to-date-dec-21-2019) (courtesy of Ari Lana @ratemisia)
@@ -236,4 +265,5 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - Many more, though might do unexpected things. Let me know what else to support!
 
 ## License
+
 Distributed under the GNU General Public License.
