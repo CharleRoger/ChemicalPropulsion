@@ -264,6 +264,11 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [Ursa (Crew pod and spaceship parts) (1.0)](https://forum.kerbalspaceprogram.com/topic/227652-ursa-crew-pod-and-spaceship-parts)
 - Many more, though might do unexpected things. Let me know what else to support!
 
+### Known incompatible
+
+- [Modular Kolonization System (112.0.1)](https://github.com/UmbraSpaceIndustries/MKS)
+- [Bluedog Design Bureau (1.14.0)](https://github.com/CobaltWolf/Bluedog-Design-Bureau)
+
 ## License
 
 Distributed under the GNU General Public License.
