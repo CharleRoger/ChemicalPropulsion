@@ -1,0 +1,32 @@
+- [ ] BDB compatibility
+	- [ ] Try to figure out how to modify or extend the existing automatic patches to try to catch as much BDB stuff as possible
+	- [ ] Make parts work
+		- [ ] Able
+		- [ ] Agena
+		- [ ] Apollo
+		- [ ] Atlas
+		- [ ] AtlasV
+		- [ ] Centaur
+		- [ ] Delta
+		- [ ] Engines
+		- [ ] Gemini
+		- [ ] Generic
+		- [ ] Hexagon
+		- [ ] Jupiter
+		- [ ] LDC
+		- [ ] LaunchClamps
+		- [ ] MOL
+		- [ ] Mercury
+		- [ ] ProbeExpansion
+		- [ ] Redstone
+		- [ ] SAF_Fairings
+		- [ ] Saturn
+		- [ ] Science
+		- [ ] Shared
+		- [ ] Skylab
+		- [ ] Solids
+		- [ ] Thor
+		- [ ] Timberwind
+		- [ ] Vanguard
+		- [ ] Vega
+		- [ ] X15
