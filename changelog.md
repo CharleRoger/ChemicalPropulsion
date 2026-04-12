@@ -1,4 +1,5 @@
 # 1.6.0
+- Updated to Chemical Core 1.5.0
 - Moved resource descriptions from Chemical Propulsion to Chemical Core
 # 1.5.7
 - Updated to Chemical Core 1.4.5
