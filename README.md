@@ -8,7 +8,7 @@ An overhaul to the stock propellant system, replacing generic LiquidFuel, Oxidiz
 
 This mod is distinct from RealFuels in that it deals with only a small set of primary liquid propellants, for a more straightforward and curated propellant system more in line with e.g. Nertea's Cryogenic Engines. In fact, Nertea's mods are a particular target of this overhaul, which can be thought of as a Nertea-like soft alternative to RealFuels.
 
-Each propellant has a part upgrade which provides switch subtypes on relevant parts when unlocked in the tech tree. Most propellants only appear in game if a using-mod is present, while the following seven are used in a pure stock configuration:
+If Chemical Tech Tree is installed, each propellant has a part upgrade which provides switch subtypes on relevant parts when unlocked in the tech tree. Most propellants only appear in game if a using-mod is present, while the following seven are used in a pure stock configuration:
 
 - `Kerosene`
 - `LqdHydrogen`
@@ -192,13 +192,17 @@ Patches are organised into six stages as shown below. If you're looking to add a
 - [ModuleManager (4.2.3)](https://github.com/sarbian/ModuleManager)
 - [B9PartSwitch (2.21.0.3)](https://github.com/KSPModStewards/B9PartSwitch)
 - [Community Resource Pack (112.0.1)](https://github.com/UmbraSpaceIndustries/CommunityResourcePack)
-- [Chemical Core (1.4.5)](https://github.com/CharleRoger/ChemicalCore)
+- [Chemical Core (1.5.0)](https://github.com/CharleRoger/ChemicalCore)
 - [Ignition (1.2.2.1)](https://github.com/CharleRoger/Ignition)
 - [Space Dust Next (3.3.0)](https://github.com/NerdyBoy709/SpaceDustNext) (only if using [Space Dust](https://github.com/post-kerbin-mining-corporation/SpaceDust))
 
 ## Compatibility
 
 ### Recommended
+
+Chemical Tech Tree is *almost* essential to the experience of Chemical Propulsion, as it adds a tech progression through the propellants and controls their presence in part switches, but you can play without it if you really want to.
+
+- [Chemical Tech Tree (1.0.0)](https://github.com/CharleRoger/ChemicalTechTree)
 
 The following mods are recommended to make the most of core set of propellants.
 

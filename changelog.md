@@ -1,5 +1,12 @@
+# 1.6.0
+- Updated to Chemical Core 1.5.0
+- Updated to Chemical Tech Tree 1.0.0
+- Fixed Hydrazine fuel cell converter name
+- Renamed Chemical Propulsion Nuclear to Chemical Propulsion Thermal
+- Changed the way new propellants are assigned in Chemical Propulsion Exotics and Chemical Propulsion Thermal slightly to catch more cases
+- Moved resource descriptions from Chemical Propulsion to Chemical Core
 # 1.5.7
-- Updated to Chemical Propulsion 1.4.5
+- Updated to Chemical Core 1.4.5
 - Added relevant oxidizers to aviation fuel tanks
 - Added long descriptions to propellant switch subtypes
 - Moved HTPB and a new solid rocket propellant, PSPC (Polysulfide propellant composite), to a new extra: Chemical Propulsion Solids
