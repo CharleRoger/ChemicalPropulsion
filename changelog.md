@@ -1,6 +1,7 @@
 # 1.6.0
 - Updated to Chemical Core 1.5.0
 - Updated to Chemical Tech Tree 1.0.0
+- Updated to Ignition 1.2.3
 - Fixed Hydrazine fuel cell converter name
 - Renamed Chemical Propulsion Nuclear to Chemical Propulsion Thermal
 - Changed the way new propellants are assigned in Chemical Propulsion Exotics and Chemical Propulsion Thermal slightly to catch more cases
