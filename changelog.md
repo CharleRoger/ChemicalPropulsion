@@ -1,5 +1,6 @@
 # 1.6.0
 - Updated to Chemical Core 1.5.0
+- Renamed Chemical Propulsion Nuclear to Chemical Propulsion Thermal
 - Changed the way new propellants are assigned in Chemical Propulsion Exotics slightly to catch more cases
 - Moved resource descriptions from Chemical Propulsion to Chemical Core
 # 1.5.7
