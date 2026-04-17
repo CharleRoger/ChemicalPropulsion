@@ -2,6 +2,7 @@
 - Updated to Chemical Core 1.5.0
 - Updated to Chemical Tech Tree 1.0.0
 - Updated to Ignition 1.2.3
+- Added Bluedog Design Bureau compatibility! (in large part contributed by @Noxulate)
 - Fixed Hydrazine fuel cell converter name
 - Fixed default fuel switches not being removed if CryoTanks is not present
 - Renamed Chemical Propulsion Nuclear to Chemical Propulsion Thermal
