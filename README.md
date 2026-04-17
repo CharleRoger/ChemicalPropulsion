@@ -207,6 +207,7 @@ Chemical Tech Tree is *almost* essential to the experience of Chemical Propulsio
 The following mods are recommended to make the most of core set of propellants.
 
 - [Alcoholic Aeronautics (1.0.0)](https://github.com/CharleRoger/AlcoholicAeronautics)
+- [Bluedog Design Bureau (1.14.0)](https://github.com/CobaltWolf/Bluedog-Design-Bureau) (contributed in large part by @Noxulate)
 - [Cryogenic Engines (2.0.8)](https://github.com/post-kerbin-mining-corporation/CryoEngines)
 - [Cryogenic Tanks (1.6.7)](https://github.com/post-kerbin-mining-corporation/CryoTanks)
 - [Kerbal Atomics (1.3.4)](https://github.com/post-kerbin-mining-corporation/KerbalAtomics)
