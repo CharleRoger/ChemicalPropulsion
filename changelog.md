@@ -3,11 +3,13 @@
 - Updated to Chemical Tech Tree 1.0.0
 - Updated to Ignition 1.2.3
 - Added Bluedog Design Bureau compatibility! (in large part contributed by @Noxulate)
-- Fixed Hydrazine fuel cell converter name
-- Fixed default fuel switches not being removed if CryoTanks is not present
+- Added bespoke ignitor fluid tank parts
+- Removed TEATEB from monopropellant tanks
 - Renamed Chemical Propulsion Nuclear to Chemical Propulsion Thermal
 - Changed the way new propellants are assigned in Chemical Propulsion Exotics and Chemical Propulsion Thermal slightly to catch more cases
 - Moved resource descriptions from Chemical Propulsion to Chemical Core
+- Fixed Hydrazine fuel cell converter name
+- Fixed default fuel switches not being removed if CryoTanks is not present
 # 1.5.7
 - Updated to Chemical Core 1.4.5
 - Added relevant oxidizers to aviation fuel tanks

@@ -276,4 +276,6 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 
 ## License
 
-Distributed under the GNU General Public License.
+All config files are distributed under the GNU General Public License.
+
+Ignitor fluid tank assets are derived from models and textures originally made by Matthew (CobaltWolf) Mlodzienski for Bluedog Design Bureau and are distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
