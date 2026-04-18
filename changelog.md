@@ -5,6 +5,7 @@
 - Added Bluedog Design Bureau compatibility! (in large part contributed by @Noxulate)
 - Added bespoke ignitor fluid tank parts
 - Removed TEATEB from monopropellant tanks
+- Reduced ignitor fluid volume consumed by engine ignition to 5% of previous value
 - Renamed Chemical Propulsion Nuclear to Chemical Propulsion Thermal
 - Changed the way new propellants are assigned in Chemical Propulsion Exotics and Chemical Propulsion Thermal slightly to catch more cases
 - Moved resource descriptions from Chemical Propulsion to Chemical Core
