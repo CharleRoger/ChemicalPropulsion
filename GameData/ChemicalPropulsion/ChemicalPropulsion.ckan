@@ -1,0 +1,69 @@
+identifier: ChemicalPropulsion
+$kref: '#/ckan/github/CharleRoger/ChemicalPropulsion'
+$vref: '#/ckan/ksp-avc'
+---
+identifier: ChemicalPropulsion
+$kref: '#/ckan/spacedock/3866'
+$vref: '#/ckan/ksp-avc'
+tags:
+  - config
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: CommunityResourcePack
+  - name: ChemicalCore
+  - name: Ignition
+recommends:
+  - name: ChemicalTechTree
+  - name: AlcoholicAeronautics
+  - name: BluedogDesignBureau
+  - name: CryoEngines
+  - name: CryoTanks
+  - name: KerbalAtomics
+  - name: Labradoodle
+  - name: NearFutureLaunchVehicles
+  - name: NearFutureSpacecraft
+  - name: ReStock
+  - name: ReStockPlus
+  - name: SpaceDust
+  - name: SpaceDust
+  - name: SupplementaryElectricEngines
+  - name: VABOrganizer
+suggested:
+  - name: CommonwealthAeronauticsBlueSteel
+  - name: CRE
+  - name: CryoEnginesExtensions
+  - name: Knes
+  - name: NearFutureAeronautics
+  - name: NearFutureExploration
+  - name: OCRAP
+  - name: Taerobee
+  - name: NewTantares
+  - name: NewTantaresLV
+  - name: TantaresSP
+  - name: UniversalStorage2
+supports:
+  - name: AirplanePlus
+  - name: ConfigurableContainers
+  - name: FarFutureTechnologies
+  - name: Firespitter
+  - name: Grounded
+  - name: SpaceXLegs
+  - name: Kerbalism
+  - name: MissingHistory
+  - name: Mk-33
+  - name: Mk2Expansion
+  - name: Mk3Expansion
+  - name: ModularFuelTanks
+  - name: MoldaviteMachines
+  - name: NearFutureExploration
+  - name: RocketMotorMenagerie
+  - name: ShuttleOrbiterConstructionKit
+  - name: SillyPhotonDrives
+  - name: SkyhawkScienceSystem
+  - name: SMURFF
+  - name: SXTContiued
+  - name: SystemHeat
+  - name: TundraExploration
+  - name: UnKerballedStart
+  - name: UrsaPod
