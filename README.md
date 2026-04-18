@@ -72,9 +72,9 @@ Adds four exotic propellants which are unlocked late in the tech tree and can re
 - `N2F4` - Can be used in place of NTO as a hypergolic cryogenic oxidizer
 - `LqdFluorine` - Can be used in place of LqdOxygen as a cryogenic oxidizer
 
-### Nuclear
+### Thermal
 
-Adds four high-thrust, low-Isp propellant options to nuclear thermal rockets (multipliers vs. LqdHydrogen):
+Adds four high-thrust, low-Isp propellant options to thermal rockets (multipliers vs. LqdHydrogen):
 
 - `Water` - +92% thrust, -58% Isp
 - `LqdCO2` - +142% thrust, -69% Isp
