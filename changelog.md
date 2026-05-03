@@ -1,3 +1,5 @@
+# 1.6.0.1
+- Fixed SMURFF compatibility tank mass targeting
 # 1.6.0
 - Updated to Chemical Core 1.5.0
 - Updated to Chemical Tech Tree 1.0.0
