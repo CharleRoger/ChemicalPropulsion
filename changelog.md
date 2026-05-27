@@ -1,5 +1,6 @@
-# 1.6.0.1
+# 1.6.1
 - Added Completely Non-Aggressive Rocketry compatibility (contributed by @chettagadeng)
+- Removed redundant tech tree changes
 - Fixed SMURFF compatibility tank mass targeting
 # 1.6.0
 - Updated to Chemical Core 1.5.0
