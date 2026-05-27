@@ -1,6 +1,7 @@
 # 1.6.1
 - Added Completely Non-Aggressive Rocketry compatibility (contributed by @chettagadeng)
 - Removed redundant tech tree changes
+- Changed BDB's Vanguard XLR50/X405 engine to kerolox
 - Fixed SMURFF compatibility tank mass targeting
 # 1.6.0
 - Updated to Chemical Core 1.5.0
