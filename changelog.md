@@ -15,6 +15,8 @@
   - Surveyor Probe Core
 - Fixed part title replacement for engines using LqdFluorine oxidizer
 - Fixed SMURFF compatibility tank mass targeting
+- Fixed ConfigurableContainers breaking certain cryogenic tanks (contributed by @jvosk)
+- Fixed various mod multimode engines throwing B9PartSwitch error "Found more than one matching module" (contributed by @jvosk)
 # 1.6.0
 - Updated to Chemical Core 1.5.0
 - Updated to Chemical Tech Tree 1.0.0
