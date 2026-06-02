@@ -1,7 +1,17 @@
 # 1.6.1
 - Added Completely Non-Aggressive Rocketry compatibility (contributed by @chettagadeng)
 - Removed redundant tech tree changes
-- Changed BDB's Vanguard XLR50/X405 engine to kerolox
+- Changed Bluedog Design Bureau's Vanguard XLR50/X405 engine to kerolox
+- Changed all of Bluedog Design Bureau's Gemini and Apollo command modules to use hypergolic propellants instead of monopropellants
+- Fixed built-in tanks on a variety of Bluedog Design Bureau parts:
+  - Lunar Orbiter Propulsion System
+  - Model 8250 Agena-D Secondary Engine
+  - Model 8250-B Agena-D Secondary Engine
+  - Model 8250-C Agena-D Secondary Engine
+  - Pioneer 10 Probe Core
+  - Ranger / Mariner 2 Probe Core
+  - Ranger Lander Terminal Propulsion System
+  - Surveyor Probe Core
 - Fixed SMURFF compatibility tank mass targeting
 # 1.6.0
 - Updated to Chemical Core 1.5.0
