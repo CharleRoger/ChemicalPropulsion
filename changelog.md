@@ -17,6 +17,7 @@
 - Fixed SMURFF compatibility tank mass targeting
 - Fixed ConfigurableContainers breaking certain cryogenic tanks (contributed by @jvosk)
 - Fixed various mod multimode engines throwing B9PartSwitch error "Found more than one matching module" (contributed by @jvosk)
+- Fixed quad-length xenon tank cost on Universal Storage II Finalized's service cores
 # 1.6.0
 - Updated to Chemical Core 1.5.0
 - Updated to Chemical Tech Tree 1.0.0
