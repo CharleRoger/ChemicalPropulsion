@@ -12,6 +12,7 @@
   - Ranger / Mariner 2 Probe Core
   - Ranger Lander Terminal Propulsion System
   - Surveyor Probe Core
+- Fixed part title replacement for engines using LqdFluorine oxidizer
 - Fixed SMURFF compatibility tank mass targeting
 # 1.6.0
 - Updated to Chemical Core 1.5.0
