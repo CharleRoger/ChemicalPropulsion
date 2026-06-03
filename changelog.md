@@ -5,6 +5,7 @@
 - Changed ignitor tanks tech required to fuel systems, and in general they follow wherever the FTE-1 Drain Valve is set to, so this should implicitly work with any tech tree mod
 - Changed Bluedog Design Bureau's Vanguard XLR50/X405 engine to kerolox
 - Changed all of Bluedog Design Bureau's Gemini and Apollo command modules to use hypergolic propellants instead of monopropellants
+- Fixed Ethanol/IWFNA/LqdAmmonia/LqdFluorine not appearing in tanks for Bluedog Design Bureau when no other activating mod is present
 - Fixed built-in tanks on a variety of Bluedog Design Bureau parts:
   - Lunar Orbiter Propulsion System
   - Model 8250 Agena-D Secondary Engine
