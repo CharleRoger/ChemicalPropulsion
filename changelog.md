@@ -1,5 +1,7 @@
 # 1.6.1
 - Added Completely Non-Aggressive Rocketry compatibility (contributed by @chettagadeng)
+- Added missing Chinese localization VABOrganizer subcategories
+- Added ignitor fluid tank VABOrganizer subcategory
 - Removed redundant tech tree changes
 - Removed TEATEB from Universal Storage II Finalized monopropellant tank
 - Changed ignitor tanks tech required to fuel systems, and in general they follow wherever the FTE-1 Drain Valve is set to, so this should implicitly work with any tech tree mod
@@ -16,6 +18,7 @@
   - Ranger Lander Terminal Propulsion System
   - Surveyor Probe Core
 - Fixed part title replacement for engines using LqdFluorine oxidizer
+- Fixed HIT-12 Ignitor Fluid Sphere part model
 - Fixed SMURFF compatibility tank mass targeting
 - Fixed ConfigurableContainers breaking certain cryogenic tanks (contributed by @jvosk)
 - Fixed various mod multimode engines throwing B9PartSwitch error "Found more than one matching module" (contributed by @jvosk)
