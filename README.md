@@ -245,7 +245,6 @@ Some mods are explicitly patched to work with Chemical Propulsion, while others 
 - [Configurable Containers (2.6.2.1)](https://github.com/allista/ConfigurableContainers)
 - [Far Future Technologies (1.4.2)](https://github.com/post-kerbin-mining-corporation/FarFutureTechnologies)
 - [Firespitter (7.17)](https://github.com/snjo/Firespitter)
-- [Gradual Progression Tech Tree (0.3.3)](https://github.com/hersfeldtn/GPTT)
 - [Grounded - Modular Vehicles (5.0)](https://forum.kerbalspaceprogram.com/topic/171377-110x-grounded-modular-vehicles-r50-mining-modules-rotor-emergency-light-jun-5-2019) (courtesy of Ari Lana @ratemisia)
 - [Internal RCS (1.3)](https://forum.kerbalspaceprogram.com/topic/172990-13x-14x-internal-rcs)
 - [Kerbal Reusability Expansion (2.9.3)](https://github.com/TundraMods/Kerbal-Reusability-Expansion)

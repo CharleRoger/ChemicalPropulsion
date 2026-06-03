@@ -1,7 +1,7 @@
 # 1.6.1
 - Added Completely Non-Aggressive Rocketry compatibility (contributed by @chettagadeng)
-- Added Gradual Progression Tech Tree compatibility
 - Removed redundant tech tree changes
+- Changed ignitor tanks tech required to fuel systems, and in general they follow wherever the FTE-1 Drain Valve is set to, so this should implicitly work with any tech tree mod
 - Changed Bluedog Design Bureau's Vanguard XLR50/X405 engine to kerolox
 - Changed all of Bluedog Design Bureau's Gemini and Apollo command modules to use hypergolic propellants instead of monopropellants
 - Fixed built-in tanks on a variety of Bluedog Design Bureau parts:
