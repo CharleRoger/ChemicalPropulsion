@@ -1,3 +1,5 @@
+# 1.6.2
+- Change Bluedog Design Bureau's Ablestar tank to be a fully bipropellant tank with a separate monopropellant RCS
 # 1.6.1
 - Added Completely Non-Aggressive Rocketry compatibility (contributed by @chettagadeng)
 - Added missing Chinese localization VABOrganizer subcategories
