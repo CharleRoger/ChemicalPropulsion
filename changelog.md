@@ -1,4 +1,6 @@
 # 1.6.2
+- Added automatic patch support for SRBs with built-in monopropellant RCS
+  - This fixes some Bluedog Design Bureau parts which were not properly configured before, e.g. the Skylab Venus Flyby entry probe
 - Change Bluedog Design Bureau's Ablestar tank to be a fully bipropellant tank with a separate monopropellant RCS
 # 1.6.1
 - Added Completely Non-Aggressive Rocketry compatibility (contributed by @chettagadeng)
