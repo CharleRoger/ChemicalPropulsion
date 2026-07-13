@@ -16,7 +16,7 @@ depends:
 recommends:
   - name: ChemicalTechTree
   - name: AlcoholicAeronautics
-  - name: BluedogDesignBureau
+  - name: BluedogDB
   - name: CryoEngines
   - name: CryoTanks
   - name: KerbalAtomics
