@@ -1,4 +1,5 @@
 # 1.7.0
+- Added Water option to cryogenic tanks in Chemical Propulsion Thermal
 - Made stock propellant removal more robust
 - Integrated Chemical Core's overhauled tank densities into Ignition propellant configs
 - Simplified tank volume computation using Part Patch Utils (a new hard dependency)
