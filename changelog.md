@@ -3,6 +3,7 @@
 - Integrated Chemical Core's overhauled tank densities into Ignition propellant configs
 - Simplified tank volume computation using Part Patch Utils (a new hard dependency)
 - Fixed some localization errors
+- Fixed Bluedog Design Bureau cargo container switch modules accidentally being deleted
 # 1.6.2
 - Added automatic patch support for SRBs with built-in monopropellant RCS
   - This fixes some Bluedog Design Bureau parts which were not properly configured before, e.g. the Skylab Venus Flyby entry probe
