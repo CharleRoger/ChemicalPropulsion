@@ -1,3 +1,5 @@
+# 1.7.0
+- Integrated Chemical Core's overhauled tank densities into Ignition propellant configs
 # 1.6.2
 - Added automatic patch support for SRBs with built-in monopropellant RCS
   - This fixes some Bluedog Design Bureau parts which were not properly configured before, e.g. the Skylab Venus Flyby entry probe
