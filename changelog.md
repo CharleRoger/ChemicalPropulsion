@@ -6,6 +6,7 @@
 - Made stock propellant removal more robust
 - Integrated Chemical Core's overhauled tank densities into Ignition propellant configs
 - Simplified tank volume computation using Part Patch Utils (a new hard dependency)
+- Fixed Knes compatibility
 - Fixed some localization errors
 - Fixed Bluedog Design Bureau cargo container switch modules accidentally being deleted (contributed by @SerShrubert)
 - Fixed Near Future Launch Vehicles KR-701 'Cougar' and KR-74 'Lynx' multimode bipropellant-tripropellant engine isp
