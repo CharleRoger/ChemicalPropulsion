@@ -1,5 +1,6 @@
 # 1.7.0.1
 - Updated to Part Patch Utils 1.0.2
+- Fixed some RCS tanks having incorrect cost modifiers
 # 1.7.0
 - Updated to Chemical Core 1.5.1
 - Added Water option to cryogenic tanks in Chemical Propulsion Thermal
