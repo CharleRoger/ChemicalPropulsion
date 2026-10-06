@@ -1,6 +1,7 @@
 # 1.7.1
 - Updated to Part Patch Utils 1.0.2
 - Made tank mass computation more robust using dry mass densities computed by Part Patch Utils and Chemical Core
+- Fixed SMURFF compatibility
 - Fixed some RCS tanks having incorrect cost modifiers
 # 1.7.0
 - Updated to Chemical Core 1.5.1
