@@ -1,3 +1,5 @@
+# 1.7.2
+- Added compatibility for Extraplanetary Launchpads
 # 1.7.1
 - Updated to Chemical Core 1.5.2
 - Updated to Part Patch Utils 1.0.2

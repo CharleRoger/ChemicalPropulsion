@@ -46,6 +46,7 @@ suggested:
 supports:
   - name: AirplanePlus
   - name: ConfigurableContainers
+  - name: ExtraPlanetaryLaunchpads
   - name: FarFutureTechnologies
   - name: Firespitter
   - name: Grounded
