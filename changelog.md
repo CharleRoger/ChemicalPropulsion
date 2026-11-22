@@ -1,3 +1,11 @@
+# 1.7.1.1
+- Fixed conversion of B9PartSwitch modules with subtypes with different tank volumes, which fixes compatibility with a number of mods:
+  - Alcoholic Aeronautics
+  - Bluedog Design Bureau
+  - Near Future Exploration
+  - Near Future Launch Vehicles
+  - Near Future Spacecraft
+  - Shuttle Orbiter Construction Kit
 # 1.7.1
 - Updated to Chemical Core 1.5.2
 - Updated to Part Patch Utils 1.0.2
